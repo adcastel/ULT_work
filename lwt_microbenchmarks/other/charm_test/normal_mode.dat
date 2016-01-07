@@ -1,0 +1,360 @@
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+1 5000000 0.013609 [0.013578 - 0.013978] 0.000059 Join(0.000000)
+Program finished after 1.141909 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+2 5000000 0.006982 [0.006957 - 0.007027] 0.000012 Join(0.000188)
+Program finished after 0.823567 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+3 5000000 0.004953 [0.004825 - 0.005020] 0.000023 Join(0.000148)
+Program finished after 0.716270 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+4 5000000 0.003883 [0.003797 - 0.003922] 0.000019 Join(0.000155)
+Program finished after 0.671210 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+5 5000000 0.003250 [0.003154 - 0.003293] 0.000021 Join(0.000161)
+Program finished after 0.644586 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+6 5000000 0.002842 [0.002731 - 0.002887] 0.000025 Join(0.000163)
+Program finished after 0.616778 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+7 5000000 0.002654 [0.002561 - 0.003232] 0.000178 Join(0.000292)
+Program finished after 0.611798 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+8 5000000 0.002412 [0.002366 - 0.002829] 0.000116 Join(0.000251)
+Program finished after 0.608513 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+9 5000000 0.002305 [0.002216 - 0.003379] 0.000193 Join(0.000296)
+Program finished after 0.601044 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+10 5000000 0.002074 [0.002020 - 0.002519] 0.000092 Join(0.000264)
+Program finished after 0.586664 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+11 5000000 0.002014 [0.001917 - 0.002624] 0.000165 Join(0.000315)
+Program finished after 0.588269 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+12 5000000 0.001877 [0.001813 - 0.002321] 0.000117 Join(0.000351)
+Program finished after 0.585989 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+13 5000000 0.001846 [0.001729 - 0.002394] 0.000200 Join(0.000380)
+Program finished after 0.584643 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+14 5000000 0.001807 [0.001660 - 0.002131] 0.000151 Join(0.000488)
+Program finished after 0.585042 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+15 5000000 0.001610 [0.001575 - 0.001928] 0.000071 Join(0.000374)
+Program finished after 0.573360 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+16 5000000 0.001600 [0.001559 - 0.001830] 0.000055 Join(0.000436)
+Program finished after 0.579493 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+17 5000000 0.001819 [0.001502 - 0.002429] 0.000146 Join(0.000685)
+Program finished after 0.593827 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+18 5000000 0.001646 [0.001378 - 0.001706] 0.000057 Join(0.000602)
+Program finished after 0.586411 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+19 5000000 0.001826 [0.001361 - 0.001997] 0.000128 Join(0.000622)
+Program finished after 0.587053 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+20 5000000 0.001614 [0.001358 - 0.002156] 0.000103 Join(0.000665)
+Program finished after 0.582803 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+21 5000000 0.001789 [0.001389 - 0.002128] 0.000132 Join(0.000763)
+Program finished after 0.593862 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+22 5000000 0.001595 [0.001369 - 0.002042] 0.000083 Join(0.000719)
+Program finished after 0.596548 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+23 5000000 0.001724 [0.001284 - 0.002091] 0.000130 Join(0.000714)
+Program finished after 0.587607 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+24 5000000 0.001688 [0.001411 - 0.001928] 0.000074 Join(0.000877)
+Program finished after 0.586443 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+25 5000000 0.001751 [0.001445 - 0.002208] 0.000193 Join(0.000966)
+Program finished after 0.587368 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+26 5000000 0.001613 [0.001307 - 0.001831] 0.000103 Join(0.000744)
+Program finished after 0.582146 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+27 5000000 0.001496 [0.001195 - 0.001609] 0.000063 Join(0.000611)
+Program finished after 0.572951 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+28 5000000 0.001784 [0.001450 - 0.001923] 0.000069 Join(0.000933)
+Program finished after 0.593398 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+29 5000000 0.001549 [0.001269 - 0.001757] 0.000083 Join(0.000720)
+Program finished after 0.581314 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+30 5000000 0.001679 [0.001471 - 0.001872] 0.000053 Join(0.000868)
+Program finished after 0.587480 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+31 5000000 0.001662 [0.001361 - 0.001919] 0.000074 Join(0.000937)
+Program finished after 0.590777 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+32 5000000 0.001705 [0.001480 - 0.001812] 0.000057 Join(0.000939)
+Program finished after 0.587885 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+33 5000000 0.001445 [0.001343 - 0.002001] 0.000105 Join(0.000707)
+Program finished after 0.577998 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+34 5000000 0.001592 [0.001535 - 0.001791] 0.000045 Join(0.000865)
+Program finished after 0.582347 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+35 5000000 0.001524 [0.001466 - 0.002061] 0.000081 Join(0.000824)
+Program finished after 0.578412 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+36 5000000 0.001568 [0.001400 - 0.002361] 0.000211 Join(0.000871)
+Program finished after 0.584114 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+1 1000 0.000004 [0.000003 - 0.000012] 0.000002 Join(0.000000)
+Program finished after 0.000771 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+2 1000 0.000017 [0.000015 - 0.000029] 0.000002 Join(0.000011)
+Program finished after 0.002136 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+3 1000 0.000022 [0.000014 - 0.000043] 0.000006 Join(0.000012)
+Program finished after 0.002982 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+4 1000 0.000030 [0.000019 - 0.000057] 0.000007 Join(0.000015)
+Program finished after 0.003465 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+5 1000 0.000039 [0.000024 - 0.000109] 0.000014 Join(0.000021)
+Program finished after 0.004680 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+6 1000 0.000042 [0.000028 - 0.000061] 0.000011 Join(0.000023)
+Program finished after 0.005147 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+7 1000 0.000054 [0.000030 - 0.000095] 0.000016 Join(0.000025)
+Program finished after 0.006205 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+8 1000 0.000051 [0.000027 - 0.000074] 0.000016 Join(0.000023)
+Program finished after 0.006565 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+9 1000 0.000061 [0.000030 - 0.000099] 0.000018 Join(0.000028)
+Program finished after 0.007427 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+10 1000 0.000068 [0.000034 - 0.000128] 0.000020 Join(0.000035)
+Program finished after 0.008182 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+11 1000 0.000069 [0.000040 - 0.000094] 0.000016 Join(0.000036)
+Program finished after 0.008650 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+12 1000 0.000067 [0.000036 - 0.000145] 0.000021 Join(0.000034)
+Program finished after 0.008801 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+13 1000 0.000071 [0.000036 - 0.000115] 0.000020 Join(0.000035)
+Program finished after 0.009126 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+14 1000 0.000072 [0.000037 - 0.000150] 0.000022 Join(0.000034)
+Program finished after 0.009343 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+15 1000 0.000081 [0.000040 - 0.000221] 0.000029 Join(0.000043)
+Program finished after 0.010264 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+16 1000 0.000090 [0.000041 - 0.000153] 0.000021 Join(0.000060)
+Program finished after 0.011121 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+17 1000 0.000090 [0.000038 - 0.000138] 0.000021 Join(0.000053)
+Program finished after 0.011086 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+18 1000 0.000096 [0.000048 - 0.000189] 0.000021 Join(0.000071)
+Program finished after 0.011724 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+19 1000 0.000097 [0.000047 - 0.000159] 0.000023 Join(0.000055)
+Program finished after 0.012231 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+20 1000 0.000102 [0.000045 - 0.000209] 0.000029 Join(0.000058)
+Program finished after 0.012665 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+21 1000 0.000113 [0.000048 - 0.000179] 0.000028 Join(0.000075)
+Program finished after 0.014008 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+22 1000 0.000120 [0.000063 - 0.000156] 0.000022 Join(0.000085)
+Program finished after 0.014528 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+23 1000 0.000132 [0.000076 - 0.000262] 0.000028 Join(0.000087)
+Program finished after 0.015782 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+24 1000 0.000130 [0.000057 - 0.000264] 0.000035 Join(0.000083)
+Program finished after 0.015877 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+25 1000 0.000144 [0.000064 - 0.000179] 0.000024 Join(0.000109)
+Program finished after 0.017408 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+26 1000 0.000161 [0.000096 - 0.000237] 0.000023 Join(0.000133)
+Program finished after 0.019000 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+27 1000 0.000167 [0.000077 - 0.000248] 0.000026 Join(0.000131)
+Program finished after 0.019711 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+28 1000 0.000177 [0.000074 - 0.000254] 0.000027 Join(0.000127)
+Program finished after 0.020936 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+29 1000 0.000168 [0.000088 - 0.000269] 0.000037 Join(0.000111)
+Program finished after 0.020360 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+30 1000 0.000181 [0.000074 - 0.000293] 0.000032 Join(0.000142)
+Program finished after 0.021305 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+31 1000 0.000195 [0.000110 - 0.000351] 0.000031 Join(0.000150)
+Program finished after 0.022583 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+32 1000 0.000193 [0.000087 - 0.000340] 0.000036 Join(0.000138)
+Program finished after 0.022784 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+33 1000 0.000195 [0.000102 - 0.000310] 0.000035 Join(0.000148)
+Program finished after 0.023146 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+34 1000 0.000193 [0.000095 - 0.000253] 0.000039 Join(0.000126)
+Program finished after 0.023803 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+35 1000 0.000232 [0.000093 - 0.000445] 0.000047 Join(0.000183)
+Program finished after 0.026804 seconds.
+Charm++: standalone mode (not using charmrun)
+Converse/Charm++ Commit ID: v6.6.1-0-g74a2cc5
+Warning> Randomization of stack pointer is turned on in kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try run with '+isomalloc_sync'.  
+36 1000 0.000226 [0.000103 - 0.000259] 0.000034 Join(0.000169)
+Program finished after 0.026165 seconds.

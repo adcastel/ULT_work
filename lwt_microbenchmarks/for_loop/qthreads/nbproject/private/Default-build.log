@@ -1,0 +1,6 @@
+gcc -Wall qthreads_for_loop.c -o qthreads -I/home/adcastel/qthreads/include -L/home/adcastel/qthreads/lib -lqthreads -lm  
+qthreads_for_loop.c:11:29: fatal error: qthread/qthread.h: No existe el archivo o el directorio
+ #include <qthread/qthread.h>
+                             ^
+compilation terminated.
+make: *** [all] Error 1

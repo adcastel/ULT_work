@@ -1,0 +1,6 @@
+gcc -Wall argo_parallel_for.c -o argo_task_parallel_for -I/home/adcastel/argobots/include -L/home/adcastel/argobots/lib -labt -lm  
+argo_parallel_for.c:15:17: fatal error: abt.h: No existe el archivo o el directorio
+ #include <abt.h>
+                 ^
+compilation terminated.
+make: *** [all] Error 1

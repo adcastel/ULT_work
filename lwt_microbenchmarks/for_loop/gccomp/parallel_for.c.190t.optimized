@@ -1,0 +1,428 @@
+
+;; Function init (init, funcdef_no=2, decl_uid=3951, cgraph_uid=2, symbol_order=2)
+
+init (float * v, int n)
+{
+  int i;
+  float D.3985;
+  float D.3984;
+  float * D.3983;
+  long unsigned int D.3982;
+  long unsigned int D.3981;
+  long unsigned int _7;
+  long unsigned int _8;
+  float * _10;
+  float _11;
+  float _12;
+
+  <bb 2>:
+  i_3 = 0;
+  i_4 = 0;
+  goto <bb 4>;
+
+  <bb 3>:
+  _7 = (long unsigned int) i_1;
+  _8 = _7 * 4;
+  _10 = v_9(D) + _8;
+  _11 = (float) i_1;
+  _12 = _11 + 1.0e+2;
+  *_10 = _12;
+  i_14 = i_1 + 1;
+
+  <bb 4>:
+  # i_1 = PHI <i_4(2), i_14(3)>
+  if (i_1 < n_6(D))
+    goto <bb 3>;
+  else
+    goto <bb 5>;
+
+  <bb 5>:
+  return;
+
+}
+
+
+
+;; Function check (check, funcdef_no=3, decl_uid=3959, cgraph_uid=3, symbol_order=3)
+
+check (float * v, int n)
+{
+  int i;
+  float D.3992;
+  float D.3991;
+  float D.3990;
+  float D.3989;
+  float * D.3988;
+  long unsigned int D.3987;
+  long unsigned int D.3986;
+  long unsigned int _8;
+  long unsigned int _9;
+  float * _11;
+  float _12;
+  float _13;
+  float _14;
+  float _15;
+
+  <bb 2>:
+  i_4 = 0;
+  i_5 = 0;
+  goto <bb 6>;
+
+  <bb 3>:
+  _8 = (long unsigned int) i_1;
+  _9 = _8 * 4;
+  _11 = v_10(D) + _9;
+  _12 = *_11;
+  _13 = (float) i_1;
+  _14 = _13 + 1.0e+2;
+  _15 = _14 * 8.9999997615814208984375e-1;
+  if (_12 != _15)
+    goto <bb 4>;
+  else
+    goto <bb 5>;
+
+  <bb 4>:
+  printf ("v[%d]<=0.0f\n", i_1);
+
+  <bb 5>:
+  i_17 = i_1 + 1;
+
+  <bb 6>:
+  # i_1 = PHI <i_5(2), i_17(5)>
+  if (i_1 < n_7(D))
+    goto <bb 3>;
+  else
+    goto <bb 7>;
+
+  <bb 7>:
+  return;
+
+}
+
+
+
+;; Function main (main, funcdef_no=4, decl_uid=3967, cgraph_uid=4, symbol_order=4)
+
+main (int argc, char * * argv)
+{
+  int D.4069;
+  int D.4067;
+  int D.4068;
+  int tt.7;
+  int q.6;
+  int D.4064;
+  int D.4063;
+  int i;
+  int D.4060;
+  int D.4054;
+  int rep;
+  int n;
+  float * v;
+  double avg_time;
+  double * time;
+  int nthreads;
+  int r;
+  int i;
+  int D.4037;
+  double D.4036;
+  double D.4035;
+  double * D.4034;
+  long unsigned int D.4033;
+  long unsigned int D.4032;
+  double D.4031;
+  double D.4030;
+  double * D.4029;
+  long unsigned int D.4028;
+  long unsigned int D.4027;
+  double D.4026;
+  double * D.4025;
+  long unsigned int D.4024;
+  long unsigned int D.4023;
+  double D.4014;
+  double * D.4013;
+  long unsigned int D.4012;
+  long unsigned int D.4011;
+  long unsigned int D.4010;
+  long unsigned int D.4009;
+  long unsigned int D.4008;
+  long unsigned int D.4007;
+  char * D.4005;
+  char * * D.4004;
+  int iftmp.1;
+  char * D.3999;
+  char * * D.3998;
+  int iftmp.0;
+  struct .omp_data_s.3 .omp_data_o.5;
+  float * D.4059;
+  float * D.4058;
+  struct .omp_data_s.2 .omp_data_o.4;
+  int D.4056;
+  int iftmp.0_5;
+  int iftmp.1_6;
+  char * * _17;
+  char * _18;
+  int iftmp.0_19;
+  int iftmp.0_20;
+  char * * _22;
+  char * _23;
+  int iftmp.1_24;
+  int iftmp.1_25;
+  long unsigned int _27;
+  long unsigned int _28;
+  long unsigned int _31;
+  long unsigned int _32;
+  long unsigned int _37;
+  long unsigned int _38;
+  double * _39;
+  double _41;
+  long unsigned int _49;
+  long unsigned int _50;
+  double * _51;
+  double _53;
+  long unsigned int _54;
+  long unsigned int _55;
+  double * _56;
+  double _57;
+  double _58;
+  long unsigned int _60;
+  long unsigned int _61;
+  double * _62;
+  double _63;
+  double _66;
+  int _70;
+
+  <bb 2>:
+  avg_time_8 = 0.0;
+  .omp_data_o.4.nthreads = nthreads_10(D);
+  __builtin_GOMP_parallel (main._omp_fn.0, &.omp_data_o.4, 0, 0);
+  nthreads_13 = .omp_data_o.4.nthreads;
+  .omp_data_o.4 ={v} {CLOBBER};
+  if (argc_15(D) > 1)
+    goto <bb 3>;
+  else
+    goto <bb 4>;
+
+  <bb 3>:
+  _17 = argv_16(D) + 8;
+  _18 = *_17;
+  iftmp.0_19 = atoi (_18);
+  goto <bb 5>;
+
+  <bb 4>:
+  iftmp.0_20 = 5017600;
+
+  <bb 5>:
+  # iftmp.0_5 = PHI <iftmp.0_19(3), iftmp.0_20(4)>
+  n_21 = iftmp.0_5;
+  if (argc_15(D) > 2)
+    goto <bb 6>;
+  else
+    goto <bb 7>;
+
+  <bb 6>:
+  _22 = argv_16(D) + 16;
+  _23 = *_22;
+  iftmp.1_24 = atoi (_23);
+  goto <bb 8>;
+
+  <bb 7>:
+  iftmp.1_25 = 1;
+
+  <bb 8>:
+  # iftmp.1_6 = PHI <iftmp.1_24(6), iftmp.1_25(7)>
+  rep_26 = iftmp.1_6;
+  _27 = (long unsigned int) rep_26;
+  _28 = _27 * 8;
+  time_30 = malloc (_28);
+  _31 = (long unsigned int) n_21;
+  _32 = _31 * 4;
+  v_34 = malloc (_32);
+  init (v_34, n_21);
+  r_36 = 0;
+  goto <bb 10>;
+
+  <bb 9>:
+  _37 = (long unsigned int) r_1;
+  _38 = _37 * 8;
+  _39 = time_30 + _38;
+  _41 = omp_get_wtime ();
+  *_39 = _41;
+  .omp_data_o.5.v = v_3;
+  .omp_data_o.5.n = n_4;
+  __builtin_GOMP_parallel (main._omp_fn.1, &.omp_data_o.5, 0, 0);
+  v_46 = .omp_data_o.5.v;
+  n_47 = .omp_data_o.5.n;
+  .omp_data_o.5 ={v} {CLOBBER};
+  _49 = (long unsigned int) r_1;
+  _50 = _49 * 8;
+  _51 = time_30 + _50;
+  _53 = omp_get_wtime ();
+  _54 = (long unsigned int) r_1;
+  _55 = _54 * 8;
+  _56 = time_30 + _55;
+  _57 = *_56;
+  _58 = _53 - _57;
+  *_51 = _58;
+  _60 = (long unsigned int) r_1;
+  _61 = _60 * 8;
+  _62 = time_30 + _61;
+  _63 = *_62;
+  avg_time_64 = _63 + avg_time_2;
+  r_65 = r_1 + 1;
+
+  <bb 10>:
+  # r_1 = PHI <r_36(8), r_65(9)>
+  # avg_time_2 = PHI <avg_time_8(8), avg_time_64(9)>
+  # v_3 = PHI <v_34(8), v_46(9)>
+  # n_4 = PHI <n_21(8), n_47(9)>
+  if (r_1 < rep_26)
+    goto <bb 9>;
+  else
+    goto <bb 11>;
+
+  <bb 11>:
+  _66 = (double) rep_26;
+  avg_time_67 = avg_time_2 / _66;
+  check (v_3, n_4);
+  printf ("%d %d %f\n", nthreads_13, n_4, avg_time_67);
+  _70 = 0;
+
+<L11>:
+  return _70;
+
+}
+
+
+
+;; Function main._omp_fn.0 (main._omp_fn.0, funcdef_no=5, decl_uid=4039, cgraph_uid=6, symbol_order=6)
+
+main._omp_fn.0 (struct .omp_data_s.2 & restrict .omp_data_i)
+{
+  int nthreads [value-expr: .omp_data_i->nthreads];
+  int D.4092;
+  int D.4091;
+  int _2;
+  int _5;
+
+  <bb 2>:
+  _2 = __builtin_omp_get_thread_num ();
+  if (_2 == 0)
+    goto <bb 4>;
+  else
+    goto <bb 3>;
+
+  <bb 3>:
+  return;
+
+  <bb 4>:
+  _5 = omp_get_num_threads ();
+  .omp_data_i_6(D)->nthreads = _5;
+  goto <bb 3>;
+
+}
+
+
+
+;; Function main._omp_fn.1 (main._omp_fn.1, funcdef_no=6, decl_uid=4045, cgraph_uid=7, symbol_order=7)
+
+main._omp_fn.1 (struct .omp_data_s.3 & restrict .omp_data_i)
+{
+  int n [value-expr: .omp_data_i->n];
+  float * v [value-expr: .omp_data_i->v];
+  float D.4088;
+  float D.4087;
+  float * D.4086;
+  float * D.4085;
+  long unsigned int D.4084;
+  long unsigned int D.4083;
+  float * D.4082;
+  float * D.4081;
+  long unsigned int D.4080;
+  long unsigned int D.4079;
+  int i;
+  int D.4077;
+  int D.4076;
+  int D.4075;
+  int tt.7;
+  int q.6;
+  int D.4072;
+  int D.4071;
+  int D.4070;
+  int q.6_1;
+  int tt.7_2;
+  int _8;
+  int _9;
+  int _10;
+  int q.6_11;
+  int tt.7_12;
+  int tt.7_13;
+  int q.6_14;
+  int _15;
+  int _16;
+  int _17;
+  long unsigned int _19;
+  long unsigned int _20;
+  float * _21;
+  float * _22;
+  long unsigned int _23;
+  long unsigned int _24;
+  float * _25;
+  float * _26;
+  float _27;
+  float _28;
+
+  <bb 2>:
+  _8 = .omp_data_i_7(D)->n;
+  _9 = __builtin_omp_get_num_threads ();
+  _10 = __builtin_omp_get_thread_num ();
+  q.6_11 = _8 / _9;
+  tt.7_12 = _8 % _9;
+  if (_10 < tt.7_12)
+    goto <bb 7>;
+  else
+    goto <bb 3>;
+
+  <bb 3>:
+  # q.6_1 = PHI <q.6_14(7), q.6_11(2)>
+  # tt.7_2 = PHI <tt.7_13(7), tt.7_12(2)>
+  _15 = q.6_1 * _10;
+  _16 = _15 + tt.7_2;
+  _17 = _16 + q.6_1;
+  if (_16 >= _17)
+    goto <bb 6>;
+  else
+    goto <bb 4>;
+
+  <bb 4>:
+  i_18 = _16;
+
+  <bb 5>:
+  # i_3 = PHI <i_18(4), i_30(5)>
+  _19 = (long unsigned int) i_3;
+  _20 = _19 * 4;
+  _21 = .omp_data_i_7(D)->v;
+  _22 = _21 + _20;
+  _23 = (long unsigned int) i_3;
+  _24 = _23 * 4;
+  _25 = .omp_data_i_7(D)->v;
+  _26 = _25 + _24;
+  _27 = *_26;
+  _28 = _27 * 8.9999997615814208984375e-1;
+  *_22 = _28;
+  i_30 = i_3 + 1;
+  if (i_30 < _17)
+    goto <bb 5>;
+  else
+    goto <bb 6>;
+
+  <bb 6>:
+  return;
+
+  <bb 7>:
+  tt.7_13 = 0;
+  q.6_14 = q.6_11 + 1;
+  goto <bb 3>;
+
+}
+
+
