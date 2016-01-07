@@ -28,16 +28,13 @@
 typedef struct {
     float * ptr;
     float value;
-    int start;
-    int end;
+    int pos;
 } vector_scal_args_t;
 
 void vector_scal(void *arguments) {
-    int i;
     vector_scal_args_t *arg;
     arg = (vector_scal_args_t *) arguments;
-    int mystart = arg->start;
-    int myend = arg->end;
+    int pos = arg->pos;
     float value = arg->value;
     float * ptr = arg->ptr;
 #ifdef VERBOSE
@@ -45,11 +42,9 @@ void vector_scal(void *arguments) {
     ABT_xstream_self(&xstreams);
     int rank;
     ABT_xstream_self_rank(&rank);
-    printf("#ES: %d, mystart: %d, myend: %d\n", rank, mystart, myend);
+    printf("#ES: %d, pos: %d\n", rank, pos);
 #endif
-    for (i = mystart; i < myend; i++) {
-        ptr[i] *= value;
-    }
+        ptr[pos] *= value;
 }
 
 ABT_xstream * malloc_xstreams(int num_xstreams) {
@@ -118,7 +113,7 @@ int main(int argc, char *argv[]) {
     /*If ULT is defined, the test creates ULTs instead of tasklets*/
 #ifdef ULT
     ABT_thread *threads;
-    threads = malloc_ults(num_xstreams);
+    threads = malloc_ults(ntasks);
 #ifdef VERBOSE
     printf("De ULTs\n");
 #endif
@@ -127,7 +122,7 @@ int main(int argc, char *argv[]) {
     printf("De Tasklets\n");
 #endif
     ABT_task *tasks;
-    tasks = malloc_tasklets(num_xstreams);
+    tasks = malloc_tasklets(ntasks);
 #endif    
     a = malloc(sizeof (float)*ntasks);
     for (i = 0; i < ntasks; i++) {
@@ -137,31 +132,21 @@ int main(int argc, char *argv[]) {
     xstreams = malloc_xstreams(num_xstreams);
 
     args = (vector_scal_args_t *) malloc(sizeof (vector_scal_args_t)
-            * num_xstreams);
+            * ntasks);
 
 
 
     /* ES creation */
-    /*If WS is defined, all ES can access to all pools, if not, each ES accesses 
+    /*EachES accesses 
      * to its own pool */
     ABT_xstream_self(&xstreams[0]);
     ABT_xstream_set_main_sched_basic(xstreams[0], ABT_SCHED_DEFAULT,
-#ifdef WORKSTEALING
-            num_xstreams, &g_pools[0]);
-#ifdef VERBOSE
-    printf("Para WS \n");
-#endif
-    //	   printf("He creado %d pools\n", num_xstreams);
-#else
             1, &g_pools[0]);
 #ifdef VERBOSE
     printf("1 para cada 1 \n");
 #endif
 
-#endif
     /*If SINGLEPOOL is defined all ES share the same pool (just one)
-     * If WS is defined, all ES can access to all pools, if not, each ES accesses 
-     * to its own pool 
      * Else, each ES only access to its own pool*/
     for (i = 1; i < num_xstreams; i++) {
 #ifdef SINGLEPOOL
@@ -170,19 +155,10 @@ int main(int argc, char *argv[]) {
 #endif
         ABT_xstream_create_basic(ABT_SCHED_DEFAULT, 1, &g_pools[0],
 #else
-#ifdef WORKSTEALING
-        //	   printf("Para todos hay %d pools\n", num_xstreams);
-#ifdef VERBOSE
-        printf("ES %d todas pools (WS) \n", i);
-#endif
-        ABT_xstream_create_basic(ABT_SCHED_DEFAULT, num_xstreams, &g_pools[0],
-
-#else
 #ifdef VERBOSE
         printf("ES %d su pool  \n", i);
 #endif
         ABT_xstream_create_basic(ABT_SCHED_DEFAULT, 1, &g_pools[i],
-#endif
 #endif
                 ABT_SCHED_CONFIG_NULL, &xstreams[i]);
         ABT_xstream_start(xstreams[i]);
@@ -194,30 +170,22 @@ int main(int argc, char *argv[]) {
         }
         gettimeofday(&t_start, NULL);
 
+        for (j = 0; j < ntasks; j++) {
 
-        int bloc = ntasks / (num_xstreams);
-        int rest = ntasks % (num_xstreams);
-        int start = 0;
-        int end = 0;
-        for (j = 0; j < num_xstreams; j++) {
-            start = end;
-            int inc = (j < rest) ? 1 : 0;
-            end += bloc + inc;
-            args[j].start = start;
-            args[j].end = end;
+            args[j].pos = j;
             args[j].value = 0.9f;
             args[j].ptr = a;
             /* If pool is not defined, the task/ULT is created directly on the 
              destination ES else, the task is put it into a pool*/
 #ifndef POOL
 #ifdef ULT
-            ABT_thread_create_on_xstream(xstreams[j], vector_scal, (void *) &args[j],
+            ABT_thread_create_on_xstream(xstreams[j%num_xstreams], vector_scal, (void *) &args[j],
 #else        
-            ABT_task_create_on_xstream(xstreams[j], vector_scal, (void *) &args[j],
+            ABT_task_create_on_xstream(xstreams[j%num_xstreams], vector_scal, (void *) &args[j],
 #endif
 #else
 #ifdef VERBOSE
-            printf("Tarea %d a pool \n", j, 0);
+            printf("Tarea %d a pool %d\n", j, 0);
 #endif
 
 #ifdef ULT
@@ -228,7 +196,7 @@ int main(int argc, char *argv[]) {
 #ifdef SINGLEPOOL
                     g_pools[0], vector_scal, (void *) &args[j],
 #else
-                    g_pools[j], vector_scal, (void *) &args[j],
+                    g_pools[j%num_xstreams], vector_scal, (void *) &args[j],
 #endif
 #endif
 #ifdef ULT
@@ -242,7 +210,7 @@ int main(int argc, char *argv[]) {
         ABT_thread_yield();
 
         gettimeofday(&t_start2, NULL);
-        for (i = 0; i < num_xstreams; i++) {
+        for (i = 0; i < ntasks; i++) {
 #ifdef ULT
             ABT_thread_free(&threads[i]);
 
