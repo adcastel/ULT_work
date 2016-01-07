@@ -13,7 +13,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#define NUM_ELEMS 5017600 //2GB
+#define NUM_ELEMS 100 //2GB
 #define EXT_LOOP_ELEM 2 //2GB
 #define IN_LOOP_ELEM 2 //2GB
 #define IN_LOOP_TH 1 //2GB
@@ -44,6 +44,15 @@ void check(float *v, int n)
     }
 }
 
+void vectorscal(float *v,float value,int init,int gran){
+	int i=init;
+	int ii=i+gran;
+	for(i=init;i<ii;i++){
+		v[i]*=value;
+	}
+
+}
+
 int main(int argc, char * argv[]) 
 {
     int i, r, nthreads;
@@ -56,18 +65,27 @@ int main(int argc, char * argv[])
             nthreads = omp_get_num_threads();
         }
     }
-    int n = (argc > 1) ? atoi(argv[1]) : NUM_ELEMS;
-    int rep = (argc > 2) ? atoi(argv[2]) : TIMES;
+    int ntasks = (argc > 1) ? atoi(argv[1]) : NUM_ELEMS;
+    int granularity = (argc > 2) ? atoi(argv[2]) : 1;
+    int rep = (argc > 3) ? atoi(argv[3]) : TIMES;
     time = malloc(sizeof (double)*rep);
-    v = malloc(sizeof (float)*n);
+    v = malloc(sizeof (float)*ntasks*granularity);
     
     for (r = 0; r < rep; r++) {
-    init(v, n);
+    init(v, ntasks);
         time[r] = omp_get_wtime();
-	    #pragma omp parallel for
-            for (i = 0; i < n; i++) {
-                v[i] *= 0.9f;
-            }
+	#pragma omp parallel
+	{
+		#pragma omp single
+		{
+	        	for (i = 0; i < ntasks; i++) {
+				#pragma omp task firstprivate(i)
+				{
+                			v[i] *= 0.9f;
+				}
+            		}
+		}
+	}
         time[r] = omp_get_wtime() - time[r];
     }
  double min, max, avg, aux, sigma, dev;
@@ -89,8 +107,8 @@ int main(int argc, char * argv[])
     dev = sqrt(sigma);
 #endif
     printf("%d %d %f [%f - %f] %f\n",
-            nthreads, n, avg, min, max, dev);
-    check(v, n);
+            nthreads, ntasks, avg, min, max, dev);
+    check(v, ntasks);
     free(v);
     free(time);
     

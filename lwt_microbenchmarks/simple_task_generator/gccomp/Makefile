@@ -1,11 +1,11 @@
-INI=parallel_for
+INI=omp_task
 OBJECTS= openmp_$(INI)  
 CC=gcc
 CCFLAGS=-Wall -lm
 OMP_LDFLAGS=-fopenmp
 
 all:
-	$(CC) $(CCFLAGS) $(INI).c -o openmp_$(INI) $(OMP_LDFLAGS)
+	$(CC) $(CCFLAGS) $(INI).c -o $(INI) $(OMP_LDFLAGS)
 
 look:
 
