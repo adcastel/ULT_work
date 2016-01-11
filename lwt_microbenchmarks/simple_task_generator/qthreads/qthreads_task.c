@@ -22,12 +22,16 @@ typedef struct {
     float * ptr;
     float value;
     int pos;
+    int gran;
 } vector_scal_args_t;
 
 static aligned_t vector_scal(void *arguments) {
     vector_scal_args_t *arg;
     arg = (vector_scal_args_t *) arguments;
     int pos = arg->pos;
+    int gran = arg->gran;
+    int i;
+    int posfin=pos+gran;
     float value = arg->value;
     float * ptr = arg->ptr;
 
@@ -36,9 +40,9 @@ static aligned_t vector_scal(void *arguments) {
     printf("#Shepherd: %d (CPU: %d) Worker %d, pos: %d\n", qthread_shep(), qthread_worker(NULL),sched_getcpu(), pos);
 
 #endif
-
-        ptr[pos] *= value;
-
+    for(i=pos;i<posfin;i++){
+        ptr[i] *= value;
+    }
     return 0;
 }
 
@@ -56,9 +60,11 @@ int main(int argc, char *argv[]) {
         str = argv[1];
     }
     ntasks = argc > 1 ? strtoll(str, &endptr, 10) : NUM_ELEMS;
+    int granularity = argc > 2 ? atoi(argv[2]) : 1;
+    int total=ntasks*granularity;
 
-    a = malloc(sizeof (float)*ntasks);
-    for (int i = 0; i < ntasks; i++) {
+    a = malloc(sizeof (float)*total);
+    for (int i = 0; i < total; i++) {
         a[i] = i * 1.0f;
     }
 
@@ -76,25 +82,27 @@ int main(int argc, char *argv[]) {
     //printf("%i shepherds...\n", qthread_num_shepherds());
     //printf("  %i threads total\n", qthread_num_workers());
     for (int t = 0; t < TIMES; t++) {
-        for (int i = 0; i < ntasks; i++) {
+        for (int i = 0; i < total; i++) {
             a[i] = i * 1.0f;
         }
         //for (int j = 0; j < num_workers; j++) {
             //returned_values[j]=NULL;
         //}
         gettimeofday(&t_start, NULL);
-
+	int current_task=0;
         /* Each task is created on the xstream which is going to execute it*/
-        for (int j = 0; j < ntasks; j++) {
-            args[j].pos = j;
-            args[j].value = 0.9f;
-            args[j].ptr = a;
+        for (int j = 0; j < total; j+=granularity) {
+            args[current_task].gran = granularity;
+            args[current_task].pos = j;
+            args[current_task].value = 0.9f;
+            args[current_task].ptr = a;
 #ifdef FORKTO
-            status = qthread_fork_to(vector_scal, (void *) &args[j], &returned_values[j],j%num_shepherds);
+            status = qthread_fork_to(vector_scal, (void *) &args[current_task], &returned_values[current_task],current_task%num_shepherds);
 #else
-            status = qthread_fork(vector_scal, (void *) &args[j], &returned_values[j]);
+            status = qthread_fork(vector_scal, (void *) &args[current_task], &returned_values[current_task]);
 #endif
-        }
+        current_task++;
+	}
         qthread_yield();
         gettimeofday(&t_start2, NULL);
         for (int j = 0; j < ntasks; j++) {
@@ -134,7 +142,7 @@ int main(int argc, char *argv[]) {
     printf("%d %d %d %f [%f - %f] %f Join(%f)\n",
             num_shepherds,num_workers, ntasks, avg, min, max, dev,avgj/TIMES);
     
-    for (int i = 0; i < ntasks; i++) {
+    for (int i = 0; i < total; i++) {
         if (a[i] != i * 0.9f) {
             printf("%f\n", a[i]);
             return 0;

@@ -23,12 +23,16 @@ typedef struct {
     float * ptr;
     float value;
     int pos;
+    int gran;
 } vector_scal_args_t;
 
 void * vector_scal(void *arguments) {
     vector_scal_args_t *arg;
     arg = (vector_scal_args_t *) arguments;
     int pos = arg->pos;
+    int gran = arg->gran;
+    int i;
+    int posfin = pos+gran;
     float value = arg->value;
     float * ptr = arg->ptr;
 
@@ -37,8 +41,9 @@ void * vector_scal(void *arguments) {
     printf("#Worker: %ld (CPU: %d), pos: %d\n", myth_get_worker_num(), sched_getcpu(), pos);
 
 #endif
-
-        ptr[pos] *= value;
+    for(i=pos;i<posfin;i++){
+        ptr[i] *= value;
+    }
 }
 
 int main(int argc, char *argv[]) {
@@ -55,13 +60,15 @@ int main(int argc, char *argv[]) {
         str = argv[1];
     }
     ntasks = argc > 1 ? strtoll(str, &endptr, 10) : NUM_ELEMS;
-    
+    int granularity = argc > 2 ? atoi(argv[2]) : 1;
+    int total=ntasks*granularity;
+
     //if (argc > 1) {
     //    str = argv[1];
     //}
     //num_workers = argc > 1 ? strtoll(str, &endptr, 10) : 1;
-    a = malloc(sizeof (float)*ntasks);
-    for (int i = 0; i < ntasks; i++) {
+    a = malloc(sizeof (float)*total);
+    for (int i = 0; i < total; i++) {
         a[i] = i * 1.0f;
     }
 
@@ -77,20 +84,22 @@ int main(int argc, char *argv[]) {
     
 
     for (int t = 0; t < TIMES; t++) {
-        for (int i = 0; i < ntasks; i++) {
+        for (int i = 0; i < total; i++) {
             a[i] = i * 1.0f;
         }
         gettimeofday(&t_start, NULL);
-
+        int current_task=0;
         /* Each task is created on the xstream which is going to execute it*/
-        for (int j = 0; j < ntasks; j++) {
-            args[j].pos = j;
-            args[j].value = 0.9f;
-            args[j].ptr = a;
+        for (int j = 0; j < total; j+=granularity) {
+            args[current_task].pos = j;
+            args[current_task].gran = granularity;
+            args[current_task].value = 0.9f;
+            args[current_task].ptr = a;
 //	    printf("Tarea creada\n");            
-	    workers[j]=myth_create(vector_scal, (void *) &args[j]);
+	    workers[current_task]=myth_create(vector_scal, (void *) &args[current_task]);
 
-        }
+        current_task++;
+	}
 	myth_yield(0);
         gettimeofday(&t_start2, NULL);
         for (int j = 0; j < ntasks; j++) {
@@ -130,7 +139,7 @@ int main(int argc, char *argv[]) {
     printf("%d %d %f [%f - %f] %f Join(%f)\n",
             num_workers, ntasks, avg, min, max, dev,avgj/TIMES);
     
-    for (int i = 0; i < ntasks; i++) {
+    for (int i = 0; i < total; i++) {
         if (a[i] != i * 0.9f) {
             printf("%f\n", a[i]);
             return 0;
