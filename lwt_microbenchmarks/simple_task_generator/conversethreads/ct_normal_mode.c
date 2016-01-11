@@ -27,6 +27,7 @@ typedef struct message_{
   float * ptr;
   float value;
   int pos;
+  int gran;
  
 } Message;
 
@@ -36,6 +37,9 @@ pvd(int, funcHandler);
 static void vectorScal(Message *msg)
 {
     int pos = msg->pos;
+    int gran = msg->gran;
+    int i;
+    int posfin=pos+gran;
     float value = msg->value;
     float * ptr = msg->ptr;
 #ifdef VERBOSE
@@ -43,9 +47,9 @@ static void vectorScal(Message *msg)
      printf("Thread: %d (CPU: %d), pos->%d\n",CmiMyRank(), sched_getcpu(), pos);
 
 #endif
-
-            ptr[pos] *= value;
-
+    for(i=pos;i<posfin;i++){
+            ptr[i] *= value;
+    }
 }
 
 void init(){
@@ -70,30 +74,38 @@ void mymain(int argc, char * argv[]){
   else{
         ntasks=10;
   }
+
+  int granularity = argc > 2 ? atoi(argv[2]) : 1;
+  int total=ntasks*granularity;
+
   if(id==0){
-	a=malloc(sizeof (float)*ntasks);
+	a=malloc(sizeof (float)*total);
       	messages = malloc(sizeof(Message *)*ntasks);
   }
   for (t = 0; t < TIMES; t++) {
   	if(id==0){
       
-        	for (i = 0; i < ntasks; i++) {
+        	for (i = 0; i < total; i++) {
         		a[i] = i * 1.0f;
         	}
         	
 		gettimeofday(&t_start, NULL);
 
 		int size = sizeof(Message);
-		for(i=0;i<ntasks;i++){
+                int current_task=0;
+
+		for(i=0;i<total;i+=granularity){
           
-          		messages[i] = (Message *) CmiAlloc(size);
-          		messages[i]->pos = i;
-          		messages[i]->value = 0.9f;
-          		messages[i]->ptr = a;
+          		messages[current_task] = (Message *) CmiAlloc(size);
+          		messages[current_task]->pos = i;
+          		messages[current_task]->gran = granularity;
+          		messages[current_task]->value = 0.9f;
+          		messages[current_task]->ptr = a;
           
-	  		CmiSetHandler(messages[i], pva(funcHandler));
-          		CmiSyncSend(i%CmiMyNodeSize(), size, messages[i]);
-      		}
+	  		CmiSetHandler(messages[current_task], pva(funcHandler));
+          		CmiSyncSend(current_task%CmiMyNodeSize(), size, messages[current_task]);
+      			current_task++;
+		}
 
   	}
 
@@ -146,7 +158,7 @@ void mymain(int argc, char * argv[]){
     	printf("%d %d %f [%f - %f] %f Join(%f)\n",
             CmiMyNodeSize(), ntasks, avg, min, max, dev,avgj/TIMES);
     
-        for (i = 0; i < ntasks; i++) {
+        for (i = 0; i < total; i++) {
           if (a[i] != i * 0.9f) {
             printf("%f\n", a[i]);
             return 0;
