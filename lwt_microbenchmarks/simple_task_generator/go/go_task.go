@@ -17,11 +17,14 @@ for i := start; i < end; i++ {
 } 
 
 }
-func vectorscal(pos int, v [] float32, value float32, c chan int){
+func vectorscal(pos, gran int, v [] float32, value float32, c chan int){
 
 
 	//fmt.Println("Vectorscal  start:",start,"end:",end)
-	v[pos] = v[pos] * value
+	var posfin=pos+gran	
+	for i := pos; i < posfin; i++ {
+	    v[i] = v[i] * value
+	}
 
 
 c <- 1
@@ -34,10 +37,12 @@ func main(/*argc int, argv []string*/) {
 	
 	var ntasks int = 10
 	var nreps int = 50
+	var granularity int = 1
 	ntasks, _ = strconv.Atoi(os.Args[1])
 	//nreps, _ = strconv.Atoi(os.Args[2])
-	
-	v := make([]float32,ntasks)
+	granularity, _ = strconv.Atoi(os.Args[2])
+	var total int = ntasks*granularity
+	v := make([]float32,total)
 	times := make([]float64,nreps)        
 	times_join := make([]float64,nreps)        
 
@@ -47,12 +52,12 @@ func main(/*argc int, argv []string*/) {
 	
     for t := 0; t < nreps; t++ {
         
-	initvector(0,ntasks,v)
+	initvector(0,total,v)
 	
 	t_start := time.Now();
 
-	for i := 0; i < ntasks; i++ {
-        	go vectorscal(i,v, value,c)
+	for i := 0; i < total; i+=granularity {
+        	go vectorscal(i,granularity, v, value,c)
 
 	}
 	t_start2 := time.Now();
