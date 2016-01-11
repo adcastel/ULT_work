@@ -29,14 +29,18 @@ typedef struct {
     float * ptr;
     float value;
     int pos;
+    int gran;
 } vector_scal_args_t;
 
 void vector_scal(void *arguments) {
     vector_scal_args_t *arg;
     arg = (vector_scal_args_t *) arguments;
     int pos = arg->pos;
+    int gran = arg->gran;
+    int posfin=pos+gran;
     float value = arg->value;
     float * ptr = arg->ptr;
+    int i;
 #ifdef VERBOSE
     ABT_xstream xstreams;
     ABT_xstream_self(&xstreams);
@@ -44,7 +48,9 @@ void vector_scal(void *arguments) {
     ABT_xstream_self_rank(&rank);
     printf("#ES: %d, pos: %d\n", rank, pos);
 #endif
-        ptr[pos] *= value;
+    for(i=pos;i<posfin;i++){
+        ptr[i] *= value;
+    }
 }
 
 ABT_xstream * malloc_xstreams(int num_xstreams) {
@@ -90,7 +96,8 @@ int main(int argc, char *argv[]) {
         str = argv[2];
     }
     ntasks = argc > 2 ? strtoll(str, &endptr, 10) : NUM_ELEMS;
-   
+    int granularity = argc > 3 ? atoi(argv[3]) : 1;
+    int total=ntasks*granularity;
      /* initialization */
      ABT_init(argc, argv);
     
@@ -124,8 +131,8 @@ int main(int argc, char *argv[]) {
     ABT_task *tasks;
     tasks = malloc_tasklets(ntasks);
 #endif    
-    a = malloc(sizeof (float)*ntasks);
-    for (i = 0; i < ntasks; i++) {
+    a = malloc(sizeof (float)*total);
+    for (i = 0; i < total; i++) {
         a[i] = i * 1.0f;
     }
 
@@ -165,27 +172,28 @@ int main(int argc, char *argv[]) {
     }
 
     for (int t = 0; t < TIMES; t++) {
-        for (i = 0; i < ntasks; i++) {
+        for (i = 0; i < total; i++) {
             a[i] = i * 1.0f;
         }
         gettimeofday(&t_start, NULL);
+        int current_task=0;
+        for (j = 0; j < total; j=j+granularity) {
 
-        for (j = 0; j < ntasks; j++) {
-
-            args[j].pos = j;
-            args[j].value = 0.9f;
-            args[j].ptr = a;
+            args[current_task].pos = j;
+            args[current_task].gran = granularity;
+            args[current_task].value = 0.9f;
+            args[current_task].ptr = a;
             /* If pool is not defined, the task/ULT is created directly on the 
              destination ES else, the task is put it into a pool*/
 #ifndef POOL
 #ifdef ULT
-            ABT_thread_create_on_xstream(xstreams[j%num_xstreams], vector_scal, (void *) &args[j],
+            ABT_thread_create_on_xstream(xstreams[current_task%num_xstreams], vector_scal, (void *) &args[current_task],
 #else        
-            ABT_task_create_on_xstream(xstreams[j%num_xstreams], vector_scal, (void *) &args[j],
+            ABT_task_create_on_xstream(xstreams[current_task%num_xstreams], vector_scal, (void *) &args[current_task],
 #endif
 #else
 #ifdef VERBOSE
-            printf("Tarea %d a pool %d\n", j, 0);
+            printf("Tarea %d a pool %d\n", current_task, 0);
 #endif
 
 #ifdef ULT
@@ -194,18 +202,19 @@ int main(int argc, char *argv[]) {
             ABT_task_create(
 #endif
 #ifdef SINGLEPOOL
-                    g_pools[0], vector_scal, (void *) &args[j],
+                    g_pools[0], vector_scal, (void *) &args[current_task],
 #else
-                    g_pools[j%num_xstreams], vector_scal, (void *) &args[j],
+                    g_pools[current_task%num_xstreams], vector_scal, (void *) &args[current_task],
 #endif
 #endif
 #ifdef ULT
-                    ABT_THREAD_ATTR_NULL, &threads[j]);
+                    ABT_THREAD_ATTR_NULL, &threads[current_task]);
 
 #else
-                    &tasks[j]);
+                    &tasks[current_task]);
 #endif
-        }
+        current_task++;
+	}
 
         ABT_thread_yield();
 
@@ -260,7 +269,7 @@ int main(int argc, char *argv[]) {
 
     ABT_finalize();
     free(xstreams);
-    for (i = 0; i < ntasks; i++) {
+    for (i = 0; i < total; i++) {
         if (a[i] != i * 0.9f) {
             printf("%f\n", a[i]);
             return 0;

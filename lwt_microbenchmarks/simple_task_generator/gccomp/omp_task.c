@@ -70,18 +70,19 @@ int main(int argc, char * argv[])
     int rep = (argc > 3) ? atoi(argv[3]) : TIMES;
     time = malloc(sizeof (double)*rep);
     v = malloc(sizeof (float)*ntasks*granularity);
-    
+    int total = ntasks*granularity;
     for (r = 0; r < rep; r++) {
-    init(v, ntasks);
+    init(v, total);
         time[r] = omp_get_wtime();
 	#pragma omp parallel
 	{
 		#pragma omp single
 		{
-	        	for (i = 0; i < ntasks; i++) {
+	        	for (i = 0; i < total; i+=granularity) {
 				#pragma omp task firstprivate(i)
 				{
-                			v[i] *= 0.9f;
+                		//	v[i] *= 0.9f;
+                			vectorscal(v,0.9f,i,granularity);
 				}
             		}
 		}
@@ -108,7 +109,7 @@ int main(int argc, char * argv[])
 #endif
     printf("%d %d %f [%f - %f] %f\n",
             nthreads, ntasks, avg, min, max, dev);
-    check(v, ntasks);
+    check(v, total);
     free(v);
     free(time);
     

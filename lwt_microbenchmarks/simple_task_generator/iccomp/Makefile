@@ -1,7 +1,7 @@
 INI=omp_task
 OBJECTS= openmp_$(INI)  
 CC=icc
-CCFLAGS=-Wall  
+CCFLAGS=-Wall -O0 
 OMP_LDFLAGS=-openmp
 
 all:
