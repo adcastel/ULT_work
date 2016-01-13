@@ -86,7 +86,7 @@ int main(int argc, char * argv[])
 #endif
 				#pragma omp task firstprivate(i)
 				{
-                		//	v[i] *= 0.9f;
+                			//v[i] *= 0.9f;
                 			vectorscal(v,0.9f,i,granularity);
 				}
             		}
