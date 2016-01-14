@@ -1,0 +1,2001 @@
+Thread 0: creando task de init=0 end=1
+Thread 1: creando task de init=500 end=501
+Thread 0: creando task de init=1 end=2
+Thread 0: creando task de init=2 end=3
+Thread 0: creando task de init=3 end=4
+Thread 0: creando task de init=4 end=5
+Thread 0: creando task de init=5 end=6
+Thread 0: creando task de init=6 end=7
+Thread 0: creando task de init=7 end=8
+Thread 0: creando task de init=8 end=9
+Thread 0: creando task de init=9 end=10
+Thread 0: creando task de init=10 end=11
+Thread 0: creando task de init=11 end=12
+Thread 0: creando task de init=12 end=13
+Thread 0: creando task de init=13 end=14
+Thread 0: creando task de init=14 end=15
+Thread 0: creando task de init=15 end=16
+Thread 0: creando task de init=16 end=17
+Thread 0: creando task de init=17 end=18
+Thread 0: creando task de init=18 end=19
+Thread 0: creando task de init=19 end=20
+Thread 0: creando task de init=20 end=21
+Thread 0: creando task de init=21 end=22
+Thread 0: creando task de init=22 end=23
+Thread 0: creando task de init=23 end=24
+Thread 0: creando task de init=24 end=25
+Thread 0: creando task de init=25 end=26
+Thread 0: creando task de init=26 end=27
+Thread 0: creando task de init=27 end=28
+Thread 0: creando task de init=28 end=29
+Thread 0: creando task de init=29 end=30
+Thread 0: creando task de init=30 end=31
+Thread 0: creando task de init=31 end=32
+Thread 0: creando task de init=32 end=33
+Thread 0: creando task de init=33 end=34
+Thread 0: creando task de init=34 end=35
+Thread 0: creando task de init=35 end=36
+Thread 0: creando task de init=36 end=37
+Thread 0: creando task de init=37 end=38
+Thread 0: creando task de init=38 end=39
+Thread 0: creando task de init=39 end=40
+Thread 0: creando task de init=40 end=41
+Thread 0: creando task de init=41 end=42
+Thread 0: creando task de init=42 end=43
+Thread 0: creando task de init=43 end=44
+Thread 0: creando task de init=44 end=45
+Thread 0: creando task de init=45 end=46
+Thread 0: creando task de init=46 end=47
+Thread 0: creando task de init=47 end=48
+Thread 0: creando task de init=48 end=49
+Thread 0: creando task de init=49 end=50
+Thread 0: creando task de init=50 end=51
+Thread 0: creando task de init=51 end=52
+Thread 0: creando task de init=52 end=53
+Thread 0: creando task de init=53 end=54
+Thread 0: creando task de init=54 end=55
+Thread 0: creando task de init=55 end=56
+Thread 0: creando task de init=56 end=57
+Thread 0: creando task de init=57 end=58
+Thread 0: creando task de init=58 end=59
+Thread 1: creando task de init=501 end=502
+Thread 1: creando task de init=502 end=503
+Thread 1: creando task de init=503 end=504
+Thread 1: creando task de init=504 end=505
+Thread 1: creando task de init=505 end=506
+Thread 1: creando task de init=506 end=507
+Thread 1: creando task de init=507 end=508
+Thread 1: creando task de init=508 end=509
+Thread 1: creando task de init=509 end=510
+Thread 0: creando task de init=59 end=60
+Thread 1: creando task de init=510 end=511
+Thread 1: creando task de init=511 end=512
+Thread 1: creando task de init=512 end=513
+Thread 1: creando task de init=513 end=514
+Thread 1: creando task de init=514 end=515
+Thread 1: creando task de init=515 end=516
+Thread 1: creando task de init=516 end=517
+Thread 1: creando task de init=517 end=518
+Thread 1: creando task de init=518 end=519
+Thread 0: creando task de init=60 end=61
+Thread 0: creando task de init=61 end=62
+Thread 0: creando task de init=62 end=63
+Thread 0: creando task de init=63 end=64
+Thread 0: creando task de init=64 end=65
+Thread 0: creando task de init=65 end=66
+Thread 1: creando task de init=519 end=520
+Thread 1: creando task de init=520 end=521
+Thread 1: creando task de init=521 end=522
+Thread 1: creando task de init=522 end=523
+Thread 1: creando task de init=523 end=524
+Thread 1: creando task de init=524 end=525
+Thread 1: creando task de init=525 end=526
+Thread 1: creando task de init=526 end=527
+Thread 1: creando task de init=527 end=528
+Thread 0: creando task de init=66 end=67
+Thread 1: creando task de init=528 end=529
+Thread 1: creando task de init=529 end=530
+Thread 0: creando task de init=67 end=68
+Thread 1: creando task de init=530 end=531
+Thread 1: creando task de init=531 end=532
+Thread 1: creando task de init=532 end=533
+Thread 1: creando task de init=533 end=534
+Thread 1: creando task de init=534 end=535
+Thread 1: creando task de init=535 end=536
+Thread 1: creando task de init=536 end=537
+Thread 1: creando task de init=537 end=538
+Thread 1: creando task de init=538 end=539
+Thread 1: creando task de init=539 end=540
+Thread 1: creando task de init=540 end=541
+Thread 1: creando task de init=541 end=542
+Thread 1: creando task de init=542 end=543
+Thread 1: creando task de init=543 end=544
+Thread 1: creando task de init=544 end=545
+Thread 1: creando task de init=545 end=546
+Thread 1: creando task de init=546 end=547
+Thread 1: creando task de init=547 end=548
+Thread 1: creando task de init=548 end=549
+Thread 1: creando task de init=549 end=550
+Thread 1: creando task de init=550 end=551
+Thread 1: creando task de init=551 end=552
+Thread 1: creando task de init=552 end=553
+Thread 1: creando task de init=553 end=554
+Thread 1: creando task de init=554 end=555
+Thread 1: creando task de init=555 end=556
+Thread 1: creando task de init=556 end=557
+Thread 1: creando task de init=557 end=558
+Thread 1: creando task de init=558 end=559
+Thread 1: creando task de init=559 end=560
+Thread 1: creando task de init=560 end=561
+Thread 1: creando task de init=561 end=562
+Thread 0: creando task de init=68 end=69
+Thread 1: creando task de init=562 end=563
+Thread 1: creando task de init=563 end=564
+Thread 1: creando task de init=564 end=565
+Thread 1: creando task de init=565 end=566
+Thread 1: creando task de init=566 end=567
+Thread 0: creando task de init=69 end=70
+Thread 0: creando task de init=70 end=71
+Thread 0: creando task de init=71 end=72
+Thread 0: creando task de init=72 end=73
+Thread 0: creando task de init=73 end=74
+Thread 0: creando task de init=74 end=75
+Thread 0: creando task de init=75 end=76
+Thread 0: creando task de init=76 end=77
+Thread 0: creando task de init=77 end=78
+Thread 0: creando task de init=78 end=79
+Thread 0: creando task de init=79 end=80
+Thread 0: creando task de init=80 end=81
+Thread 1: creando task de init=567 end=568
+Thread 1: creando task de init=568 end=569
+Thread 1: creando task de init=569 end=570
+Thread 1: creando task de init=570 end=571
+Thread 1: creando task de init=571 end=572
+Thread 1: creando task de init=572 end=573
+Thread 1: creando task de init=573 end=574
+Thread 0: creando task de init=81 end=82
+Thread 0: creando task de init=82 end=83
+Thread 1: creando task de init=574 end=575
+Thread 1: creando task de init=575 end=576
+Thread 1: creando task de init=576 end=577
+Thread 1: creando task de init=577 end=578
+Thread 1: creando task de init=578 end=579
+Thread 1: creando task de init=579 end=580
+Thread 0: creando task de init=83 end=84
+Thread 1: creando task de init=580 end=581
+Thread 1: creando task de init=581 end=582
+Thread 1: creando task de init=582 end=583
+Thread 1: creando task de init=583 end=584
+Thread 0: creando task de init=84 end=85
+Thread 0: creando task de init=85 end=86
+Thread 0: creando task de init=86 end=87
+Thread 0: creando task de init=87 end=88
+Thread 0: creando task de init=88 end=89
+Thread 0: creando task de init=89 end=90
+Thread 0: creando task de init=90 end=91
+Thread 0: creando task de init=91 end=92
+Thread 1: creando task de init=584 end=585
+Thread 0: creando task de init=92 end=93
+Thread 0: creando task de init=93 end=94
+Thread 0: creando task de init=94 end=95
+Thread 0: creando task de init=95 end=96
+Thread 0: creando task de init=96 end=97
+Thread 0: creando task de init=97 end=98
+Thread 0: creando task de init=98 end=99
+Thread 0: creando task de init=99 end=100
+Thread 0: creando task de init=100 end=101
+Thread 0: creando task de init=101 end=102
+Thread 0: creando task de init=102 end=103
+Thread 0: creando task de init=103 end=104
+Thread 0: creando task de init=104 end=105
+Thread 0: creando task de init=105 end=106
+Thread 0: creando task de init=106 end=107
+Thread 0: creando task de init=107 end=108
+Thread 1: creando task de init=585 end=586
+Thread 1: creando task de init=586 end=587
+Thread 1: creando task de init=587 end=588
+Thread 1: creando task de init=588 end=589
+Thread 1: creando task de init=589 end=590
+Thread 1: creando task de init=590 end=591
+Thread 1: creando task de init=591 end=592
+Thread 0: creando task de init=108 end=109
+Thread 0: creando task de init=109 end=110
+Thread 0: creando task de init=110 end=111
+Thread 0: creando task de init=111 end=112
+Thread 0: creando task de init=112 end=113
+Thread 0: creando task de init=113 end=114
+Thread 0: creando task de init=114 end=115
+Thread 0: creando task de init=115 end=116
+Thread 0: creando task de init=116 end=117
+Thread 0: creando task de init=117 end=118
+Thread 0: creando task de init=118 end=119
+Thread 1: creando task de init=592 end=593
+Thread 0: creando task de init=119 end=120
+Thread 0: creando task de init=120 end=121
+Thread 0: creando task de init=121 end=122
+Thread 0: creando task de init=122 end=123
+Thread 0: creando task de init=123 end=124
+Thread 0: creando task de init=124 end=125
+Thread 0: creando task de init=125 end=126
+Thread 0: creando task de init=126 end=127
+Thread 0: creando task de init=127 end=128
+Thread 0: creando task de init=128 end=129
+Thread 0: creando task de init=129 end=130
+Thread 1: creando task de init=593 end=594
+Thread 1: creando task de init=594 end=595
+Thread 1: creando task de init=595 end=596
+Thread 1: creando task de init=596 end=597
+Thread 1: creando task de init=597 end=598
+Thread 1: creando task de init=598 end=599
+Thread 1: creando task de init=599 end=600
+Thread 1: creando task de init=600 end=601
+Thread 0: creando task de init=130 end=131
+Thread 0: creando task de init=131 end=132
+Thread 0: creando task de init=132 end=133
+Thread 0: creando task de init=133 end=134
+Thread 0: creando task de init=134 end=135
+Thread 0: creando task de init=135 end=136
+Thread 0: creando task de init=136 end=137
+Thread 1: creando task de init=601 end=602
+Thread 1: creando task de init=602 end=603
+Thread 1: creando task de init=603 end=604
+Thread 1: creando task de init=604 end=605
+Thread 1: creando task de init=605 end=606
+Thread 1: creando task de init=606 end=607
+Thread 1: creando task de init=607 end=608
+Thread 1: creando task de init=608 end=609
+Thread 1: creando task de init=609 end=610
+Thread 0: creando task de init=137 end=138
+Thread 1: creando task de init=610 end=611
+Thread 1: creando task de init=611 end=612
+Thread 0: creando task de init=138 end=139
+Thread 0: creando task de init=139 end=140
+Thread 0: creando task de init=140 end=141
+Thread 0: creando task de init=141 end=142
+Thread 0: creando task de init=142 end=143
+Thread 0: creando task de init=143 end=144
+Thread 0: creando task de init=144 end=145
+Thread 0: creando task de init=145 end=146
+Thread 0: creando task de init=146 end=147
+Thread 0: creando task de init=147 end=148
+Thread 0: creando task de init=148 end=149
+Thread 0: creando task de init=149 end=150
+Thread 1: creando task de init=612 end=613
+Thread 1: creando task de init=613 end=614
+Thread 1: creando task de init=614 end=615
+Thread 1: creando task de init=615 end=616
+Thread 1: creando task de init=616 end=617
+Thread 1: creando task de init=617 end=618
+Thread 1: creando task de init=618 end=619
+Thread 0: creando task de init=150 end=151
+Thread 0: creando task de init=151 end=152
+Thread 0: creando task de init=152 end=153
+Thread 0: creando task de init=153 end=154
+Thread 0: creando task de init=154 end=155
+Thread 1: creando task de init=619 end=620
+Thread 1: creando task de init=620 end=621
+Thread 1: creando task de init=621 end=622
+Thread 1: creando task de init=622 end=623
+Thread 1: creando task de init=623 end=624
+Thread 1: creando task de init=624 end=625
+Thread 1: creando task de init=625 end=626
+Thread 1: creando task de init=626 end=627
+Thread 1: creando task de init=627 end=628
+Thread 0: creando task de init=155 end=156
+Thread 1: creando task de init=628 end=629
+Thread 1: creando task de init=629 end=630
+Thread 1: creando task de init=630 end=631
+Thread 0: creando task de init=156 end=157
+Thread 0: creando task de init=157 end=158
+Thread 0: creando task de init=158 end=159
+Thread 0: creando task de init=159 end=160
+Thread 0: creando task de init=160 end=161
+Thread 0: creando task de init=161 end=162
+Thread 0: creando task de init=162 end=163
+Thread 0: creando task de init=163 end=164
+Thread 0: creando task de init=164 end=165
+Thread 1: creando task de init=631 end=632
+Thread 1: creando task de init=632 end=633
+Thread 1: creando task de init=633 end=634
+Thread 1: creando task de init=634 end=635
+Thread 1: creando task de init=635 end=636
+Thread 1: creando task de init=636 end=637
+Thread 1: creando task de init=637 end=638
+Thread 0: creando task de init=165 end=166
+Thread 0: creando task de init=166 end=167
+Thread 0: creando task de init=167 end=168
+Thread 0: creando task de init=168 end=169
+Thread 0: creando task de init=169 end=170
+Thread 0: creando task de init=170 end=171
+Thread 0: creando task de init=171 end=172
+Thread 0: creando task de init=172 end=173
+Thread 0: creando task de init=173 end=174
+Thread 1: creando task de init=638 end=639
+Thread 0: creando task de init=174 end=175
+Thread 0: creando task de init=175 end=176
+Thread 0: creando task de init=176 end=177
+Thread 1: creando task de init=639 end=640
+Thread 1: creando task de init=640 end=641
+Thread 1: creando task de init=641 end=642
+Thread 1: creando task de init=642 end=643
+Thread 1: creando task de init=643 end=644
+Thread 1: creando task de init=644 end=645
+Thread 1: creando task de init=645 end=646
+Thread 1: creando task de init=646 end=647
+Thread 0: creando task de init=177 end=178
+Thread 0: creando task de init=178 end=179
+Thread 0: creando task de init=179 end=180
+Thread 0: creando task de init=180 end=181
+Thread 0: creando task de init=181 end=182
+Thread 0: creando task de init=182 end=183
+Thread 1: creando task de init=647 end=648
+Thread 1: creando task de init=648 end=649
+Thread 1: creando task de init=649 end=650
+Thread 1: creando task de init=650 end=651
+Thread 1: creando task de init=651 end=652
+Thread 1: creando task de init=652 end=653
+Thread 1: creando task de init=653 end=654
+Thread 1: creando task de init=654 end=655
+Thread 1: creando task de init=655 end=656
+Thread 1: creando task de init=656 end=657
+Thread 1: creando task de init=657 end=658
+Thread 1: creando task de init=658 end=659
+Thread 0: creando task de init=183 end=184
+Thread 0: creando task de init=184 end=185
+Thread 0: creando task de init=185 end=186
+Thread 0: creando task de init=186 end=187
+Thread 0: creando task de init=187 end=188
+Thread 0: creando task de init=188 end=189
+Thread 0: creando task de init=189 end=190
+Thread 0: creando task de init=190 end=191
+Thread 0: creando task de init=191 end=192
+Thread 1: creando task de init=659 end=660
+Thread 0: creando task de init=192 end=193
+Thread 1: creando task de init=660 end=661
+Thread 1: creando task de init=661 end=662
+Thread 1: creando task de init=662 end=663
+Thread 1: creando task de init=663 end=664
+Thread 1: creando task de init=664 end=665
+Thread 0: creando task de init=193 end=194
+Thread 1: creando task de init=665 end=666
+Thread 1: creando task de init=666 end=667
+Thread 0: creando task de init=194 end=195
+Thread 0: creando task de init=195 end=196
+Thread 0: creando task de init=196 end=197
+Thread 0: creando task de init=197 end=198
+Thread 0: creando task de init=198 end=199
+Thread 0: creando task de init=199 end=200
+Thread 0: creando task de init=200 end=201
+Thread 0: creando task de init=201 end=202
+Thread 1: creando task de init=667 end=668
+Thread 0: creando task de init=202 end=203
+Thread 0: creando task de init=203 end=204
+Thread 0: creando task de init=204 end=205
+Thread 0: creando task de init=205 end=206
+Thread 0: creando task de init=206 end=207
+Thread 0: creando task de init=207 end=208
+Thread 0: creando task de init=208 end=209
+Thread 0: creando task de init=209 end=210
+Thread 0: creando task de init=210 end=211
+Thread 1: creando task de init=668 end=669
+Thread 1: creando task de init=669 end=670
+Thread 1: creando task de init=670 end=671
+Thread 1: creando task de init=671 end=672
+Thread 1: creando task de init=672 end=673
+Thread 1: creando task de init=673 end=674
+Thread 0: creando task de init=211 end=212
+Thread 0: creando task de init=212 end=213
+Thread 0: creando task de init=213 end=214
+Thread 0: creando task de init=214 end=215
+Thread 0: creando task de init=215 end=216
+Thread 0: creando task de init=216 end=217
+Thread 0: creando task de init=217 end=218
+Thread 0: creando task de init=218 end=219
+Thread 0: creando task de init=219 end=220
+Thread 1: creando task de init=674 end=675
+Thread 0: creando task de init=220 end=221
+Thread 0: creando task de init=221 end=222
+Thread 1: creando task de init=675 end=676
+Thread 0: creando task de init=222 end=223
+Thread 1: creando task de init=676 end=677
+Thread 1: creando task de init=677 end=678
+Thread 1: creando task de init=678 end=679
+Thread 1: creando task de init=679 end=680
+Thread 1: creando task de init=680 end=681
+Thread 1: creando task de init=681 end=682
+Thread 1: creando task de init=682 end=683
+Thread 0: creando task de init=223 end=224
+Thread 0: creando task de init=224 end=225
+Thread 0: creando task de init=225 end=226
+Thread 1: creando task de init=683 end=684
+Thread 1: creando task de init=684 end=685
+Thread 1: creando task de init=685 end=686
+Thread 1: creando task de init=686 end=687
+Thread 1: creando task de init=687 end=688
+Thread 1: creando task de init=688 end=689
+Thread 1: creando task de init=689 end=690
+Thread 1: creando task de init=690 end=691
+Thread 1: creando task de init=691 end=692
+Thread 0: creando task de init=226 end=227
+Thread 0: creando task de init=227 end=228
+Thread 0: creando task de init=228 end=229
+Thread 1: creando task de init=692 end=693
+Thread 1: creando task de init=693 end=694
+Thread 1: creando task de init=694 end=695
+Thread 1: creando task de init=695 end=696
+Thread 1: creando task de init=696 end=697
+Thread 1: creando task de init=697 end=698
+Thread 1: creando task de init=698 end=699
+Thread 1: creando task de init=699 end=700
+Thread 1: creando task de init=700 end=701
+Thread 1: creando task de init=701 end=702
+Thread 0: creando task de init=229 end=230
+Thread 1: creando task de init=702 end=703
+Thread 1: creando task de init=703 end=704
+Thread 1: creando task de init=704 end=705
+Thread 1: creando task de init=705 end=706
+Thread 1: creando task de init=706 end=707
+Thread 1: creando task de init=707 end=708
+Thread 1: creando task de init=708 end=709
+Thread 1: creando task de init=709 end=710
+Thread 1: creando task de init=710 end=711
+Thread 0: creando task de init=230 end=231
+Thread 1: creando task de init=711 end=712
+Thread 1: creando task de init=712 end=713
+Thread 1: creando task de init=713 end=714
+Thread 1: creando task de init=714 end=715
+Thread 1: creando task de init=715 end=716
+Thread 1: creando task de init=716 end=717
+Thread 1: creando task de init=717 end=718
+Thread 1: creando task de init=718 end=719
+Thread 1: creando task de init=719 end=720
+Thread 0: creando task de init=231 end=232
+Thread 1: creando task de init=720 end=721
+Thread 1: creando task de init=721 end=722
+Thread 1: creando task de init=722 end=723
+Thread 1: creando task de init=723 end=724
+Thread 1: creando task de init=724 end=725
+Thread 1: creando task de init=725 end=726
+Thread 1: creando task de init=726 end=727
+Thread 1: creando task de init=727 end=728
+Thread 1: creando task de init=728 end=729
+Thread 0: creando task de init=232 end=233
+Thread 1: creando task de init=729 end=730
+Thread 1: creando task de init=730 end=731
+Thread 1: creando task de init=731 end=732
+Thread 1: creando task de init=732 end=733
+Thread 1: creando task de init=733 end=734
+Thread 1: creando task de init=734 end=735
+Thread 1: creando task de init=735 end=736
+Thread 1: creando task de init=736 end=737
+Thread 1: creando task de init=737 end=738
+Thread 0: creando task de init=233 end=234
+Thread 0: creando task de init=234 end=235
+Thread 0: creando task de init=235 end=236
+Thread 0: creando task de init=236 end=237
+Thread 0: creando task de init=237 end=238
+Thread 1: creando task de init=738 end=739
+Thread 0: creando task de init=238 end=239
+Thread 0: creando task de init=239 end=240
+Thread 0: creando task de init=240 end=241
+Thread 0: creando task de init=241 end=242
+Thread 0: creando task de init=242 end=243
+Thread 0: creando task de init=243 end=244
+Thread 0: creando task de init=244 end=245
+Thread 0: creando task de init=245 end=246
+Thread 0: creando task de init=246 end=247
+Thread 0: creando task de init=247 end=248
+Thread 0: creando task de init=248 end=249
+Thread 0: creando task de init=249 end=250
+Thread 0: creando task de init=250 end=251
+Thread 0: creando task de init=251 end=252
+Thread 0: creando task de init=252 end=253
+Thread 0: creando task de init=253 end=254
+Thread 0: creando task de init=254 end=255
+Thread 0: creando task de init=255 end=256
+Thread 1: creando task de init=739 end=740
+Thread 1: creando task de init=740 end=741
+Thread 1: creando task de init=741 end=742
+Thread 1: creando task de init=742 end=743
+Thread 1: creando task de init=743 end=744
+Thread 1: creando task de init=744 end=745
+Thread 1: creando task de init=745 end=746
+Thread 1: creando task de init=746 end=747
+Thread 0: creando task de init=256 end=257
+Thread 0 ejecutando: init=256 end=257
+Thread 1: creando task de init=747 end=748
+Thread 1: creando task de init=748 end=749
+Thread 1: creando task de init=749 end=750
+Thread 0: creando task de init=257 end=258
+Thread 0 ejecutando: init=257 end=258
+Thread 0: creando task de init=258 end=259
+Thread 0 ejecutando: init=258 end=259
+Thread 0: creando task de init=259 end=260
+Thread 0 ejecutando: init=259 end=260
+Thread 0: creando task de init=260 end=261
+Thread 0 ejecutando: init=260 end=261
+Thread 0: creando task de init=261 end=262
+Thread 0 ejecutando: init=261 end=262
+Thread 0: creando task de init=262 end=263
+Thread 0 ejecutando: init=262 end=263
+Thread 0: creando task de init=263 end=264
+Thread 0 ejecutando: init=263 end=264
+Thread 0: creando task de init=264 end=265
+Thread 0 ejecutando: init=264 end=265
+Thread 0: creando task de init=265 end=266
+Thread 0 ejecutando: init=265 end=266
+Thread 0: creando task de init=266 end=267
+Thread 0 ejecutando: init=266 end=267
+Thread 0: creando task de init=267 end=268
+Thread 1: creando task de init=750 end=751
+Thread 1: creando task de init=751 end=752
+Thread 1: creando task de init=752 end=753
+Thread 1: creando task de init=753 end=754
+Thread 1: creando task de init=754 end=755
+Thread 1: creando task de init=755 end=756
+Thread 0 ejecutando: init=267 end=268
+Thread 0: creando task de init=268 end=269
+Thread 0 ejecutando: init=268 end=269
+Thread 0: creando task de init=269 end=270
+Thread 0 ejecutando: init=269 end=270
+Thread 0: creando task de init=270 end=271
+Thread 0 ejecutando: init=270 end=271
+Thread 0: creando task de init=271 end=272
+Thread 0 ejecutando: init=271 end=272
+Thread 0: creando task de init=272 end=273
+Thread 0 ejecutando: init=272 end=273
+Thread 0: creando task de init=273 end=274
+Thread 0 ejecutando: init=273 end=274
+Thread 0: creando task de init=274 end=275
+Thread 0 ejecutando: init=274 end=275
+Thread 0: creando task de init=275 end=276
+Thread 0 ejecutando: init=275 end=276
+Thread 0: creando task de init=276 end=277
+Thread 0 ejecutando: init=276 end=277
+Thread 1: creando task de init=756 end=757
+Thread 0: creando task de init=277 end=278
+Thread 0 ejecutando: init=277 end=278
+Thread 0: creando task de init=278 end=279
+Thread 0 ejecutando: init=278 end=279
+Thread 0: creando task de init=279 end=280
+Thread 0 ejecutando: init=279 end=280
+Thread 0: creando task de init=280 end=281
+Thread 0 ejecutando: init=280 end=281
+Thread 0: creando task de init=281 end=282
+Thread 0 ejecutando: init=281 end=282
+Thread 0: creando task de init=282 end=283
+Thread 0 ejecutando: init=282 end=283
+Thread 0: creando task de init=283 end=284
+Thread 0 ejecutando: init=283 end=284
+Thread 0: creando task de init=284 end=285
+Thread 0 ejecutando: init=284 end=285
+Thread 0: creando task de init=285 end=286
+Thread 0 ejecutando: init=285 end=286
+Thread 0: creando task de init=286 end=287
+Thread 0 ejecutando: init=286 end=287
+Thread 0: creando task de init=287 end=288
+Thread 0 ejecutando: init=287 end=288
+Thread 0: creando task de init=288 end=289
+Thread 0 ejecutando: init=288 end=289
+Thread 0: creando task de init=289 end=290
+Thread 0 ejecutando: init=289 end=290
+Thread 0: creando task de init=290 end=291
+Thread 0 ejecutando: init=290 end=291
+Thread 0: creando task de init=291 end=292
+Thread 0 ejecutando: init=291 end=292
+Thread 0: creando task de init=292 end=293
+Thread 0 ejecutando: init=292 end=293
+Thread 0: creando task de init=293 end=294
+Thread 0 ejecutando: init=293 end=294
+Thread 0: creando task de init=294 end=295
+Thread 0 ejecutando: init=294 end=295
+Thread 0: creando task de init=295 end=296
+Thread 0 ejecutando: init=295 end=296
+Thread 0: creando task de init=296 end=297
+Thread 0 ejecutando: init=296 end=297
+Thread 0: creando task de init=297 end=298
+Thread 0 ejecutando: init=297 end=298
+Thread 0: creando task de init=298 end=299
+Thread 0 ejecutando: init=298 end=299
+Thread 0: creando task de init=299 end=300
+Thread 0 ejecutando: init=299 end=300
+Thread 1 ejecutando: init=756 end=757
+Thread 1: creando task de init=757 end=758
+Thread 1 ejecutando: init=757 end=758
+Thread 1: creando task de init=758 end=759
+Thread 1 ejecutando: init=758 end=759
+Thread 1: creando task de init=759 end=760
+Thread 1 ejecutando: init=759 end=760
+Thread 1: creando task de init=760 end=761
+Thread 1 ejecutando: init=760 end=761
+Thread 1: creando task de init=761 end=762
+Thread 1 ejecutando: init=761 end=762
+Thread 1: creando task de init=762 end=763
+Thread 0: creando task de init=300 end=301
+Thread 1 ejecutando: init=762 end=763
+Thread 0 ejecutando: init=300 end=301
+Thread 0: creando task de init=301 end=302
+Thread 0 ejecutando: init=301 end=302
+Thread 0: creando task de init=302 end=303
+Thread 0 ejecutando: init=302 end=303
+Thread 0: creando task de init=303 end=304
+Thread 0 ejecutando: init=303 end=304
+Thread 0: creando task de init=304 end=305
+Thread 0 ejecutando: init=304 end=305
+Thread 0: creando task de init=305 end=306
+Thread 0 ejecutando: init=305 end=306
+Thread 0: creando task de init=306 end=307
+Thread 0 ejecutando: init=306 end=307
+Thread 0: creando task de init=307 end=308
+Thread 0 ejecutando: init=307 end=308
+Thread 0: creando task de init=308 end=309
+Thread 0 ejecutando: init=308 end=309
+Thread 0: creando task de init=309 end=310
+Thread 0 ejecutando: init=309 end=310
+Thread 0: creando task de init=310 end=311
+Thread 0 ejecutando: init=310 end=311
+Thread 0: creando task de init=311 end=312
+Thread 1: creando task de init=763 end=764
+Thread 1 ejecutando: init=763 end=764
+Thread 1: creando task de init=764 end=765
+Thread 1 ejecutando: init=764 end=765
+Thread 1: creando task de init=765 end=766
+Thread 1 ejecutando: init=765 end=766
+Thread 1: creando task de init=766 end=767
+Thread 1 ejecutando: init=766 end=767
+Thread 1: creando task de init=767 end=768
+Thread 1 ejecutando: init=767 end=768
+Thread 1: creando task de init=768 end=769
+Thread 1 ejecutando: init=768 end=769
+Thread 1: creando task de init=769 end=770
+Thread 1 ejecutando: init=769 end=770
+Thread 1: creando task de init=770 end=771
+Thread 1 ejecutando: init=770 end=771
+Thread 0 ejecutando: init=311 end=312
+Thread 0: creando task de init=312 end=313
+Thread 0 ejecutando: init=312 end=313
+Thread 0: creando task de init=313 end=314
+Thread 0 ejecutando: init=313 end=314
+Thread 0: creando task de init=314 end=315
+Thread 0 ejecutando: init=314 end=315
+Thread 0: creando task de init=315 end=316
+Thread 0 ejecutando: init=315 end=316
+Thread 0: creando task de init=316 end=317
+Thread 0 ejecutando: init=316 end=317
+Thread 0: creando task de init=317 end=318
+Thread 0 ejecutando: init=317 end=318
+Thread 0: creando task de init=318 end=319
+Thread 0 ejecutando: init=318 end=319
+Thread 0: creando task de init=319 end=320
+Thread 0 ejecutando: init=319 end=320
+Thread 0: creando task de init=320 end=321
+Thread 0 ejecutando: init=320 end=321
+Thread 0: creando task de init=321 end=322
+Thread 0 ejecutando: init=321 end=322
+Thread 0: creando task de init=322 end=323
+Thread 1: creando task de init=771 end=772
+Thread 1 ejecutando: init=771 end=772
+Thread 1: creando task de init=772 end=773
+Thread 1 ejecutando: init=772 end=773
+Thread 1: creando task de init=773 end=774
+Thread 1 ejecutando: init=773 end=774
+Thread 1: creando task de init=774 end=775
+Thread 1 ejecutando: init=774 end=775
+Thread 1: creando task de init=775 end=776
+Thread 1 ejecutando: init=775 end=776
+Thread 1: creando task de init=776 end=777
+Thread 1 ejecutando: init=776 end=777
+Thread 1: creando task de init=777 end=778
+Thread 0 ejecutando: init=322 end=323
+Thread 0: creando task de init=323 end=324
+Thread 0 ejecutando: init=323 end=324
+Thread 0: creando task de init=324 end=325
+Thread 0 ejecutando: init=324 end=325
+Thread 0: creando task de init=325 end=326
+Thread 0 ejecutando: init=325 end=326
+Thread 0: creando task de init=326 end=327
+Thread 0 ejecutando: init=326 end=327
+Thread 0: creando task de init=327 end=328
+Thread 0 ejecutando: init=327 end=328
+Thread 0: creando task de init=328 end=329
+Thread 0 ejecutando: init=328 end=329
+Thread 0: creando task de init=329 end=330
+Thread 0 ejecutando: init=329 end=330
+Thread 0: creando task de init=330 end=331
+Thread 0 ejecutando: init=330 end=331
+Thread 0: creando task de init=331 end=332
+Thread 0 ejecutando: init=331 end=332
+Thread 0: creando task de init=332 end=333
+Thread 0 ejecutando: init=332 end=333
+Thread 1 ejecutando: init=777 end=778
+Thread 1: creando task de init=778 end=779
+Thread 1 ejecutando: init=778 end=779
+Thread 1: creando task de init=779 end=780
+Thread 1 ejecutando: init=779 end=780
+Thread 1: creando task de init=780 end=781
+Thread 1 ejecutando: init=780 end=781
+Thread 1: creando task de init=781 end=782
+Thread 1 ejecutando: init=781 end=782
+Thread 1: creando task de init=782 end=783
+Thread 1 ejecutando: init=782 end=783
+Thread 1: creando task de init=783 end=784
+Thread 0: creando task de init=333 end=334
+Thread 0 ejecutando: init=333 end=334
+Thread 0: creando task de init=334 end=335
+Thread 0 ejecutando: init=334 end=335
+Thread 0: creando task de init=335 end=336
+Thread 0 ejecutando: init=335 end=336
+Thread 0: creando task de init=336 end=337
+Thread 0 ejecutando: init=336 end=337
+Thread 0: creando task de init=337 end=338
+Thread 0 ejecutando: init=337 end=338
+Thread 0: creando task de init=338 end=339
+Thread 0 ejecutando: init=338 end=339
+Thread 0: creando task de init=339 end=340
+Thread 0 ejecutando: init=339 end=340
+Thread 0: creando task de init=340 end=341
+Thread 0 ejecutando: init=340 end=341
+Thread 0: creando task de init=341 end=342
+Thread 0 ejecutando: init=341 end=342
+Thread 0: creando task de init=342 end=343
+Thread 0 ejecutando: init=342 end=343
+Thread 1 ejecutando: init=783 end=784
+Thread 1: creando task de init=784 end=785
+Thread 1 ejecutando: init=784 end=785
+Thread 1: creando task de init=785 end=786
+Thread 1 ejecutando: init=785 end=786
+Thread 1: creando task de init=786 end=787
+Thread 1 ejecutando: init=786 end=787
+Thread 1: creando task de init=787 end=788
+Thread 1 ejecutando: init=787 end=788
+Thread 1: creando task de init=788 end=789
+Thread 1 ejecutando: init=788 end=789
+Thread 1: creando task de init=789 end=790
+Thread 1 ejecutando: init=789 end=790
+Thread 1: creando task de init=790 end=791
+Thread 1 ejecutando: init=790 end=791
+Thread 1: creando task de init=791 end=792
+Thread 1 ejecutando: init=791 end=792
+Thread 1: creando task de init=792 end=793
+Thread 0: creando task de init=343 end=344
+Thread 0 ejecutando: init=343 end=344
+Thread 0: creando task de init=344 end=345
+Thread 0 ejecutando: init=344 end=345
+Thread 0: creando task de init=345 end=346
+Thread 0 ejecutando: init=345 end=346
+Thread 0: creando task de init=346 end=347
+Thread 0 ejecutando: init=346 end=347
+Thread 0: creando task de init=347 end=348
+Thread 0 ejecutando: init=347 end=348
+Thread 0: creando task de init=348 end=349
+Thread 0 ejecutando: init=348 end=349
+Thread 0: creando task de init=349 end=350
+Thread 0 ejecutando: init=349 end=350
+Thread 0: creando task de init=350 end=351
+Thread 0 ejecutando: init=350 end=351
+Thread 0: creando task de init=351 end=352
+Thread 0 ejecutando: init=351 end=352
+Thread 0: creando task de init=352 end=353
+Thread 0 ejecutando: init=352 end=353
+Thread 0: creando task de init=353 end=354
+Thread 0 ejecutando: init=353 end=354
+Thread 1 ejecutando: init=792 end=793
+Thread 1: creando task de init=793 end=794
+Thread 1 ejecutando: init=793 end=794
+Thread 1: creando task de init=794 end=795
+Thread 1 ejecutando: init=794 end=795
+Thread 1: creando task de init=795 end=796
+Thread 1 ejecutando: init=795 end=796
+Thread 1: creando task de init=796 end=797
+Thread 1 ejecutando: init=796 end=797
+Thread 1: creando task de init=797 end=798
+Thread 1 ejecutando: init=797 end=798
+Thread 1: creando task de init=798 end=799
+Thread 1 ejecutando: init=798 end=799
+Thread 1: creando task de init=799 end=800
+Thread 1 ejecutando: init=799 end=800
+Thread 1: creando task de init=800 end=801
+Thread 1 ejecutando: init=800 end=801
+Thread 1: creando task de init=801 end=802
+Thread 0: creando task de init=354 end=355
+Thread 0 ejecutando: init=354 end=355
+Thread 0: creando task de init=355 end=356
+Thread 0 ejecutando: init=355 end=356
+Thread 0: creando task de init=356 end=357
+Thread 0 ejecutando: init=356 end=357
+Thread 0: creando task de init=357 end=358
+Thread 0 ejecutando: init=357 end=358
+Thread 0: creando task de init=358 end=359
+Thread 0 ejecutando: init=358 end=359
+Thread 0: creando task de init=359 end=360
+Thread 0 ejecutando: init=359 end=360
+Thread 0: creando task de init=360 end=361
+Thread 0 ejecutando: init=360 end=361
+Thread 0: creando task de init=361 end=362
+Thread 0 ejecutando: init=361 end=362
+Thread 0: creando task de init=362 end=363
+Thread 0 ejecutando: init=362 end=363
+Thread 0: creando task de init=363 end=364
+Thread 0 ejecutando: init=363 end=364
+Thread 0: creando task de init=364 end=365
+Thread 0 ejecutando: init=364 end=365
+Thread 0: creando task de init=365 end=366
+Thread 1 ejecutando: init=801 end=802
+Thread 1: creando task de init=802 end=803
+Thread 1 ejecutando: init=802 end=803
+Thread 1: creando task de init=803 end=804
+Thread 1 ejecutando: init=803 end=804
+Thread 1: creando task de init=804 end=805
+Thread 1 ejecutando: init=804 end=805
+Thread 1: creando task de init=805 end=806
+Thread 1 ejecutando: init=805 end=806
+Thread 1: creando task de init=806 end=807
+Thread 1 ejecutando: init=806 end=807
+Thread 1: creando task de init=807 end=808
+Thread 0 ejecutando: init=365 end=366
+Thread 0: creando task de init=366 end=367
+Thread 0 ejecutando: init=366 end=367
+Thread 0: creando task de init=367 end=368
+Thread 0 ejecutando: init=367 end=368
+Thread 0: creando task de init=368 end=369
+Thread 0 ejecutando: init=368 end=369
+Thread 0: creando task de init=369 end=370
+Thread 0 ejecutando: init=369 end=370
+Thread 0: creando task de init=370 end=371
+Thread 0 ejecutando: init=370 end=371
+Thread 0: creando task de init=371 end=372
+Thread 0 ejecutando: init=371 end=372
+Thread 0: creando task de init=372 end=373
+Thread 0 ejecutando: init=372 end=373
+Thread 0: creando task de init=373 end=374
+Thread 0 ejecutando: init=373 end=374
+Thread 0: creando task de init=374 end=375
+Thread 0 ejecutando: init=374 end=375
+Thread 0: creando task de init=375 end=376
+Thread 0 ejecutando: init=375 end=376
+Thread 0: creando task de init=376 end=377
+Thread 0 ejecutando: init=376 end=377
+Thread 0: creando task de init=377 end=378
+Thread 0 ejecutando: init=377 end=378
+Thread 0: creando task de init=378 end=379
+Thread 0 ejecutando: init=378 end=379
+Thread 0: creando task de init=379 end=380
+Thread 0 ejecutando: init=379 end=380
+Thread 0: creando task de init=380 end=381
+Thread 0 ejecutando: init=380 end=381
+Thread 0: creando task de init=381 end=382
+Thread 0 ejecutando: init=381 end=382
+Thread 0: creando task de init=382 end=383
+Thread 0 ejecutando: init=382 end=383
+Thread 0: creando task de init=383 end=384
+Thread 0 ejecutando: init=383 end=384
+Thread 0: creando task de init=384 end=385
+Thread 0 ejecutando: init=384 end=385
+Thread 0: creando task de init=385 end=386
+Thread 0 ejecutando: init=385 end=386
+Thread 0: creando task de init=386 end=387
+Thread 0 ejecutando: init=386 end=387
+Thread 0: creando task de init=387 end=388
+Thread 0 ejecutando: init=387 end=388
+Thread 0: creando task de init=388 end=389
+Thread 0 ejecutando: init=388 end=389
+Thread 1 ejecutando: init=807 end=808
+Thread 0: creando task de init=389 end=390
+Thread 1: creando task de init=808 end=809
+Thread 1 ejecutando: init=808 end=809
+Thread 1: creando task de init=809 end=810
+Thread 1 ejecutando: init=809 end=810
+Thread 1: creando task de init=810 end=811
+Thread 1 ejecutando: init=810 end=811
+Thread 1: creando task de init=811 end=812
+Thread 1 ejecutando: init=811 end=812
+Thread 1: creando task de init=812 end=813
+Thread 1 ejecutando: init=812 end=813
+Thread 1: creando task de init=813 end=814
+Thread 1 ejecutando: init=813 end=814
+Thread 1: creando task de init=814 end=815
+Thread 1 ejecutando: init=814 end=815
+Thread 1: creando task de init=815 end=816
+Thread 1 ejecutando: init=815 end=816
+Thread 1: creando task de init=816 end=817
+Thread 1 ejecutando: init=816 end=817
+Thread 0 ejecutando: init=389 end=390
+Thread 0: creando task de init=390 end=391
+Thread 0 ejecutando: init=390 end=391
+Thread 0: creando task de init=391 end=392
+Thread 0 ejecutando: init=391 end=392
+Thread 0: creando task de init=392 end=393
+Thread 0 ejecutando: init=392 end=393
+Thread 0: creando task de init=393 end=394
+Thread 0 ejecutando: init=393 end=394
+Thread 0: creando task de init=394 end=395
+Thread 0 ejecutando: init=394 end=395
+Thread 0: creando task de init=395 end=396
+Thread 0 ejecutando: init=395 end=396
+Thread 0: creando task de init=396 end=397
+Thread 0 ejecutando: init=396 end=397
+Thread 0: creando task de init=397 end=398
+Thread 0 ejecutando: init=397 end=398
+Thread 0: creando task de init=398 end=399
+Thread 0 ejecutando: init=398 end=399
+Thread 0: creando task de init=399 end=400
+Thread 0 ejecutando: init=399 end=400
+Thread 0: creando task de init=400 end=401
+Thread 1: creando task de init=817 end=818
+Thread 1 ejecutando: init=817 end=818
+Thread 1: creando task de init=818 end=819
+Thread 1 ejecutando: init=818 end=819
+Thread 1: creando task de init=819 end=820
+Thread 1 ejecutando: init=819 end=820
+Thread 1: creando task de init=820 end=821
+Thread 1 ejecutando: init=820 end=821
+Thread 1: creando task de init=821 end=822
+Thread 1 ejecutando: init=821 end=822
+Thread 1: creando task de init=822 end=823
+Thread 1 ejecutando: init=822 end=823
+Thread 1: creando task de init=823 end=824
+Thread 0 ejecutando: init=400 end=401
+Thread 1 ejecutando: init=823 end=824
+Thread 1: creando task de init=824 end=825
+Thread 1 ejecutando: init=824 end=825
+Thread 1: creando task de init=825 end=826
+Thread 1 ejecutando: init=825 end=826
+Thread 1: creando task de init=826 end=827
+Thread 1 ejecutando: init=826 end=827
+Thread 1: creando task de init=827 end=828
+Thread 1 ejecutando: init=827 end=828
+Thread 1: creando task de init=828 end=829
+Thread 1 ejecutando: init=828 end=829
+Thread 1: creando task de init=829 end=830
+Thread 1 ejecutando: init=829 end=830
+Thread 1: creando task de init=830 end=831
+Thread 1 ejecutando: init=830 end=831
+Thread 1: creando task de init=831 end=832
+Thread 1 ejecutando: init=831 end=832
+Thread 0: creando task de init=401 end=402
+Thread 0 ejecutando: init=401 end=402
+Thread 0: creando task de init=402 end=403
+Thread 0 ejecutando: init=402 end=403
+Thread 0: creando task de init=403 end=404
+Thread 0 ejecutando: init=403 end=404
+Thread 0: creando task de init=404 end=405
+Thread 0 ejecutando: init=404 end=405
+Thread 0: creando task de init=405 end=406
+Thread 0 ejecutando: init=405 end=406
+Thread 0: creando task de init=406 end=407
+Thread 0 ejecutando: init=406 end=407
+Thread 0: creando task de init=407 end=408
+Thread 0 ejecutando: init=407 end=408
+Thread 0: creando task de init=408 end=409
+Thread 0 ejecutando: init=408 end=409
+Thread 0: creando task de init=409 end=410
+Thread 0 ejecutando: init=409 end=410
+Thread 0: creando task de init=410 end=411
+Thread 0 ejecutando: init=410 end=411
+Thread 0: creando task de init=411 end=412
+Thread 0 ejecutando: init=411 end=412
+Thread 0: creando task de init=412 end=413
+Thread 0 ejecutando: init=412 end=413
+Thread 1: creando task de init=832 end=833
+Thread 1 ejecutando: init=832 end=833
+Thread 1: creando task de init=833 end=834
+Thread 1 ejecutando: init=833 end=834
+Thread 1: creando task de init=834 end=835
+Thread 1 ejecutando: init=834 end=835
+Thread 1: creando task de init=835 end=836
+Thread 1 ejecutando: init=835 end=836
+Thread 1: creando task de init=836 end=837
+Thread 1 ejecutando: init=836 end=837
+Thread 1: creando task de init=837 end=838
+Thread 1 ejecutando: init=837 end=838
+Thread 1: creando task de init=838 end=839
+Thread 1 ejecutando: init=838 end=839
+Thread 1: creando task de init=839 end=840
+Thread 1 ejecutando: init=839 end=840
+Thread 1: creando task de init=840 end=841
+Thread 1 ejecutando: init=840 end=841
+Thread 1: creando task de init=841 end=842
+Thread 1 ejecutando: init=841 end=842
+Thread 1: creando task de init=842 end=843
+Thread 1 ejecutando: init=842 end=843
+Thread 1: creando task de init=843 end=844
+Thread 1 ejecutando: init=843 end=844
+Thread 1: creando task de init=844 end=845
+Thread 1 ejecutando: init=844 end=845
+Thread 1: creando task de init=845 end=846
+Thread 1 ejecutando: init=845 end=846
+Thread 1: creando task de init=846 end=847
+Thread 1 ejecutando: init=846 end=847
+Thread 1: creando task de init=847 end=848
+Thread 1 ejecutando: init=847 end=848
+Thread 1: creando task de init=848 end=849
+Thread 1 ejecutando: init=848 end=849
+Thread 1: creando task de init=849 end=850
+Thread 1 ejecutando: init=849 end=850
+Thread 1: creando task de init=850 end=851
+Thread 1 ejecutando: init=850 end=851
+Thread 1: creando task de init=851 end=852
+Thread 1 ejecutando: init=851 end=852
+Thread 1: creando task de init=852 end=853
+Thread 1 ejecutando: init=852 end=853
+Thread 1: creando task de init=853 end=854
+Thread 1 ejecutando: init=853 end=854
+Thread 0: creando task de init=413 end=414
+Thread 0 ejecutando: init=413 end=414
+Thread 0: creando task de init=414 end=415
+Thread 0 ejecutando: init=414 end=415
+Thread 0: creando task de init=415 end=416
+Thread 0 ejecutando: init=415 end=416
+Thread 0: creando task de init=416 end=417
+Thread 0 ejecutando: init=416 end=417
+Thread 0: creando task de init=417 end=418
+Thread 0 ejecutando: init=417 end=418
+Thread 0: creando task de init=418 end=419
+Thread 0 ejecutando: init=418 end=419
+Thread 0: creando task de init=419 end=420
+Thread 0 ejecutando: init=419 end=420
+Thread 0: creando task de init=420 end=421
+Thread 0 ejecutando: init=420 end=421
+Thread 0: creando task de init=421 end=422
+Thread 1: creando task de init=854 end=855
+Thread 1 ejecutando: init=854 end=855
+Thread 1: creando task de init=855 end=856
+Thread 1 ejecutando: init=855 end=856
+Thread 1: creando task de init=856 end=857
+Thread 1 ejecutando: init=856 end=857
+Thread 1: creando task de init=857 end=858
+Thread 1 ejecutando: init=857 end=858
+Thread 1: creando task de init=858 end=859
+Thread 1 ejecutando: init=858 end=859
+Thread 1: creando task de init=859 end=860
+Thread 1 ejecutando: init=859 end=860
+Thread 1: creando task de init=860 end=861
+Thread 1 ejecutando: init=860 end=861
+Thread 1: creando task de init=861 end=862
+Thread 1 ejecutando: init=861 end=862
+Thread 1: creando task de init=862 end=863
+Thread 1 ejecutando: init=862 end=863
+Thread 1: creando task de init=863 end=864
+Thread 1 ejecutando: init=863 end=864
+Thread 1: creando task de init=864 end=865
+Thread 1 ejecutando: init=864 end=865
+Thread 1: creando task de init=865 end=866
+Thread 1 ejecutando: init=865 end=866
+Thread 1: creando task de init=866 end=867
+Thread 1 ejecutando: init=866 end=867
+Thread 1: creando task de init=867 end=868
+Thread 0 ejecutando: init=421 end=422
+Thread 0: creando task de init=422 end=423
+Thread 0 ejecutando: init=422 end=423
+Thread 0: creando task de init=423 end=424
+Thread 0 ejecutando: init=423 end=424
+Thread 0: creando task de init=424 end=425
+Thread 0 ejecutando: init=424 end=425
+Thread 0: creando task de init=425 end=426
+Thread 0 ejecutando: init=425 end=426
+Thread 0: creando task de init=426 end=427
+Thread 0 ejecutando: init=426 end=427
+Thread 0: creando task de init=427 end=428
+Thread 0 ejecutando: init=427 end=428
+Thread 0: creando task de init=428 end=429
+Thread 0 ejecutando: init=428 end=429
+Thread 0: creando task de init=429 end=430
+Thread 0 ejecutando: init=429 end=430
+Thread 0: creando task de init=430 end=431
+Thread 0 ejecutando: init=430 end=431
+Thread 0: creando task de init=431 end=432
+Thread 0 ejecutando: init=431 end=432
+Thread 0: creando task de init=432 end=433
+Thread 1 ejecutando: init=867 end=868
+Thread 1: creando task de init=868 end=869
+Thread 1 ejecutando: init=868 end=869
+Thread 1: creando task de init=869 end=870
+Thread 1 ejecutando: init=869 end=870
+Thread 1: creando task de init=870 end=871
+Thread 1 ejecutando: init=870 end=871
+Thread 1: creando task de init=871 end=872
+Thread 1 ejecutando: init=871 end=872
+Thread 1: creando task de init=872 end=873
+Thread 1 ejecutando: init=872 end=873
+Thread 1: creando task de init=873 end=874
+Thread 1 ejecutando: init=873 end=874
+Thread 1: creando task de init=874 end=875
+Thread 1 ejecutando: init=874 end=875
+Thread 1: creando task de init=875 end=876
+Thread 1 ejecutando: init=875 end=876
+Thread 1: creando task de init=876 end=877
+Thread 1 ejecutando: init=876 end=877
+Thread 1: creando task de init=877 end=878
+Thread 1 ejecutando: init=877 end=878
+Thread 1: creando task de init=878 end=879
+Thread 1 ejecutando: init=878 end=879
+Thread 1: creando task de init=879 end=880
+Thread 1 ejecutando: init=879 end=880
+Thread 1: creando task de init=880 end=881
+Thread 1 ejecutando: init=880 end=881
+Thread 1: creando task de init=881 end=882
+Thread 1 ejecutando: init=881 end=882
+Thread 1: creando task de init=882 end=883
+Thread 1 ejecutando: init=882 end=883
+Thread 1: creando task de init=883 end=884
+Thread 1 ejecutando: init=883 end=884
+Thread 1: creando task de init=884 end=885
+Thread 1 ejecutando: init=884 end=885
+Thread 1: creando task de init=885 end=886
+Thread 1 ejecutando: init=885 end=886
+Thread 1: creando task de init=886 end=887
+Thread 1 ejecutando: init=886 end=887
+Thread 0 ejecutando: init=432 end=433
+Thread 0: creando task de init=433 end=434
+Thread 0 ejecutando: init=433 end=434
+Thread 0: creando task de init=434 end=435
+Thread 0 ejecutando: init=434 end=435
+Thread 0: creando task de init=435 end=436
+Thread 0 ejecutando: init=435 end=436
+Thread 0: creando task de init=436 end=437
+Thread 0 ejecutando: init=436 end=437
+Thread 0: creando task de init=437 end=438
+Thread 0 ejecutando: init=437 end=438
+Thread 0: creando task de init=438 end=439
+Thread 0 ejecutando: init=438 end=439
+Thread 0: creando task de init=439 end=440
+Thread 0 ejecutando: init=439 end=440
+Thread 0: creando task de init=440 end=441
+Thread 0 ejecutando: init=440 end=441
+Thread 0: creando task de init=441 end=442
+Thread 1: creando task de init=887 end=888
+Thread 1 ejecutando: init=887 end=888
+Thread 1: creando task de init=888 end=889
+Thread 1 ejecutando: init=888 end=889
+Thread 1: creando task de init=889 end=890
+Thread 1 ejecutando: init=889 end=890
+Thread 1: creando task de init=890 end=891
+Thread 1 ejecutando: init=890 end=891
+Thread 1: creando task de init=891 end=892
+Thread 1 ejecutando: init=891 end=892
+Thread 1: creando task de init=892 end=893
+Thread 1 ejecutando: init=892 end=893
+Thread 1: creando task de init=893 end=894
+Thread 1 ejecutando: init=893 end=894
+Thread 1: creando task de init=894 end=895
+Thread 1 ejecutando: init=894 end=895
+Thread 1: creando task de init=895 end=896
+Thread 1 ejecutando: init=895 end=896
+Thread 1: creando task de init=896 end=897
+Thread 0 ejecutando: init=441 end=442
+Thread 0: creando task de init=442 end=443
+Thread 0 ejecutando: init=442 end=443
+Thread 0: creando task de init=443 end=444
+Thread 0 ejecutando: init=443 end=444
+Thread 0: creando task de init=444 end=445
+Thread 0 ejecutando: init=444 end=445
+Thread 0: creando task de init=445 end=446
+Thread 0 ejecutando: init=445 end=446
+Thread 0: creando task de init=446 end=447
+Thread 0 ejecutando: init=446 end=447
+Thread 0: creando task de init=447 end=448
+Thread 0 ejecutando: init=447 end=448
+Thread 0: creando task de init=448 end=449
+Thread 0 ejecutando: init=448 end=449
+Thread 0: creando task de init=449 end=450
+Thread 0 ejecutando: init=449 end=450
+Thread 0: creando task de init=450 end=451
+Thread 0 ejecutando: init=450 end=451
+Thread 0: creando task de init=451 end=452
+Thread 0 ejecutando: init=451 end=452
+Thread 0: creando task de init=452 end=453
+Thread 0 ejecutando: init=452 end=453
+Thread 0: creando task de init=453 end=454
+Thread 0 ejecutando: init=453 end=454
+Thread 0: creando task de init=454 end=455
+Thread 0 ejecutando: init=454 end=455
+Thread 0: creando task de init=455 end=456
+Thread 0 ejecutando: init=455 end=456
+Thread 0: creando task de init=456 end=457
+Thread 0 ejecutando: init=456 end=457
+Thread 0: creando task de init=457 end=458
+Thread 0 ejecutando: init=457 end=458
+Thread 0: creando task de init=458 end=459
+Thread 0 ejecutando: init=458 end=459
+Thread 0: creando task de init=459 end=460
+Thread 0 ejecutando: init=459 end=460
+Thread 0: creando task de init=460 end=461
+Thread 0 ejecutando: init=460 end=461
+Thread 0: creando task de init=461 end=462
+Thread 0 ejecutando: init=461 end=462
+Thread 0: creando task de init=462 end=463
+Thread 0 ejecutando: init=462 end=463
+Thread 0: creando task de init=463 end=464
+Thread 0 ejecutando: init=463 end=464
+Thread 1 ejecutando: init=896 end=897
+Thread 1: creando task de init=897 end=898
+Thread 1 ejecutando: init=897 end=898
+Thread 1: creando task de init=898 end=899
+Thread 1 ejecutando: init=898 end=899
+Thread 1: creando task de init=899 end=900
+Thread 1 ejecutando: init=899 end=900
+Thread 1: creando task de init=900 end=901
+Thread 1 ejecutando: init=900 end=901
+Thread 1: creando task de init=901 end=902
+Thread 1 ejecutando: init=901 end=902
+Thread 1: creando task de init=902 end=903
+Thread 1 ejecutando: init=902 end=903
+Thread 1: creando task de init=903 end=904
+Thread 1 ejecutando: init=903 end=904
+Thread 1: creando task de init=904 end=905
+Thread 1 ejecutando: init=904 end=905
+Thread 1: creando task de init=905 end=906
+Thread 1 ejecutando: init=905 end=906
+Thread 1: creando task de init=906 end=907
+Thread 1 ejecutando: init=906 end=907
+Thread 1: creando task de init=907 end=908
+Thread 1 ejecutando: init=907 end=908
+Thread 1: creando task de init=908 end=909
+Thread 1 ejecutando: init=908 end=909
+Thread 1: creando task de init=909 end=910
+Thread 1 ejecutando: init=909 end=910
+Thread 1: creando task de init=910 end=911
+Thread 1 ejecutando: init=910 end=911
+Thread 1: creando task de init=911 end=912
+Thread 1 ejecutando: init=911 end=912
+Thread 1: creando task de init=912 end=913
+Thread 1 ejecutando: init=912 end=913
+Thread 1: creando task de init=913 end=914
+Thread 1 ejecutando: init=913 end=914
+Thread 1: creando task de init=914 end=915
+Thread 1 ejecutando: init=914 end=915
+Thread 1: creando task de init=915 end=916
+Thread 1 ejecutando: init=915 end=916
+Thread 1: creando task de init=916 end=917
+Thread 0: creando task de init=464 end=465
+Thread 0 ejecutando: init=464 end=465
+Thread 0: creando task de init=465 end=466
+Thread 0 ejecutando: init=465 end=466
+Thread 0: creando task de init=466 end=467
+Thread 0 ejecutando: init=466 end=467
+Thread 0: creando task de init=467 end=468
+Thread 0 ejecutando: init=467 end=468
+Thread 0: creando task de init=468 end=469
+Thread 0 ejecutando: init=468 end=469
+Thread 0: creando task de init=469 end=470
+Thread 0 ejecutando: init=469 end=470
+Thread 0: creando task de init=470 end=471
+Thread 0 ejecutando: init=470 end=471
+Thread 0: creando task de init=471 end=472
+Thread 1 ejecutando: init=916 end=917
+Thread 1: creando task de init=917 end=918
+Thread 1 ejecutando: init=917 end=918
+Thread 1: creando task de init=918 end=919
+Thread 1 ejecutando: init=918 end=919
+Thread 1: creando task de init=919 end=920
+Thread 1 ejecutando: init=919 end=920
+Thread 1: creando task de init=920 end=921
+Thread 1 ejecutando: init=920 end=921
+Thread 1: creando task de init=921 end=922
+Thread 1 ejecutando: init=921 end=922
+Thread 1: creando task de init=922 end=923
+Thread 1 ejecutando: init=922 end=923
+Thread 1: creando task de init=923 end=924
+Thread 1 ejecutando: init=923 end=924
+Thread 1: creando task de init=924 end=925
+Thread 1 ejecutando: init=924 end=925
+Thread 1: creando task de init=925 end=926
+Thread 0 ejecutando: init=471 end=472
+Thread 0: creando task de init=472 end=473
+Thread 0 ejecutando: init=472 end=473
+Thread 0: creando task de init=473 end=474
+Thread 0 ejecutando: init=473 end=474
+Thread 0: creando task de init=474 end=475
+Thread 0 ejecutando: init=474 end=475
+Thread 0: creando task de init=475 end=476
+Thread 0 ejecutando: init=475 end=476
+Thread 0: creando task de init=476 end=477
+Thread 0 ejecutando: init=476 end=477
+Thread 0: creando task de init=477 end=478
+Thread 0 ejecutando: init=477 end=478
+Thread 0: creando task de init=478 end=479
+Thread 0 ejecutando: init=478 end=479
+Thread 0: creando task de init=479 end=480
+Thread 0 ejecutando: init=479 end=480
+Thread 0: creando task de init=480 end=481
+Thread 0 ejecutando: init=480 end=481
+Thread 0: creando task de init=481 end=482
+Thread 0 ejecutando: init=481 end=482
+Thread 0: creando task de init=482 end=483
+Thread 0 ejecutando: init=482 end=483
+Thread 1 ejecutando: init=925 end=926
+Thread 1: creando task de init=926 end=927
+Thread 1 ejecutando: init=926 end=927
+Thread 1: creando task de init=927 end=928
+Thread 1 ejecutando: init=927 end=928
+Thread 1: creando task de init=928 end=929
+Thread 1 ejecutando: init=928 end=929
+Thread 1: creando task de init=929 end=930
+Thread 1 ejecutando: init=929 end=930
+Thread 1: creando task de init=930 end=931
+Thread 1 ejecutando: init=930 end=931
+Thread 1: creando task de init=931 end=932
+Thread 1 ejecutando: init=931 end=932
+Thread 1: creando task de init=932 end=933
+Thread 1 ejecutando: init=932 end=933
+Thread 1: creando task de init=933 end=934
+Thread 1 ejecutando: init=933 end=934
+Thread 1: creando task de init=934 end=935
+Thread 1 ejecutando: init=934 end=935
+Thread 1: creando task de init=935 end=936
+Thread 1 ejecutando: init=935 end=936
+Thread 1: creando task de init=936 end=937
+Thread 1 ejecutando: init=936 end=937
+Thread 1: creando task de init=937 end=938
+Thread 1 ejecutando: init=937 end=938
+Thread 1: creando task de init=938 end=939
+Thread 1 ejecutando: init=938 end=939
+Thread 0: creando task de init=483 end=484
+Thread 0 ejecutando: init=483 end=484
+Thread 0: creando task de init=484 end=485
+Thread 0 ejecutando: init=484 end=485
+Thread 0: creando task de init=485 end=486
+Thread 0 ejecutando: init=485 end=486
+Thread 0: creando task de init=486 end=487
+Thread 0 ejecutando: init=486 end=487
+Thread 0: creando task de init=487 end=488
+Thread 0 ejecutando: init=487 end=488
+Thread 0: creando task de init=488 end=489
+Thread 0 ejecutando: init=488 end=489
+Thread 0: creando task de init=489 end=490
+Thread 0 ejecutando: init=489 end=490
+Thread 0: creando task de init=490 end=491
+Thread 0 ejecutando: init=490 end=491
+Thread 1: creando task de init=939 end=940
+Thread 1 ejecutando: init=939 end=940
+Thread 1: creando task de init=940 end=941
+Thread 1 ejecutando: init=940 end=941
+Thread 1: creando task de init=941 end=942
+Thread 1 ejecutando: init=941 end=942
+Thread 1: creando task de init=942 end=943
+Thread 1 ejecutando: init=942 end=943
+Thread 1: creando task de init=943 end=944
+Thread 1 ejecutando: init=943 end=944
+Thread 1: creando task de init=944 end=945
+Thread 1 ejecutando: init=944 end=945
+Thread 1: creando task de init=945 end=946
+Thread 1 ejecutando: init=945 end=946
+Thread 1: creando task de init=946 end=947
+Thread 1 ejecutando: init=946 end=947
+Thread 1: creando task de init=947 end=948
+Thread 1 ejecutando: init=947 end=948
+Thread 1: creando task de init=948 end=949
+Thread 1 ejecutando: init=948 end=949
+Thread 1: creando task de init=949 end=950
+Thread 1 ejecutando: init=949 end=950
+Thread 1: creando task de init=950 end=951
+Thread 1 ejecutando: init=950 end=951
+Thread 1: creando task de init=951 end=952
+Thread 1 ejecutando: init=951 end=952
+Thread 1: creando task de init=952 end=953
+Thread 1 ejecutando: init=952 end=953
+Thread 1: creando task de init=953 end=954
+Thread 1 ejecutando: init=953 end=954
+Thread 1: creando task de init=954 end=955
+Thread 1 ejecutando: init=954 end=955
+Thread 1: creando task de init=955 end=956
+Thread 1 ejecutando: init=955 end=956
+Thread 1: creando task de init=956 end=957
+Thread 1 ejecutando: init=956 end=957
+Thread 1: creando task de init=957 end=958
+Thread 1 ejecutando: init=957 end=958
+Thread 1: creando task de init=958 end=959
+Thread 1 ejecutando: init=958 end=959
+Thread 1: creando task de init=959 end=960
+Thread 1 ejecutando: init=959 end=960
+Thread 1: creando task de init=960 end=961
+Thread 1 ejecutando: init=960 end=961
+Thread 1: creando task de init=961 end=962
+Thread 1 ejecutando: init=961 end=962
+Thread 1: creando task de init=962 end=963
+Thread 1 ejecutando: init=962 end=963
+Thread 1: creando task de init=963 end=964
+Thread 1 ejecutando: init=963 end=964
+Thread 1: creando task de init=964 end=965
+Thread 1 ejecutando: init=964 end=965
+Thread 1: creando task de init=965 end=966
+Thread 1 ejecutando: init=965 end=966
+Thread 1: creando task de init=966 end=967
+Thread 1 ejecutando: init=966 end=967
+Thread 1: creando task de init=967 end=968
+Thread 1 ejecutando: init=967 end=968
+Thread 1: creando task de init=968 end=969
+Thread 1 ejecutando: init=968 end=969
+Thread 1: creando task de init=969 end=970
+Thread 1 ejecutando: init=969 end=970
+Thread 0: creando task de init=491 end=492
+Thread 0 ejecutando: init=491 end=492
+Thread 0: creando task de init=492 end=493
+Thread 0 ejecutando: init=492 end=493
+Thread 0: creando task de init=493 end=494
+Thread 0 ejecutando: init=493 end=494
+Thread 0: creando task de init=494 end=495
+Thread 0 ejecutando: init=494 end=495
+Thread 0: creando task de init=495 end=496
+Thread 0 ejecutando: init=495 end=496
+Thread 0: creando task de init=496 end=497
+Thread 0 ejecutando: init=496 end=497
+Thread 0: creando task de init=497 end=498
+Thread 0 ejecutando: init=497 end=498
+Thread 0: creando task de init=498 end=499
+Thread 0 ejecutando: init=498 end=499
+Thread 0: creando task de init=499 end=500
+Thread 0 ejecutando: init=499 end=500
+Thread 1: creando task de init=970 end=971
+Thread 1 ejecutando: init=970 end=971
+Thread 1: creando task de init=971 end=972
+Thread 1 ejecutando: init=971 end=972
+Thread 1: creando task de init=972 end=973
+Thread 1 ejecutando: init=972 end=973
+Thread 1: creando task de init=973 end=974
+Thread 1 ejecutando: init=973 end=974
+Thread 1: creando task de init=974 end=975
+Thread 1 ejecutando: init=974 end=975
+Thread 1: creando task de init=975 end=976
+Thread 1 ejecutando: init=975 end=976
+Thread 1: creando task de init=976 end=977
+Thread 1 ejecutando: init=976 end=977
+Thread 1: creando task de init=977 end=978
+Thread 1 ejecutando: init=977 end=978
+Thread 1: creando task de init=978 end=979
+Thread 1 ejecutando: init=978 end=979
+Thread 1: creando task de init=979 end=980
+Thread 1 ejecutando: init=979 end=980
+Thread 1: creando task de init=980 end=981
+Thread 1 ejecutando: init=980 end=981
+Thread 1: creando task de init=981 end=982
+Thread 0 ejecutando: init=255 end=256
+Thread 0 ejecutando: init=254 end=255
+Thread 0 ejecutando: init=253 end=254
+Thread 0 ejecutando: init=252 end=253
+Thread 0 ejecutando: init=251 end=252
+Thread 0 ejecutando: init=250 end=251
+Thread 0 ejecutando: init=249 end=250
+Thread 0 ejecutando: init=248 end=249
+Thread 0 ejecutando: init=247 end=248
+Thread 0 ejecutando: init=246 end=247
+Thread 0 ejecutando: init=245 end=246
+Thread 1 ejecutando: init=981 end=982
+Thread 1: creando task de init=982 end=983
+Thread 1 ejecutando: init=982 end=983
+Thread 1: creando task de init=983 end=984
+Thread 1 ejecutando: init=983 end=984
+Thread 1: creando task de init=984 end=985
+Thread 1 ejecutando: init=984 end=985
+Thread 1: creando task de init=985 end=986
+Thread 1 ejecutando: init=985 end=986
+Thread 1: creando task de init=986 end=987
+Thread 1 ejecutando: init=986 end=987
+Thread 1: creando task de init=987 end=988
+Thread 1 ejecutando: init=987 end=988
+Thread 1: creando task de init=988 end=989
+Thread 1 ejecutando: init=988 end=989
+Thread 1: creando task de init=989 end=990
+Thread 1 ejecutando: init=989 end=990
+Thread 1: creando task de init=990 end=991
+Thread 1 ejecutando: init=990 end=991
+Thread 1: creando task de init=991 end=992
+Thread 1 ejecutando: init=991 end=992
+Thread 0 ejecutando: init=244 end=245
+Thread 0 ejecutando: init=243 end=244
+Thread 0 ejecutando: init=242 end=243
+Thread 0 ejecutando: init=241 end=242
+Thread 0 ejecutando: init=240 end=241
+Thread 0 ejecutando: init=239 end=240
+Thread 0 ejecutando: init=238 end=239
+Thread 0 ejecutando: init=237 end=238
+Thread 0 ejecutando: init=236 end=237
+Thread 0 ejecutando: init=235 end=236
+Thread 0 ejecutando: init=234 end=235
+Thread 0 ejecutando: init=233 end=234
+Thread 0 ejecutando: init=232 end=233
+Thread 0 ejecutando: init=231 end=232
+Thread 1: creando task de init=992 end=993
+Thread 1 ejecutando: init=992 end=993
+Thread 1: creando task de init=993 end=994
+Thread 1 ejecutando: init=993 end=994
+Thread 1: creando task de init=994 end=995
+Thread 1 ejecutando: init=994 end=995
+Thread 1: creando task de init=995 end=996
+Thread 1 ejecutando: init=995 end=996
+Thread 1: creando task de init=996 end=997
+Thread 1 ejecutando: init=996 end=997
+Thread 1: creando task de init=997 end=998
+Thread 1 ejecutando: init=997 end=998
+Thread 1: creando task de init=998 end=999
+Thread 1 ejecutando: init=998 end=999
+Thread 1: creando task de init=999 end=1000
+Thread 1 ejecutando: init=999 end=1000
+Thread 0 ejecutando: init=230 end=231
+Thread 1 ejecutando: init=755 end=756
+Thread 1 ejecutando: init=754 end=755
+Thread 1 ejecutando: init=753 end=754
+Thread 1 ejecutando: init=752 end=753
+Thread 1 ejecutando: init=751 end=752
+Thread 1 ejecutando: init=750 end=751
+Thread 0 ejecutando: init=229 end=230
+Thread 1 ejecutando: init=749 end=750
+Thread 0 ejecutando: init=228 end=229
+Thread 0 ejecutando: init=227 end=228
+Thread 0 ejecutando: init=226 end=227
+Thread 0 ejecutando: init=225 end=226
+Thread 0 ejecutando: init=224 end=225
+Thread 0 ejecutando: init=223 end=224
+Thread 0 ejecutando: init=222 end=223
+Thread 0 ejecutando: init=221 end=222
+Thread 0 ejecutando: init=220 end=221
+Thread 0 ejecutando: init=219 end=220
+Thread 0 ejecutando: init=218 end=219
+Thread 0 ejecutando: init=217 end=218
+Thread 0 ejecutando: init=216 end=217
+Thread 0 ejecutando: init=215 end=216
+Thread 1 ejecutando: init=748 end=749
+Thread 0 ejecutando: init=214 end=215
+Thread 1 ejecutando: init=747 end=748
+Thread 1 ejecutando: init=746 end=747
+Thread 1 ejecutando: init=745 end=746
+Thread 1 ejecutando: init=744 end=745
+Thread 1 ejecutando: init=743 end=744
+Thread 1 ejecutando: init=742 end=743
+Thread 1 ejecutando: init=741 end=742
+Thread 1 ejecutando: init=740 end=741
+Thread 1 ejecutando: init=739 end=740
+Thread 1 ejecutando: init=738 end=739
+Thread 1 ejecutando: init=737 end=738
+Thread 1 ejecutando: init=736 end=737
+Thread 1 ejecutando: init=735 end=736
+Thread 1 ejecutando: init=734 end=735
+Thread 1 ejecutando: init=733 end=734
+Thread 1 ejecutando: init=732 end=733
+Thread 0 ejecutando: init=213 end=214
+Thread 0 ejecutando: init=212 end=213
+Thread 0 ejecutando: init=211 end=212
+Thread 0 ejecutando: init=210 end=211
+Thread 0 ejecutando: init=209 end=210
+Thread 0 ejecutando: init=208 end=209
+Thread 0 ejecutando: init=207 end=208
+Thread 0 ejecutando: init=206 end=207
+Thread 0 ejecutando: init=205 end=206
+Thread 0 ejecutando: init=204 end=205
+Thread 0 ejecutando: init=203 end=204
+Thread 0 ejecutando: init=202 end=203
+Thread 0 ejecutando: init=201 end=202
+Thread 1 ejecutando: init=731 end=732
+Thread 1 ejecutando: init=730 end=731
+Thread 1 ejecutando: init=729 end=730
+Thread 1 ejecutando: init=728 end=729
+Thread 1 ejecutando: init=727 end=728
+Thread 1 ejecutando: init=726 end=727
+Thread 1 ejecutando: init=725 end=726
+Thread 1 ejecutando: init=724 end=725
+Thread 1 ejecutando: init=723 end=724
+Thread 1 ejecutando: init=722 end=723
+Thread 1 ejecutando: init=721 end=722
+Thread 1 ejecutando: init=720 end=721
+Thread 1 ejecutando: init=719 end=720
+Thread 1 ejecutando: init=718 end=719
+Thread 1 ejecutando: init=717 end=718
+Thread 1 ejecutando: init=716 end=717
+Thread 1 ejecutando: init=715 end=716
+Thread 0 ejecutando: init=200 end=201
+Thread 0 ejecutando: init=199 end=200
+Thread 0 ejecutando: init=198 end=199
+Thread 0 ejecutando: init=197 end=198
+Thread 0 ejecutando: init=196 end=197
+Thread 0 ejecutando: init=195 end=196
+Thread 0 ejecutando: init=194 end=195
+Thread 0 ejecutando: init=193 end=194
+Thread 0 ejecutando: init=192 end=193
+Thread 0 ejecutando: init=191 end=192
+Thread 0 ejecutando: init=190 end=191
+Thread 0 ejecutando: init=189 end=190
+Thread 0 ejecutando: init=188 end=189
+Thread 0 ejecutando: init=187 end=188
+Thread 0 ejecutando: init=186 end=187
+Thread 0 ejecutando: init=185 end=186
+Thread 0 ejecutando: init=184 end=185
+Thread 0 ejecutando: init=183 end=184
+Thread 0 ejecutando: init=182 end=183
+Thread 0 ejecutando: init=181 end=182
+Thread 0 ejecutando: init=180 end=181
+Thread 0 ejecutando: init=179 end=180
+Thread 0 ejecutando: init=178 end=179
+Thread 0 ejecutando: init=177 end=178
+Thread 0 ejecutando: init=176 end=177
+Thread 0 ejecutando: init=175 end=176
+Thread 0 ejecutando: init=174 end=175
+Thread 0 ejecutando: init=173 end=174
+Thread 0 ejecutando: init=172 end=173
+Thread 0 ejecutando: init=171 end=172
+Thread 1 ejecutando: init=714 end=715
+Thread 1 ejecutando: init=713 end=714
+Thread 1 ejecutando: init=712 end=713
+Thread 1 ejecutando: init=711 end=712
+Thread 1 ejecutando: init=710 end=711
+Thread 1 ejecutando: init=709 end=710
+Thread 1 ejecutando: init=708 end=709
+Thread 1 ejecutando: init=707 end=708
+Thread 1 ejecutando: init=706 end=707
+Thread 1 ejecutando: init=705 end=706
+Thread 1 ejecutando: init=704 end=705
+Thread 0 ejecutando: init=170 end=171
+Thread 1 ejecutando: init=703 end=704
+Thread 1 ejecutando: init=702 end=703
+Thread 1 ejecutando: init=701 end=702
+Thread 1 ejecutando: init=700 end=701
+Thread 1 ejecutando: init=699 end=700
+Thread 1 ejecutando: init=698 end=699
+Thread 1 ejecutando: init=697 end=698
+Thread 1 ejecutando: init=696 end=697
+Thread 1 ejecutando: init=695 end=696
+Thread 1 ejecutando: init=694 end=695
+Thread 1 ejecutando: init=693 end=694
+Thread 1 ejecutando: init=692 end=693
+Thread 0 ejecutando: init=169 end=170
+Thread 0 ejecutando: init=168 end=169
+Thread 0 ejecutando: init=167 end=168
+Thread 0 ejecutando: init=166 end=167
+Thread 0 ejecutando: init=165 end=166
+Thread 0 ejecutando: init=164 end=165
+Thread 0 ejecutando: init=163 end=164
+Thread 0 ejecutando: init=162 end=163
+Thread 0 ejecutando: init=161 end=162
+Thread 0 ejecutando: init=160 end=161
+Thread 0 ejecutando: init=159 end=160
+Thread 0 ejecutando: init=158 end=159
+Thread 1 ejecutando: init=691 end=692
+Thread 1 ejecutando: init=690 end=691
+Thread 1 ejecutando: init=689 end=690
+Thread 1 ejecutando: init=688 end=689
+Thread 1 ejecutando: init=687 end=688
+Thread 1 ejecutando: init=686 end=687
+Thread 1 ejecutando: init=685 end=686
+Thread 1 ejecutando: init=684 end=685
+Thread 1 ejecutando: init=683 end=684
+Thread 1 ejecutando: init=682 end=683
+Thread 1 ejecutando: init=681 end=682
+Thread 1 ejecutando: init=680 end=681
+Thread 1 ejecutando: init=679 end=680
+Thread 0 ejecutando: init=157 end=158
+Thread 1 ejecutando: init=678 end=679
+Thread 1 ejecutando: init=677 end=678
+Thread 1 ejecutando: init=676 end=677
+Thread 1 ejecutando: init=675 end=676
+Thread 1 ejecutando: init=674 end=675
+Thread 1 ejecutando: init=673 end=674
+Thread 1 ejecutando: init=672 end=673
+Thread 1 ejecutando: init=671 end=672
+Thread 1 ejecutando: init=670 end=671
+Thread 1 ejecutando: init=669 end=670
+Thread 1 ejecutando: init=668 end=669
+Thread 1 ejecutando: init=667 end=668
+Thread 1 ejecutando: init=666 end=667
+Thread 1 ejecutando: init=665 end=666
+Thread 1 ejecutando: init=664 end=665
+Thread 1 ejecutando: init=663 end=664
+Thread 0 ejecutando: init=156 end=157
+Thread 0 ejecutando: init=155 end=156
+Thread 0 ejecutando: init=154 end=155
+Thread 0 ejecutando: init=153 end=154
+Thread 0 ejecutando: init=152 end=153
+Thread 0 ejecutando: init=151 end=152
+Thread 0 ejecutando: init=150 end=151
+Thread 0 ejecutando: init=149 end=150
+Thread 0 ejecutando: init=148 end=149
+Thread 0 ejecutando: init=147 end=148
+Thread 0 ejecutando: init=146 end=147
+Thread 0 ejecutando: init=145 end=146
+Thread 0 ejecutando: init=144 end=145
+Thread 0 ejecutando: init=143 end=144
+Thread 0 ejecutando: init=142 end=143
+Thread 0 ejecutando: init=141 end=142
+Thread 1 ejecutando: init=662 end=663
+Thread 1 ejecutando: init=661 end=662
+Thread 1 ejecutando: init=660 end=661
+Thread 1 ejecutando: init=659 end=660
+Thread 1 ejecutando: init=658 end=659
+Thread 1 ejecutando: init=657 end=658
+Thread 1 ejecutando: init=656 end=657
+Thread 1 ejecutando: init=655 end=656
+Thread 1 ejecutando: init=654 end=655
+Thread 1 ejecutando: init=653 end=654
+Thread 1 ejecutando: init=652 end=653
+Thread 0 ejecutando: init=140 end=141
+Thread 0 ejecutando: init=139 end=140
+Thread 0 ejecutando: init=138 end=139
+Thread 0 ejecutando: init=137 end=138
+Thread 0 ejecutando: init=136 end=137
+Thread 0 ejecutando: init=135 end=136
+Thread 0 ejecutando: init=134 end=135
+Thread 0 ejecutando: init=133 end=134
+Thread 0 ejecutando: init=132 end=133
+Thread 0 ejecutando: init=131 end=132
+Thread 0 ejecutando: init=130 end=131
+Thread 0 ejecutando: init=129 end=130
+Thread 0 ejecutando: init=128 end=129
+Thread 0 ejecutando: init=127 end=128
+Thread 0 ejecutando: init=126 end=127
+Thread 0 ejecutando: init=125 end=126
+Thread 1 ejecutando: init=651 end=652
+Thread 1 ejecutando: init=650 end=651
+Thread 1 ejecutando: init=649 end=650
+Thread 1 ejecutando: init=648 end=649
+Thread 1 ejecutando: init=647 end=648
+Thread 1 ejecutando: init=646 end=647
+Thread 1 ejecutando: init=645 end=646
+Thread 1 ejecutando: init=644 end=645
+Thread 1 ejecutando: init=643 end=644
+Thread 1 ejecutando: init=642 end=643
+Thread 1 ejecutando: init=641 end=642
+Thread 1 ejecutando: init=640 end=641
+Thread 1 ejecutando: init=639 end=640
+Thread 1 ejecutando: init=638 end=639
+Thread 1 ejecutando: init=637 end=638
+Thread 1 ejecutando: init=636 end=637
+Thread 1 ejecutando: init=635 end=636
+Thread 1 ejecutando: init=634 end=635
+Thread 1 ejecutando: init=633 end=634
+Thread 1 ejecutando: init=632 end=633
+Thread 1 ejecutando: init=631 end=632
+Thread 1 ejecutando: init=630 end=631
+Thread 1 ejecutando: init=629 end=630
+Thread 1 ejecutando: init=628 end=629
+Thread 1 ejecutando: init=627 end=628
+Thread 1 ejecutando: init=626 end=627
+Thread 0 ejecutando: init=124 end=125
+Thread 0 ejecutando: init=123 end=124
+Thread 0 ejecutando: init=122 end=123
+Thread 0 ejecutando: init=121 end=122
+Thread 0 ejecutando: init=120 end=121
+Thread 0 ejecutando: init=119 end=120
+Thread 0 ejecutando: init=118 end=119
+Thread 0 ejecutando: init=117 end=118
+Thread 0 ejecutando: init=116 end=117
+Thread 0 ejecutando: init=115 end=116
+Thread 0 ejecutando: init=114 end=115
+Thread 0 ejecutando: init=113 end=114
+Thread 0 ejecutando: init=112 end=113
+Thread 0 ejecutando: init=111 end=112
+Thread 0 ejecutando: init=110 end=111
+Thread 0 ejecutando: init=109 end=110
+Thread 0 ejecutando: init=108 end=109
+Thread 1 ejecutando: init=625 end=626
+Thread 1 ejecutando: init=624 end=625
+Thread 1 ejecutando: init=623 end=624
+Thread 1 ejecutando: init=622 end=623
+Thread 1 ejecutando: init=621 end=622
+Thread 1 ejecutando: init=620 end=621
+Thread 1 ejecutando: init=619 end=620
+Thread 1 ejecutando: init=618 end=619
+Thread 1 ejecutando: init=617 end=618
+Thread 1 ejecutando: init=616 end=617
+Thread 1 ejecutando: init=615 end=616
+Thread 1 ejecutando: init=614 end=615
+Thread 0 ejecutando: init=107 end=108
+Thread 0 ejecutando: init=106 end=107
+Thread 0 ejecutando: init=105 end=106
+Thread 0 ejecutando: init=104 end=105
+Thread 0 ejecutando: init=103 end=104
+Thread 0 ejecutando: init=102 end=103
+Thread 0 ejecutando: init=101 end=102
+Thread 0 ejecutando: init=100 end=101
+Thread 0 ejecutando: init=99 end=100
+Thread 0 ejecutando: init=98 end=99
+Thread 0 ejecutando: init=97 end=98
+Thread 0 ejecutando: init=96 end=97
+Thread 0 ejecutando: init=95 end=96
+Thread 0 ejecutando: init=94 end=95
+Thread 0 ejecutando: init=93 end=94
+Thread 0 ejecutando: init=92 end=93
+Thread 0 ejecutando: init=91 end=92
+Thread 1 ejecutando: init=613 end=614
+Thread 1 ejecutando: init=612 end=613
+Thread 1 ejecutando: init=611 end=612
+Thread 1 ejecutando: init=610 end=611
+Thread 1 ejecutando: init=609 end=610
+Thread 1 ejecutando: init=608 end=609
+Thread 1 ejecutando: init=607 end=608
+Thread 1 ejecutando: init=606 end=607
+Thread 1 ejecutando: init=605 end=606
+Thread 1 ejecutando: init=604 end=605
+Thread 1 ejecutando: init=603 end=604
+Thread 1 ejecutando: init=602 end=603
+Thread 1 ejecutando: init=601 end=602
+Thread 1 ejecutando: init=600 end=601
+Thread 0 ejecutando: init=90 end=91
+Thread 0 ejecutando: init=89 end=90
+Thread 0 ejecutando: init=88 end=89
+Thread 0 ejecutando: init=87 end=88
+Thread 0 ejecutando: init=86 end=87
+Thread 0 ejecutando: init=85 end=86
+Thread 0 ejecutando: init=84 end=85
+Thread 0 ejecutando: init=83 end=84
+Thread 0 ejecutando: init=82 end=83
+Thread 0 ejecutando: init=81 end=82
+Thread 0 ejecutando: init=80 end=81
+Thread 0 ejecutando: init=79 end=80
+Thread 0 ejecutando: init=78 end=79
+Thread 0 ejecutando: init=77 end=78
+Thread 0 ejecutando: init=76 end=77
+Thread 0 ejecutando: init=75 end=76
+Thread 0 ejecutando: init=74 end=75
+Thread 0 ejecutando: init=73 end=74
+Thread 0 ejecutando: init=72 end=73
+Thread 0 ejecutando: init=71 end=72
+Thread 0 ejecutando: init=70 end=71
+Thread 0 ejecutando: init=69 end=70
+Thread 1 ejecutando: init=599 end=600
+Thread 1 ejecutando: init=598 end=599
+Thread 1 ejecutando: init=597 end=598
+Thread 1 ejecutando: init=596 end=597
+Thread 1 ejecutando: init=595 end=596
+Thread 1 ejecutando: init=594 end=595
+Thread 1 ejecutando: init=593 end=594
+Thread 1 ejecutando: init=592 end=593
+Thread 1 ejecutando: init=591 end=592
+Thread 1 ejecutando: init=590 end=591
+Thread 1 ejecutando: init=589 end=590
+Thread 1 ejecutando: init=588 end=589
+Thread 1 ejecutando: init=587 end=588
+Thread 1 ejecutando: init=586 end=587
+Thread 0 ejecutando: init=68 end=69
+Thread 1 ejecutando: init=585 end=586
+Thread 1 ejecutando: init=584 end=585
+Thread 1 ejecutando: init=583 end=584
+Thread 1 ejecutando: init=582 end=583
+Thread 1 ejecutando: init=581 end=582
+Thread 1 ejecutando: init=580 end=581
+Thread 1 ejecutando: init=579 end=580
+Thread 1 ejecutando: init=578 end=579
+Thread 1 ejecutando: init=577 end=578
+Thread 1 ejecutando: init=576 end=577
+Thread 1 ejecutando: init=575 end=576
+Thread 1 ejecutando: init=574 end=575
+Thread 1 ejecutando: init=573 end=574
+Thread 1 ejecutando: init=572 end=573
+Thread 1 ejecutando: init=571 end=572
+Thread 1 ejecutando: init=570 end=571
+Thread 1 ejecutando: init=569 end=570
+Thread 0 ejecutando: init=67 end=68
+Thread 0 ejecutando: init=66 end=67
+Thread 0 ejecutando: init=65 end=66
+Thread 0 ejecutando: init=64 end=65
+Thread 0 ejecutando: init=63 end=64
+Thread 0 ejecutando: init=62 end=63
+Thread 0 ejecutando: init=61 end=62
+Thread 0 ejecutando: init=60 end=61
+Thread 0 ejecutando: init=59 end=60
+Thread 0 ejecutando: init=58 end=59
+Thread 0 ejecutando: init=57 end=58
+Thread 0 ejecutando: init=56 end=57
+Thread 1 ejecutando: init=568 end=569
+Thread 1 ejecutando: init=567 end=568
+Thread 1 ejecutando: init=566 end=567
+Thread 1 ejecutando: init=565 end=566
+Thread 1 ejecutando: init=564 end=565
+Thread 1 ejecutando: init=563 end=564
+Thread 1 ejecutando: init=562 end=563
+Thread 1 ejecutando: init=561 end=562
+Thread 1 ejecutando: init=560 end=561
+Thread 1 ejecutando: init=559 end=560
+Thread 1 ejecutando: init=558 end=559
+Thread 1 ejecutando: init=557 end=558
+Thread 1 ejecutando: init=556 end=557
+Thread 1 ejecutando: init=555 end=556
+Thread 1 ejecutando: init=554 end=555
+Thread 1 ejecutando: init=553 end=554
+Thread 1 ejecutando: init=552 end=553
+Thread 1 ejecutando: init=551 end=552
+Thread 1 ejecutando: init=550 end=551
+Thread 1 ejecutando: init=549 end=550
+Thread 1 ejecutando: init=548 end=549
+Thread 1 ejecutando: init=547 end=548
+Thread 0 ejecutando: init=55 end=56
+Thread 0 ejecutando: init=54 end=55
+Thread 0 ejecutando: init=53 end=54
+Thread 0 ejecutando: init=52 end=53
+Thread 0 ejecutando: init=51 end=52
+Thread 0 ejecutando: init=50 end=51
+Thread 0 ejecutando: init=49 end=50
+Thread 0 ejecutando: init=48 end=49
+Thread 0 ejecutando: init=47 end=48
+Thread 0 ejecutando: init=46 end=47
+Thread 0 ejecutando: init=45 end=46
+Thread 0 ejecutando: init=44 end=45
+Thread 0 ejecutando: init=43 end=44
+Thread 0 ejecutando: init=42 end=43
+Thread 1 ejecutando: init=546 end=547
+Thread 1 ejecutando: init=545 end=546
+Thread 1 ejecutando: init=544 end=545
+Thread 1 ejecutando: init=543 end=544
+Thread 1 ejecutando: init=542 end=543
+Thread 1 ejecutando: init=541 end=542
+Thread 1 ejecutando: init=540 end=541
+Thread 1 ejecutando: init=539 end=540
+Thread 1 ejecutando: init=538 end=539
+Thread 1 ejecutando: init=537 end=538
+Thread 1 ejecutando: init=536 end=537
+Thread 1 ejecutando: init=535 end=536
+Thread 1 ejecutando: init=534 end=535
+Thread 1 ejecutando: init=533 end=534
+Thread 0 ejecutando: init=41 end=42
+Thread 0 ejecutando: init=40 end=41
+Thread 0 ejecutando: init=39 end=40
+Thread 0 ejecutando: init=38 end=39
+Thread 0 ejecutando: init=37 end=38
+Thread 0 ejecutando: init=36 end=37
+Thread 0 ejecutando: init=35 end=36
+Thread 0 ejecutando: init=34 end=35
+Thread 0 ejecutando: init=33 end=34
+Thread 0 ejecutando: init=32 end=33
+Thread 0 ejecutando: init=31 end=32
+Thread 0 ejecutando: init=30 end=31
+Thread 0 ejecutando: init=29 end=30
+Thread 0 ejecutando: init=28 end=29
+Thread 0 ejecutando: init=27 end=28
+Thread 0 ejecutando: init=26 end=27
+Thread 0 ejecutando: init=25 end=26
+Thread 1 ejecutando: init=532 end=533
+Thread 1 ejecutando: init=531 end=532
+Thread 1 ejecutando: init=530 end=531
+Thread 1 ejecutando: init=529 end=530
+Thread 1 ejecutando: init=528 end=529
+Thread 1 ejecutando: init=527 end=528
+Thread 1 ejecutando: init=526 end=527
+Thread 1 ejecutando: init=525 end=526
+Thread 1 ejecutando: init=524 end=525
+Thread 1 ejecutando: init=523 end=524
+Thread 1 ejecutando: init=522 end=523
+Thread 1 ejecutando: init=521 end=522
+Thread 1 ejecutando: init=520 end=521
+Thread 1 ejecutando: init=519 end=520
+Thread 1 ejecutando: init=518 end=519
+Thread 1 ejecutando: init=517 end=518
+Thread 1 ejecutando: init=516 end=517
+Thread 1 ejecutando: init=515 end=516
+Thread 1 ejecutando: init=514 end=515
+Thread 1 ejecutando: init=513 end=514
+Thread 1 ejecutando: init=512 end=513
+Thread 1 ejecutando: init=511 end=512
+Thread 1 ejecutando: init=510 end=511
+Thread 1 ejecutando: init=509 end=510
+Thread 1 ejecutando: init=508 end=509
+Thread 1 ejecutando: init=507 end=508
+Thread 1 ejecutando: init=506 end=507
+Thread 1 ejecutando: init=505 end=506
+Thread 1 ejecutando: init=504 end=505
+Thread 1 ejecutando: init=503 end=504
+Thread 1 ejecutando: init=502 end=503
+Thread 1 ejecutando: init=501 end=502
+Thread 1 ejecutando: init=500 end=501
+Thread 0 ejecutando: init=24 end=25
+Thread 1 ejecutando: init=0 end=1
+Thread 1 ejecutando: init=1 end=2
+Thread 1 ejecutando: init=2 end=3
+Thread 1 ejecutando: init=3 end=4
+Thread 1 ejecutando: init=4 end=5
+Thread 1 ejecutando: init=5 end=6
+Thread 1 ejecutando: init=6 end=7
+Thread 1 ejecutando: init=7 end=8
+Thread 1 ejecutando: init=8 end=9
+Thread 1 ejecutando: init=9 end=10
+Thread 1 ejecutando: init=10 end=11
+Thread 0 ejecutando: init=23 end=24
+Thread 0 ejecutando: init=22 end=23
+Thread 0 ejecutando: init=21 end=22
+Thread 0 ejecutando: init=20 end=21
+Thread 0 ejecutando: init=19 end=20
+Thread 0 ejecutando: init=18 end=19
+Thread 0 ejecutando: init=17 end=18
+Thread 0 ejecutando: init=16 end=17
+Thread 0 ejecutando: init=15 end=16
+Thread 0 ejecutando: init=14 end=15
+Thread 0 ejecutando: init=13 end=14
+Thread 1 ejecutando: init=11 end=12
+Thread 0 ejecutando: init=12 end=13
+2 1000 0.001226 [0.001226 - 0.001226] 0.000000

@@ -88,6 +88,12 @@ int main(int argc, char * argv[])
 				{
                 			//v[i] *= 0.9f;
                 			vectorscal(v,0.9f,i,granularity);
+                			/*int j;
+					int ii = i + granularity;
+                			for(j=i;j<ii;j++){
+				                v[j]*=0.9f;
+        				}*/
+
 				}
             		}
 	}
