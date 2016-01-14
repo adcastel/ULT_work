@@ -96,6 +96,9 @@ int main(int argc, char * argv[])
 
 				}
             		}
+#ifdef VERBOSE
+	printf("Thread %d, tareas creadas en %f y ahora a ejecutar\n",omp_get_thread_num(),omp_get_wtime()-time[r]);
+#endif
 	}
         time[r] = omp_get_wtime() - time[r];
     }
@@ -119,7 +122,7 @@ int main(int argc, char * argv[])
 #endif
     printf("%d %d %f [%f - %f] %f\n",
             nthreads, ntasks, avg, min, max, dev);
-    check(v, total);
+    //check(v, total);
     free(v);
     free(time);
     

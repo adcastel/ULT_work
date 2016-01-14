@@ -58,7 +58,7 @@ void vectorscal(float *v,float value,int init,int gran){
 
 int main(int argc, char * argv[]) 
 {
-    int i, r, nthreads;
+    int t, i, r, nthreads;
     double *time;
     float *v;
     #pragma omp parallel
@@ -86,10 +86,19 @@ int main(int argc, char * argv[])
 #endif
 				#pragma omp task firstprivate(i)
 				{
-                		//	v[i] *= 0.9f;
+                			//v[i] *= 0.9f;
                 			vectorscal(v,0.9f,i,granularity);
+                			/*int j;
+					int ii = i + granularity;
+                			for(j=i;j<ii;j++){
+				                v[j]*=0.9f;
+        				}*/
+
 				}
             		}
+#ifdef VERBOSE
+	printf("Thread %d, tareas creadas en %f y ahora a ejecutar\n",omp_get_thread_num(),omp_get_wtime()-time[r]);
+#endif
 	}
         time[r] = omp_get_wtime() - time[r];
     }
@@ -97,13 +106,13 @@ int main(int argc, char * argv[])
     min = time[0];
     max = time[0];
     aux = time[0];
-    for (int t = 1; t < TIMES; t++) {
+    for (t = 1; t < TIMES; t++) {
         if (time[t] < min) min = time[t];
         if (time[t] > max) max = time[t];
         aux += time[t];
     }
     avg = aux / TIMES;
-    for (int t = 0; t < TIMES; t++) {
+    for ( t = 0; t < TIMES; t++) {
         sigma = sigma + ((time[t] - avg)*(time[t] - avg));
     }
 #ifndef VERBOSE
@@ -113,7 +122,7 @@ int main(int argc, char * argv[])
 #endif
     printf("%d %d %f [%f - %f] %f\n",
             nthreads, ntasks, avg, min, max, dev);
-    check(v, total);
+    //check(v, total);
     free(v);
     free(time);
     
