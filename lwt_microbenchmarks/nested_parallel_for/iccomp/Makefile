@@ -2,7 +2,7 @@ INI=nested_parallel_for
 OBJECTS= $(INI)  
 CC=icc
 CCFLAGS=-Wall -O0 
-OMP_LDFLAGS=-fopenmp -lm
+OMP_LDFLAGS=-openmp -lm
 
 all:
 	$(CC) $(CCFLAGS) $(INI).c -o $(INI) $(OMP_LDFLAGS)
