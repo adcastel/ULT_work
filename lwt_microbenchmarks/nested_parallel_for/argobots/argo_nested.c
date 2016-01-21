@@ -57,7 +57,6 @@ ABT_task * malloc_tasklets(int num_task) {
 typedef struct {
     float * ptr;
     float value;
-    int pos;
     int niterations;
     int nthreads;
     int it_start;
