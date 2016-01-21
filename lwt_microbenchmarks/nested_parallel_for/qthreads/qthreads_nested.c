@@ -107,10 +107,10 @@ static aligned_t task_creator(void *arguments){
             out_args[ct].ptr=ptr;
             out_args[ct].niterations=niterations;
 	
-            status = qthread_fork(vector_scal, (void *) &out_args[ct], &returned_values[ct]);
+            status = qthread_fork_to(vector_scal, (void *) &out_args[ct], &returned_values[ct],qthread_shep());
 
 #ifdef VERBOSE
-            printf("#Shepherd %d: creada la tarea %d\n", qthread_shep(), ct);
+            printf("#Shepherd: %d creada la tarea %d\n", qthread_shep(), ct);
 #endif
         }
 
