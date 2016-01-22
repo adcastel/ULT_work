@@ -81,30 +81,30 @@ static void taskCreator(Message_outerloop *msg){
     niterations = msg->niterations;
     float value = msg->value;
     float * ptr = msg->ptr;
-
+    int total=(it_end-it_start)*nthreads;
 #ifdef VERBOSE
     printf("#Thread: %d (CPU: %d),  en task_creator y creare %d tareas para el rango de iteraciones de %d a %d del loop externo\n", CmiMyRank(), sched_getcpu(), nthreads, it_start, it_end);
 #endif
 
     Message_innerloop * messages;
-    messages = (Message_innerloop *)malloc(sizeof(Message_innerloop )*nthreads);
-    CthThread * workers = (CthThread *)malloc(sizeof(CthThread)*nthreads);
+    messages = (Message_innerloop *)malloc(sizeof(Message_innerloop )*total);
+    CthThread * workers = (CthThread *)malloc(sizeof(CthThread)*total);
     
     int ct; //current_task
     int start, end;
     int bloc = niterations / nthreads;
     int rest = niterations % nthreads;
-    int j;
-
+    int j,a;
+    ct=0;
     for(i=it_start;i<it_end;i++){
 
         start=end=0;
 
-        for (ct = 0; ct < nthreads; ct++) {
+        for (a = 0; a < nthreads; a++) {
 
             start=end;
             end=start+bloc;
-            if(ct<rest){end++;}
+            if(a<rest){end++;}
             messages[ct].outer_pos=i;
             messages[ct].inner_start_pos=start;
             messages[ct].inner_end_pos=end;
@@ -114,6 +114,7 @@ static void taskCreator(Message_outerloop *msg){
 
            workers[ct] = CthCreateMigratable((CthVoidFn)vectorScal, (void *) &messages[ct],0);
            CthAwaken(workers[ct]);
+	   ct++;
         //CmiSetHandler(messages[i], pva(funcHandlerVectorScal));
         //CmiSyncSend(i, size, messages[i]);
 
@@ -122,11 +123,12 @@ printf("#Thread %d: creada mi tarea %d\n", CmiMyRank(), ct);
 #endif
         }
     
-        CthYield(); 
+        //CthYield(); 
         //CthYield(); 
         //CthYield(); 
 
     }
+        //CthYield(); 
          
 }
 
@@ -157,7 +159,7 @@ void mymain(int argc, char * argv[]){
     	#ifdef VERBOSE
 		printf("mymain despues de segundo yield\n");
         #endif
-        CthYield(); 
+    //    CthYield(); 
     	#ifdef VERBOSE
 		printf("mymain despues de tercer yield\n");
         #endif
@@ -167,6 +169,7 @@ void mymain(int argc, char * argv[]){
 printf("#Thread %d: saliendo... \n", CmiMyRank());
 //sleep(20);
 #endif
+    CmiNodeBarrier();
     CsdExitScheduler();
 
 }
@@ -244,7 +247,7 @@ int main(int argc, char * argv[]){
     	#ifdef VERBOSE
 		printf("main despues de segundo yield\n");
         #endif
-        CthYield(); 
+      //  CthYield(); 
     	#ifdef VERBOSE
 		printf("main despues de tercer yield\n");
         #endif
@@ -290,15 +293,17 @@ int main(int argc, char * argv[]){
         printf("%d %d %f [%f - %f] %f Join(%f)\n",
             CmiMyNodeSize(), niterations, avg, min, max, dev,avgj/TIMES);
 
+    CmiNodeBarrier();
  
 #ifdef VERBOSE
 printf("#Thread %d: saliendo... \n", CmiMyRank());
 //sleep(10);
 #endif
+//sleep(10);
     for (i = 0; i < total; i++) {
         if (a[i] != i * 0.9f) {
             printf("a[%d]=%f\n", i,a[i]);
-            return 0;
+//            return 0;
         }
     }
 	CsdExitScheduler();
