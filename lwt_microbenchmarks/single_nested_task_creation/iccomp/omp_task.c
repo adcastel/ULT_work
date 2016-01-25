@@ -81,7 +81,7 @@ void createTask(float *v,float value, int pos ,int nchildtask, int nlevels,int g
             }
 	    start+=stride;
         }
-
+	//#pragma omp taskwait
     }
 
 
