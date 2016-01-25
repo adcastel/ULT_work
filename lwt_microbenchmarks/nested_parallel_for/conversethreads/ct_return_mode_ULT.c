@@ -23,7 +23,7 @@
 
 
 typedef struct message_outerloop{
-    char core[CmiMsgHeaderSizeBytes];
+//    char core[CmiMsgHeaderSizeBytes];
     float * ptr;
     float value;
     int niterations;
@@ -204,9 +204,9 @@ int main(int argc, char * argv[]){
  
   init();
 
-//CthThread * workers = (CthThread *)malloc(sizeof(CthThread)*CmiMyNodeSize());
-   //Message_task_creator * messages = (Message_task_creator *)malloc(sizeof(Message_task_creator)*CmiMyNodeSize());
-   Message_outerloop ** messages = malloc(sizeof(Message_outerloop *)*CmiMyNodeSize());
+CthThread * workers = (CthThread *)malloc(sizeof(CthThread)*CmiMyNodeSize());
+   Message_outerloop * messages = (Message_outerloop *)malloc(sizeof(Message_outerloop)*CmiMyNodeSize());
+   //Message_outerloop ** messages = malloc(sizeof(Message_outerloop *)*CmiMyNodeSize());
   for (t = 0; t < TIMES; t++) {
     for (i = 0; i < total; i++) {
       a[i] = i * 1.0f;
@@ -224,21 +224,27 @@ int main(int argc, char * argv[]){
 	start = end;
         int inc = (i < rest) ? 1 : 0;
         end += bloc + inc;
-    	messages[i] = (Message_outerloop *) CmiAlloc(size);
-    	messages[i]->it_start = start;
+    	//messages[i] = (Message_outerloop *) CmiAlloc(size);
+    	/*messages[i]->it_start = start;
     	messages[i]->it_end = end;
     	messages[i]->value = 0.9f;
     	messages[i]->ptr = a;
     	messages[i]->niterations=niterations;
-    	messages[i]->nthreads=num_workers;
+    	messages[i]->nthreads=num_workers;*/
+    	messages[i].it_start = start;
+    	messages[i].it_end = end;
+    	messages[i].value = 0.9f;
+    	messages[i].ptr = a;
+    	messages[i].niterations=niterations;
+    	messages[i].nthreads=num_workers;
 #ifdef VERBOSE
 	printf("#Thread %d/%d: Repartiendo iteraciones de %d a %d para %d\n", CmiMyRank(),CmiMyNodeSize() ,start, end, i);
 #endif
-//       workers[i] = CthCreateMigratable((CthVoidFn)taskCreator, (void *) &messages[i],0);
-//       CthAwaken(workers[i]);
+       workers[i] = CthCreateMigratable((CthVoidFn)taskCreator, (void *) &messages[i],1600000);
+       CthAwaken(workers[i]);
 
-     	CmiSetHandler(messages[i], pva(funcHandlerTaskCreator));
-        CmiSyncSend(i, size, messages[i]);
+     	//CmiSetHandler(messages[i], pva(funcHandlerTaskCreator));
+        //CmiSyncSend(i, size, messages[i]);
     }
 
 
