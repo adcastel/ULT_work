@@ -1,27 +1,17 @@
-echo "1 shepherd node"
-for i in {1..36}
-do
-	export QTHREAD_NUM_SHEPHERDS=1; export QTHREAD_SHEPHERD_BOUNDARY=node export QTHREAD_NUM_WORKERS_PER_SHEPHERD=$i; export QTHREAD_WORKER_UNIT=core; ./qthreads_fork_to 1000
-done
+#/bin/bash
 
-echo "2 shepherd node"
-for i in {1..18}; do export QTHREAD_NUM_SHEPHERDS=2; export QTHREAD_SHEPHERD_BOUNDARY=node export QTHREAD_NUM_WORKERS_PER_SHEPHERD=$i; export QTHREAD_WORKER_UNIT=core; ./qthreads_fork_to 1000; done
+rm *.dat
 
-echo "2 shepherd socket"
-for i in {1..18}
-do
-export QTHREAD_NUM_SHEPHERDS=2; export QTHREAD_SHEPHERD_BOUNDARY=socket export QTHREAD_NUM_WORKERS_PER_SHEPHERD=$i; export QTHREAD_WORKER_UNIT=core; ./qthreads_fork_to 1000
-done
+export LD_LIBRARY_PATH=/home/adcastel/qthreads/lib:$LD_LIBRARY_PATH
 
+for i in {1..72}; do export QTHREAD_NUM_SHEPHERDS=$i; export QTHREAD_NUM_WORKERS_PER_SHEPHERD=1; ./qthreads 5000000  >> qthread_for_5000000.dat; done 
+for i in {1..72}; do export QTHREAD_NUM_SHEPHERDS=$i; export QTHREAD_NUM_WORKERS_PER_SHEPHERD=1; ./qthreads 1000 >> qthread_for_1000.dat; done 
+for i in {1..72}; do export QTHREAD_NUM_SHEPHERDS=1; export QTHREAD_NUM_WORKERS_PER_SHEPHERD=$i; ./qthreads 5000000  >> qthread_for_1_seph_5000000.dat; done 
+for i in {1..72}; do export QTHREAD_NUM_SHEPHERDS=1; export QTHREAD_NUM_WORKERS_PER_SHEPHERD=$i; ./qthreads 1000 >> qthread_for_1_seph_1000.dat; done
 
-echo "4 shepherd socket"
-for i in {1..9}
-do
-export QTHREAD_NUM_SHEPHERDS=4; export QTHREAD_SHEPHERD_BOUNDARY=socket export QTHREAD_NUM_WORKERS_PER_SHEPHERD=$i; export QTHREAD_WORKER_UNIT=core; ./qthreads_fork_to 1000
-done
-
-
-echo "1 shepherd core 1 worker core"
-for i in {1..36}; do         export QTHREAD_NUM_SHEPHERDS=$i; export QTHREAD_SHEPHERD_BOUNDARY=core export QTHREAD_NUM_WORKERS_PER_SHEPHERD=1; export QTHREAD_WORKER_UNIT=core; ./qthreads_fork_to 1000; done
+for i in {1..72}; do export QTHREAD_NUM_SHEPHERDS=$i; export QTHREAD_NUM_WORKERS_PER_SHEPHERD=1; ./qthreads_fork_to 5000000  >> qthread_ft_for_5000000.dat; done 
+for i in {1..72}; do export QTHREAD_NUM_SHEPHERDS=$i; export QTHREAD_NUM_WORKERS_PER_SHEPHERD=1; ./qthreads_fork_to 1000 >> qthread_ft_for_1000.dat; done 
+for i in {1..72}; do export QTHREAD_NUM_SHEPHERDS=1; export QTHREAD_NUM_WORKERS_PER_SHEPHERD=$i; ./qthreads_fork_to 5000000  >> qthread_ft_for_1_seph_5000000.dat; done 
+for i in {1..72}; do export QTHREAD_NUM_SHEPHERDS=1; export QTHREAD_NUM_WORKERS_PER_SHEPHERD=$i; ./qthreads_fork_to 1000 >> qthread_ft_for_1_seph_1000.dat; done
 
 
