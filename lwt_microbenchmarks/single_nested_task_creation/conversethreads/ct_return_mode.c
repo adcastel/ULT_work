@@ -126,15 +126,15 @@ void mymain(int argc, char * argv[]){
     	CmiNodeBarrier();
     	CthYield();
     	#ifdef VERBOSE
-		printf("mymain despues de primer yield\n");
+		printf("%d mymain despues de primer yield\n",id);
         #endif
         CthYield();
     	#ifdef VERBOSE
-		printf("mymain despues de segundo yield\n");
+		printf("%d mymain despues de segundo yield\n",id);
         #endif
     //    CthYield(); 
     	#ifdef VERBOSE
-		printf("mymain despues de tercer yield\n");
+		printf("%d mymain despues de tercer yield\n",id);
         #endif
     	CmiNodeBarrier();
     }
@@ -164,7 +164,9 @@ int main(int argc, char * argv[]){
     double times[TIMES];
     double times_join[TIMES];
     struct timeval t_start, t_start2, t_end;
-
+#ifdef DEBUG
+    struct timeval t_start3, t_start4, t_start5;
+#endif
     float *a;
     a=malloc(sizeof (float)*total);
     int num_workers=CmiMyNodeSize();
@@ -202,11 +204,19 @@ int main(int argc, char * argv[]){
     }
 
 
+    gettimeofday(&t_start2, NULL);
     CmiNodeBarrier();
+#ifdef DEBUG
+    gettimeofday(&t_start3, NULL);
+#endif
+
     	CthYield();
     	#ifdef VERBOSE
 		printf("main despues de primer yield\n");
         #endif
+#ifdef DEBUG
+    gettimeofday(&t_start4, NULL);
+#endif
         CthYield();
     	#ifdef VERBOSE
 		printf("main despues de segundo yield\n");
@@ -215,7 +225,9 @@ int main(int argc, char * argv[]){
     	#ifdef VERBOSE
 		printf("main despues de tercer yield\n");
         #endif
-    gettimeofday(&t_start2, NULL);
+#ifdef DEBUG
+    gettimeofday(&t_start5, NULL);
+#endif
 
     CmiNodeBarrier();
     
@@ -230,8 +242,16 @@ int main(int argc, char * argv[]){
                         (t_start2.tv_sec * 1000000 + t_start2.tv_usec);
 
     times_join[t] = (time_join / 1000000.0);
-
-  }
+#ifdef DEBUG
+    printf("total %f, create %f, 1er barrier %f 1er yield %f, 2nd yield %f, 2nd barrier %f\n",
+		(((t_end.tv_sec * 1000000 + t_end.tv_usec) - (t_start.tv_sec * 1000000 + t_start.tv_usec))/1000000.0),
+		(((t_start2.tv_sec * 1000000 + t_start2.tv_usec) - (t_start.tv_sec * 1000000 + t_start.tv_usec))/1000000.0),
+		(((t_start3.tv_sec * 1000000 + t_start3.tv_usec) - (t_start2.tv_sec * 1000000 + t_start2.tv_usec))/1000000.0),
+		(((t_start4.tv_sec * 1000000 + t_start4.tv_usec) - (t_start3.tv_sec * 1000000 + t_start3.tv_usec))/1000000.0),
+		(((t_start5.tv_sec * 1000000 + t_start5.tv_usec) - (t_start4.tv_sec * 1000000 + t_start4.tv_usec))/1000000.0),
+		(((t_end.tv_sec * 1000000 + t_end.tv_usec) - (t_start5.tv_sec * 1000000 + t_start5.tv_usec))/1000000.0));
+#endif
+    }
         double min, max, avg, aux, sigma, dev;
         double avgj=times_join[0];
         min = times[0];
