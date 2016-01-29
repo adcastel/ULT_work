@@ -79,6 +79,8 @@ void mymain(int argc, char * argv[]){
 int main(int argc, char * argv[]){
 
   int n,i,t;
+  
+  ConverseInit(argc, argv, mymain, 1, 1);
   if (argc>1){
 	n=atoi(argv[1]);
   }
@@ -92,7 +94,6 @@ int main(int argc, char * argv[]){
   float *a;
   a=malloc(sizeof (float)*n);
         
-  ConverseInit(argc, argv, mymain, 1, 1);
  
   init();
 

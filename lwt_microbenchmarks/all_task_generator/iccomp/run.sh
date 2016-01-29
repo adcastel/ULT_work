@@ -1,7 +1,7 @@
 #/bin/bash
 
 
-
+rm *.dat
 export OMP_WAIT_POLICY=passive
 export OMP_NESTED=true
 export OMP_PROC_BIND=true

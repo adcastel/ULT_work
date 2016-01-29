@@ -70,13 +70,12 @@ int main(int argc, char *argv[]) {
     }
 
     myth_init();
-
-    //num_workers=72;//atoi(getenv("MYTH_WORKER_NUM"));
+    num_workers=atoi(getenv("MYTH_WORKER_NUM"));
     myth_thread_t * workers;
     workers = (myth_thread_t *)malloc(sizeof(myth_thread_t)*num_workers);
 
     args = (vector_scal_args_t *) malloc(sizeof (vector_scal_args_t)
-            * ntasks);
+            * num_workers);
 
     
 

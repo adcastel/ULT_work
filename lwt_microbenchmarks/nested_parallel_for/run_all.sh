@@ -1,7 +1,8 @@
 #!/bin/bash
 
 
-DIR="argobots qthreads massivethreads gccomp iccomp go conversethreads"
+#DIR="argobots qthreads massivethreads gccomp iccomp go conversethreads"
+DIR="qthreads massivethreads go"
 
 for d in $DIR
 do
