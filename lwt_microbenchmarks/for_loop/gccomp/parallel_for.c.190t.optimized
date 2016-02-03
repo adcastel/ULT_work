@@ -4,11 +4,11 @@
 init (float * v, int n)
 {
   int i;
-  float D.3985;
-  float D.3984;
-  float * D.3983;
-  long unsigned int D.3982;
-  long unsigned int D.3981;
+  float D.3998;
+  float D.3997;
+  float * D.3996;
+  long unsigned int D.3995;
+  long unsigned int D.3994;
   long unsigned int _7;
   long unsigned int _8;
   float * _10;
@@ -48,13 +48,13 @@ init (float * v, int n)
 check (float * v, int n)
 {
   int i;
-  float D.3992;
-  float D.3991;
-  float D.3990;
-  float D.3989;
-  float * D.3988;
-  long unsigned int D.3987;
-  long unsigned int D.3986;
+  float D.4005;
+  float D.4004;
+  float D.4003;
+  float D.4002;
+  float * D.4001;
+  long unsigned int D.4000;
+  long unsigned int D.3999;
   long unsigned int _8;
   long unsigned int _9;
   float * _11;
@@ -105,202 +105,341 @@ check (float * v, int n)
 
 main (int argc, char * * argv)
 {
-  int D.4069;
-  int D.4067;
-  int D.4068;
+  int D.4111;
+  int D.4109;
+  int D.4110;
   int tt.7;
   int q.6;
-  int D.4064;
-  int D.4063;
+  int D.4106;
+  int D.4105;
+  int t;
+  int t;
   int i;
-  int D.4060;
-  int D.4054;
+  int D.4102;
+  int D.4096;
+  double dev;
+  double sigma;
+  double aux;
+  double avg;
+  double max;
+  double min;
   int rep;
   int n;
   float * v;
-  double avg_time;
   double * time;
   int nthreads;
   int r;
   int i;
-  int D.4037;
-  double D.4036;
-  double D.4035;
-  double * D.4034;
-  long unsigned int D.4033;
-  long unsigned int D.4032;
-  double D.4031;
-  double D.4030;
-  double * D.4029;
-  long unsigned int D.4028;
-  long unsigned int D.4027;
-  double D.4026;
-  double * D.4025;
+  int D.4079;
+  double D.4078;
+  double D.4077;
+  double D.4076;
+  double D.4075;
+  double * D.4074;
+  long unsigned int D.4073;
+  long unsigned int D.4072;
+  double D.4071;
+  double D.4070;
+  double * D.4069;
+  long unsigned int D.4068;
+  long unsigned int D.4067;
+  double D.4066;
+  double * D.4065;
+  long unsigned int D.4064;
+  long unsigned int D.4063;
+  double * D.4062;
+  long unsigned int D.4061;
+  long unsigned int D.4060;
+  double D.4057;
+  double * D.4056;
+  long unsigned int D.4055;
+  long unsigned int D.4054;
+  double * D.4053;
+  long unsigned int D.4052;
+  long unsigned int D.4051;
+  double D.4048;
+  double * D.4047;
+  long unsigned int D.4046;
+  long unsigned int D.4045;
+  double D.4044;
+  double D.4043;
+  double * D.4042;
+  long unsigned int D.4041;
+  long unsigned int D.4040;
+  double D.4039;
+  double * D.4038;
+  long unsigned int D.4037;
+  long unsigned int D.4036;
+  double D.4027;
+  double * D.4026;
+  long unsigned int D.4025;
   long unsigned int D.4024;
   long unsigned int D.4023;
-  double D.4014;
-  double * D.4013;
-  long unsigned int D.4012;
-  long unsigned int D.4011;
-  long unsigned int D.4010;
-  long unsigned int D.4009;
-  long unsigned int D.4008;
-  long unsigned int D.4007;
-  char * D.4005;
-  char * * D.4004;
+  long unsigned int D.4022;
+  long unsigned int D.4021;
+  long unsigned int D.4020;
+  char * D.4018;
+  char * * D.4017;
   int iftmp.1;
-  char * D.3999;
-  char * * D.3998;
+  char * D.4012;
+  char * * D.4011;
   int iftmp.0;
   struct .omp_data_s.3 .omp_data_o.5;
-  float * D.4059;
-  float * D.4058;
+  float * D.4101;
+  float * D.4100;
   struct .omp_data_s.2 .omp_data_o.4;
-  int D.4056;
-  int iftmp.0_5;
-  int iftmp.1_6;
-  char * * _17;
-  char * _18;
-  int iftmp.0_19;
-  int iftmp.0_20;
-  char * * _22;
-  char * _23;
-  int iftmp.1_24;
-  int iftmp.1_25;
-  long unsigned int _27;
-  long unsigned int _28;
-  long unsigned int _31;
-  long unsigned int _32;
+  int D.4098;
+  int iftmp.0_12;
+  int iftmp.1_13;
+  char * * _23;
+  char * _24;
+  int iftmp.0_25;
+  int iftmp.0_26;
+  char * * _28;
+  char * _29;
+  int iftmp.1_30;
+  int iftmp.1_31;
+  long unsigned int _33;
+  long unsigned int _34;
   long unsigned int _37;
   long unsigned int _38;
-  double * _39;
-  double _41;
-  long unsigned int _49;
-  long unsigned int _50;
-  double * _51;
-  double _53;
-  long unsigned int _54;
+  long unsigned int _43;
+  long unsigned int _44;
+  double * _45;
+  double _47;
   long unsigned int _55;
-  double * _56;
-  double _57;
-  double _58;
+  long unsigned int _56;
+  double * _57;
+  double _59;
   long unsigned int _60;
   long unsigned int _61;
   double * _62;
   double _63;
-  double _66;
-  int _70;
+  double _64;
+  long unsigned int _71;
+  long unsigned int _72;
+  double * _73;
+  double _74;
+  long unsigned int _75;
+  long unsigned int _76;
+  double * _77;
+  long unsigned int _79;
+  long unsigned int _80;
+  double * _81;
+  double _82;
+  long unsigned int _83;
+  long unsigned int _84;
+  double * _85;
+  long unsigned int _87;
+  long unsigned int _88;
+  double * _89;
+  double _90;
+  long unsigned int _96;
+  long unsigned int _97;
+  double * _98;
+  double _99;
+  double _100;
+  long unsigned int _101;
+  long unsigned int _102;
+  double * _103;
+  double _104;
+  double _105;
+  double _106;
+  double _109;
+  int _116;
 
   <bb 2>:
-  avg_time_8 = 0.0;
-  .omp_data_o.4.nthreads = nthreads_10(D);
+  .omp_data_o.4.nthreads = nthreads_16(D);
   __builtin_GOMP_parallel (main._omp_fn.0, &.omp_data_o.4, 0, 0);
-  nthreads_13 = .omp_data_o.4.nthreads;
+  nthreads_19 = .omp_data_o.4.nthreads;
   .omp_data_o.4 ={v} {CLOBBER};
-  if (argc_15(D) > 1)
+  if (argc_21(D) > 1)
     goto <bb 3>;
   else
     goto <bb 4>;
 
   <bb 3>:
-  _17 = argv_16(D) + 8;
-  _18 = *_17;
-  iftmp.0_19 = atoi (_18);
+  _23 = argv_22(D) + 8;
+  _24 = *_23;
+  iftmp.0_25 = atoi (_24);
   goto <bb 5>;
 
   <bb 4>:
-  iftmp.0_20 = 5017600;
+  iftmp.0_26 = 5017600;
 
   <bb 5>:
-  # iftmp.0_5 = PHI <iftmp.0_19(3), iftmp.0_20(4)>
-  n_21 = iftmp.0_5;
-  if (argc_15(D) > 2)
+  # iftmp.0_12 = PHI <iftmp.0_25(3), iftmp.0_26(4)>
+  n_27 = iftmp.0_12;
+  if (argc_21(D) > 2)
     goto <bb 6>;
   else
     goto <bb 7>;
 
   <bb 6>:
-  _22 = argv_16(D) + 16;
-  _23 = *_22;
-  iftmp.1_24 = atoi (_23);
+  _28 = argv_22(D) + 16;
+  _29 = *_28;
+  iftmp.1_30 = atoi (_29);
   goto <bb 8>;
 
   <bb 7>:
-  iftmp.1_25 = 1;
+  iftmp.1_31 = 50;
 
   <bb 8>:
-  # iftmp.1_6 = PHI <iftmp.1_24(6), iftmp.1_25(7)>
-  rep_26 = iftmp.1_6;
-  _27 = (long unsigned int) rep_26;
-  _28 = _27 * 8;
-  time_30 = malloc (_28);
-  _31 = (long unsigned int) n_21;
-  _32 = _31 * 4;
-  v_34 = malloc (_32);
-  init (v_34, n_21);
-  r_36 = 0;
+  # iftmp.1_13 = PHI <iftmp.1_30(6), iftmp.1_31(7)>
+  rep_32 = iftmp.1_13;
+  _33 = (long unsigned int) rep_32;
+  _34 = _33 * 8;
+  time_36 = malloc (_34);
+  _37 = (long unsigned int) n_27;
+  _38 = _37 * 4;
+  v_40 = malloc (_38);
+  r_41 = 0;
   goto <bb 10>;
 
   <bb 9>:
-  _37 = (long unsigned int) r_1;
-  _38 = _37 * 8;
-  _39 = time_30 + _38;
-  _41 = omp_get_wtime ();
-  *_39 = _41;
-  .omp_data_o.5.v = v_3;
-  .omp_data_o.5.n = n_4;
+  init (v_2, n_3);
+  _43 = (long unsigned int) r_1;
+  _44 = _43 * 8;
+  _45 = time_36 + _44;
+  _47 = omp_get_wtime ();
+  *_45 = _47;
+  .omp_data_o.5.v = v_2;
+  .omp_data_o.5.n = n_3;
   __builtin_GOMP_parallel (main._omp_fn.1, &.omp_data_o.5, 0, 0);
-  v_46 = .omp_data_o.5.v;
-  n_47 = .omp_data_o.5.n;
+  v_52 = .omp_data_o.5.v;
+  n_53 = .omp_data_o.5.n;
   .omp_data_o.5 ={v} {CLOBBER};
-  _49 = (long unsigned int) r_1;
-  _50 = _49 * 8;
-  _51 = time_30 + _50;
-  _53 = omp_get_wtime ();
-  _54 = (long unsigned int) r_1;
-  _55 = _54 * 8;
-  _56 = time_30 + _55;
-  _57 = *_56;
-  _58 = _53 - _57;
-  *_51 = _58;
+  _55 = (long unsigned int) r_1;
+  _56 = _55 * 8;
+  _57 = time_36 + _56;
+  _59 = omp_get_wtime ();
   _60 = (long unsigned int) r_1;
   _61 = _60 * 8;
-  _62 = time_30 + _61;
+  _62 = time_36 + _61;
   _63 = *_62;
-  avg_time_64 = _63 + avg_time_2;
-  r_65 = r_1 + 1;
+  _64 = _59 - _63;
+  *_57 = _64;
+  r_66 = r_1 + 1;
 
   <bb 10>:
-  # r_1 = PHI <r_36(8), r_65(9)>
-  # avg_time_2 = PHI <avg_time_8(8), avg_time_64(9)>
-  # v_3 = PHI <v_34(8), v_46(9)>
-  # n_4 = PHI <n_21(8), n_47(9)>
-  if (r_1 < rep_26)
+  # r_1 = PHI <r_41(8), r_66(9)>
+  # v_2 = PHI <v_40(8), v_52(9)>
+  # n_3 = PHI <n_27(8), n_53(9)>
+  if (r_1 < rep_32)
     goto <bb 9>;
   else
     goto <bb 11>;
 
   <bb 11>:
-  _66 = (double) rep_26;
-  avg_time_67 = avg_time_2 / _66;
-  check (v_3, n_4);
-  printf ("%d %d %f\n", nthreads_13, n_4, avg_time_67);
-  _70 = 0;
+  min_67 = *time_36;
+  max_68 = *time_36;
+  aux_69 = *time_36;
+  t_70 = 1;
+  goto <bb 17>;
 
-<L11>:
-  return _70;
+  <bb 12>:
+  _71 = (long unsigned int) t_10;
+  _72 = _71 * 8;
+  _73 = time_36 + _72;
+  _74 = *_73;
+  if (_74 < min_5)
+    goto <bb 13>;
+  else
+    goto <bb 14>;
+
+  <bb 13>:
+  _75 = (long unsigned int) t_10;
+  _76 = _75 * 8;
+  _77 = time_36 + _76;
+  min_78 = *_77;
+
+  <bb 14>:
+  # min_4 = PHI <min_5(12), min_78(13)>
+  _79 = (long unsigned int) t_10;
+  _80 = _79 * 8;
+  _81 = time_36 + _80;
+  _82 = *_81;
+  if (_82 > max_7)
+    goto <bb 15>;
+  else
+    goto <bb 16>;
+
+  <bb 15>:
+  _83 = (long unsigned int) t_10;
+  _84 = _83 * 8;
+  _85 = time_36 + _84;
+  max_86 = *_85;
+
+  <bb 16>:
+  # max_6 = PHI <max_7(14), max_86(15)>
+  _87 = (long unsigned int) t_10;
+  _88 = _87 * 8;
+  _89 = time_36 + _88;
+  _90 = *_89;
+  aux_91 = _90 + aux_8;
+  t_92 = t_10 + 1;
+
+  <bb 17>:
+  # min_5 = PHI <min_67(11), min_4(16)>
+  # max_7 = PHI <max_68(11), max_6(16)>
+  # aux_8 = PHI <aux_69(11), aux_91(16)>
+  # t_10 = PHI <t_70(11), t_92(16)>
+  if (t_10 <= 49)
+    goto <bb 12>;
+  else
+    goto <bb 18>;
+
+  <bb 18>:
+  avg_93 = aux_8 / 5.0e+1;
+  t_94 = 0;
+  goto <bb 20>;
+
+  <bb 19>:
+  _96 = (long unsigned int) t_11;
+  _97 = _96 * 8;
+  _98 = time_36 + _97;
+  _99 = *_98;
+  _100 = _99 - avg_93;
+  _101 = (long unsigned int) t_11;
+  _102 = _101 * 8;
+  _103 = time_36 + _102;
+  _104 = *_103;
+  _105 = _104 - avg_93;
+  _106 = _100 * _105;
+  sigma_107 = _106 + sigma_9;
+  t_108 = t_11 + 1;
+
+  <bb 20>:
+  # sigma_9 = PHI <sigma_95(D)(18), sigma_107(19)>
+  # t_11 = PHI <t_94(18), t_108(19)>
+  if (t_11 <= 49)
+    goto <bb 19>;
+  else
+    goto <bb 21>;
+
+  <bb 21>:
+  _109 = sigma_9 / 4.9e+1;
+  dev_111 = sqrt (_109);
+  printf ("%d %d %f [%f - %f] %f\n", nthreads_19, n_3, avg_93, min_5, max_7, dev_111);
+  check (v_2, n_3);
+  free (v_2);
+  free (time_36);
+  _116 = 0;
+
+<L21>:
+  return _116;
 
 }
 
 
 
-;; Function main._omp_fn.0 (main._omp_fn.0, funcdef_no=5, decl_uid=4039, cgraph_uid=6, symbol_order=6)
+;; Function main._omp_fn.0 (main._omp_fn.0, funcdef_no=5, decl_uid=4081, cgraph_uid=6, symbol_order=6)
 
 main._omp_fn.0 (struct .omp_data_s.2 & restrict .omp_data_i)
 {
   int nthreads [value-expr: .omp_data_i->nthreads];
-  int D.4092;
-  int D.4091;
+  int D.4134;
+  int D.4133;
   int _2;
   int _5;
 
@@ -323,31 +462,31 @@ main._omp_fn.0 (struct .omp_data_s.2 & restrict .omp_data_i)
 
 
 
-;; Function main._omp_fn.1 (main._omp_fn.1, funcdef_no=6, decl_uid=4045, cgraph_uid=7, symbol_order=7)
+;; Function main._omp_fn.1 (main._omp_fn.1, funcdef_no=6, decl_uid=4087, cgraph_uid=7, symbol_order=7)
 
 main._omp_fn.1 (struct .omp_data_s.3 & restrict .omp_data_i)
 {
   int n [value-expr: .omp_data_i->n];
   float * v [value-expr: .omp_data_i->v];
-  float D.4088;
-  float D.4087;
-  float * D.4086;
-  float * D.4085;
-  long unsigned int D.4084;
-  long unsigned int D.4083;
-  float * D.4082;
-  float * D.4081;
-  long unsigned int D.4080;
-  long unsigned int D.4079;
+  float D.4130;
+  float D.4129;
+  float * D.4128;
+  float * D.4127;
+  long unsigned int D.4126;
+  long unsigned int D.4125;
+  float * D.4124;
+  float * D.4123;
+  long unsigned int D.4122;
+  long unsigned int D.4121;
   int i;
-  int D.4077;
-  int D.4076;
-  int D.4075;
+  int D.4119;
+  int D.4118;
+  int D.4117;
   int tt.7;
   int q.6;
-  int D.4072;
-  int D.4071;
-  int D.4070;
+  int D.4114;
+  int D.4113;
+  int D.4112;
   int q.6_1;
   int tt.7_2;
   int _8;
