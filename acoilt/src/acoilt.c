@@ -1,33 +1,98 @@
-
+#include <acoilt.h>
 
 #ifdef ARGOBOTS
-#include <abt.h>
-
-#define ULT ABT_thread
-#define Tasklet ABT_task
-
+    acoilt_team_t * main_team;
 #endif
 
-
-void acoilt_init(int argc, char * argv[]){
-
+void acoilt_start(){
 #ifdef ARGOBOTS
-	ABT_init(argc,argv)
-	int num_xstreams = atoi(getenv("ACOILT_NUM_THREADS"));
-	Create Pools //environment variable?
-	Create Scheduler //Default?
-#else
+    printf("Starting with ARGOBOTS\n");
+#endif
+#ifdef MASSIVETHREADS
+        printf("Starting with MASSIVETHREADS\n");
 #endif
 }
-myth_init() //MassiveThreads
-qthread_initialize() //qthreads
-ConverseInit() // Converse in return mode
-Initialize message functions. They are unknown at the beginning
-Go //No init function
-call the GOMAXPROCS function
 
-Library finalization. This function finalizes the library
+void acoilt_end(){
+#ifdef ARGOBOTS
+    printf("Ending with ARGOBOTS\n");
+#endif
+#ifdef MASSIVETHREADS
+        printf("Ending with MASSIVETHREADS\n");
+#endif    
+}
 
+void acoilt_init(int argc, char * argv[]){
+        
+    int num_threads=1;
+#ifdef ARGOBOTS
+    
+    main_team = (acoilt_team_t *) malloc (sizeof(acoilt_team_t));
+    
+    ABT_init(argc,argv);
+    int num_pools=1;
+    if(getenv("ACOILT_NUM_THREADS")!=NULL){
+        num_threads= atoi(getenv("ACOILT_NUM_THREADS"));
+    }
+    if(getenv("ACOILT_NUM_POOLS")!=NULL){
+        num_pools= atoi(getenv("ACOILT_NUM_POOLS"));
+    }
+    main_team->num_xstreams = num_threads;
+    main_team->num_pools = num_pools;
+    
+    ABT_xstream_self(&main_team->master);
+    
+    main_team->team=(ABT_xstream *) malloc(sizeof (ABT_xstream) * num_threads);
+    main_team->pools=(ABT_pool *) malloc(sizeof (ABT_pool) * num_pools);
+    
+    for (int i = 0; i < num_pools; i++) {
+        ABT_pool_create_basic(ABT_POOL_FIFO, ABT_POOL_ACCESS_MPMC, ABT_TRUE,
+            &main_team->pools[i]);
+    }
+    
+    ABT_xstream_self(&main_team->team[0]);
+    ABT_xstream_set_main_sched_basic(main_team->team[0], ABT_SCHED_DEFAULT,
+        1, &main_team->pools[0]);
+    
+    for (int i = 1; i < num_xstreams; i++) {
+        ABT_xstream_create_basic(ABT_SCHED_DEFAULT, 1, 
+                &main_team->pools[i%main_team->num_pools],
+                ABT_SCHED_CONFIG_NULL, &main_team->team[i]);
+        ABT_xstream_start(main_team->team[i]);
+    }
+#endif
+#ifdef MASSIVETHREADS
+    if(getenv("ACOILT_NUM_THREADS")!=NULL){
+        num_threads= atoi(getenv("ACOILT_NUM_THREADS"));
+        setenv("MYTH_WORKER_NUM",num_threads,1);
+    }
+    else
+        num_threads= atoi(getenv("MYTH_WORKER_NUM"));
+    myth_init(); //MassiveThreads
+#endif
+#ifdef QTHREADS
+    int num_workers_per_thread
+    if(getenv("ACOILT_NUM_THREADS")!=NULL){
+        num_threads= atoi(getenv("ACOILT_NUM_THREADS"));
+        setenv("QTHREADS_NUM_SHEPHERDS",num_threads,1);
+    }
+    else
+        num_threads= atoi(getenv("QTHREADS_NUM_SHEPHERDS"));
+
+    if(getenv("ACOILT_NUM_WORKERS_PER_THREAD")!=NULL){
+        num_workers_per_thread = atoi(getenv("ACOILT_NUM_WORKERS_PER_THREAD"));
+        setenv("QTHREADS_NUM_WORKERS_PER_SHEPHERDS",num_workers_per_thread,1);
+    }
+    else
+        num_workers_per_thread = atoi(getenv("QTHREADS_NUM_WORKERS_PER_SHEPHERDS"));
+    
+    qthread_initialize();  //qthreads
+#endif
+}
+
+
+
+/*
 acoilt_finalize()
 ABT_finalize() // Argobots
 Join ES
@@ -129,3 +194,4 @@ Tasklet
 ABT_task //Argobots
 Message //ConverseThreads
 
+*/
