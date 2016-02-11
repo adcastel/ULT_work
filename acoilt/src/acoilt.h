@@ -31,7 +31,7 @@ typedef struct acoilt_team {
     
 #endif
 #include <stdio.h>
-
+#include <stdlib.h>
 
 /* Main team structure*/
 

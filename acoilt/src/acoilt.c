@@ -11,6 +11,9 @@ void acoilt_start(){
 #ifdef MASSIVETHREADS
         printf("Starting with MASSIVETHREADS\n");
 #endif
+#ifdef QTHREADS
+        printf("Starting with QTHREADS\n");
+#endif
 }
 
 void acoilt_end(){
@@ -19,7 +22,10 @@ void acoilt_end(){
 #endif
 #ifdef MASSIVETHREADS
         printf("Ending with MASSIVETHREADS\n");
-#endif    
+#endif
+#ifdef QTHREADS
+        printf("Ending with QTHREADS\n");
+#endif
 }
 
 void acoilt_init(int argc, char * argv[]){
@@ -54,7 +60,7 @@ void acoilt_init(int argc, char * argv[]){
     ABT_xstream_set_main_sched_basic(main_team->team[0], ABT_SCHED_DEFAULT,
         1, &main_team->pools[0]);
     
-    for (int i = 1; i < num_xstreams; i++) {
+    for (int i = 1; i < num_threads; i++) {
         ABT_xstream_create_basic(ABT_SCHED_DEFAULT, 1, 
                 &main_team->pools[i%main_team->num_pools],
                 ABT_SCHED_CONFIG_NULL, &main_team->team[i]);
@@ -71,7 +77,7 @@ void acoilt_init(int argc, char * argv[]){
     myth_init(); //MassiveThreads
 #endif
 #ifdef QTHREADS
-    int num_workers_per_thread
+    int num_workers_per_thread;
     if(getenv("ACOILT_NUM_THREADS")!=NULL){
         num_threads= atoi(getenv("ACOILT_NUM_THREADS"));
         setenv("QTHREADS_NUM_SHEPHERDS",num_threads,1);
@@ -92,16 +98,24 @@ void acoilt_init(int argc, char * argv[]){
 
 
 
-/*
-acoilt_finalize()
-ABT_finalize() // Argobots
-Join ES
-Free ES
-myth_fini() //MassiveThreads
-Qthreads // No finalize function
-CsdExitScheduler() // ConverseThreads
-GO //No finalize function
 
+void acoilt_finalize(){
+
+#ifdef ARGOBOTS
+    
+    for (int i = 1; i < main_team->num_xstreams; i++) {
+        ABT_xstream_join(main_team->team[i]);
+        ABT_xstream_free(&main_team->team[i]);
+    }
+    ABT_finalize();
+        
+#endif
+#ifdef MASSIVETHREADS
+    myth_fini(); //MassiveThreads
+#endif    
+}
+
+/*
 ULT allocation. This function allocates memory for a given number of ULTs
 
 acoilt_ult_malloc()
