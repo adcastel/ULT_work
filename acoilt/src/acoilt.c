@@ -45,7 +45,7 @@ void acoilt_init(int argc, char * argv[]){
     }
     main_team->num_xstreams = num_threads;
     main_team->num_pools = num_pools;
-    
+    printf("Argobots %d ES, %d Pools\n",num_threads,num_pools);
     ABT_xstream_self(&main_team->master);
     
     main_team->team=(ABT_xstream *) malloc(sizeof (ABT_xstream) * num_threads);
@@ -68,30 +68,38 @@ void acoilt_init(int argc, char * argv[]){
     }
 #endif
 #ifdef MASSIVETHREADS
+    char buff[10];
     if(getenv("ACOILT_NUM_THREADS")!=NULL){
         num_threads= atoi(getenv("ACOILT_NUM_THREADS"));
-        setenv("MYTH_WORKER_NUM",num_threads,1);
+        sprintf(buff,"%d",num_threads);
+        setenv("MYTH_WORKER_NUM",buff,1);
     }
     else
         num_threads= atoi(getenv("MYTH_WORKER_NUM"));
+    
+    printf("Massive %d Workers\n",num_threads);
     myth_init(); //MassiveThreads
 #endif
 #ifdef QTHREADS
+    char buff[10];
     int num_workers_per_thread;
     if(getenv("ACOILT_NUM_THREADS")!=NULL){
         num_threads= atoi(getenv("ACOILT_NUM_THREADS"));
-        setenv("QTHREADS_NUM_SHEPHERDS",num_threads,1);
+        sprintf(buff,"%d",num_threads);
+        setenv("QTHREADS_NUM_SHEPHERDS",buff,1);
     }
     else
         num_threads= atoi(getenv("QTHREADS_NUM_SHEPHERDS"));
-
+    
     if(getenv("ACOILT_NUM_WORKERS_PER_THREAD")!=NULL){
         num_workers_per_thread = atoi(getenv("ACOILT_NUM_WORKERS_PER_THREAD"));
-        setenv("QTHREADS_NUM_WORKERS_PER_SHEPHERDS",num_workers_per_thread,1);
+        sprintf(buff,"%d",num_workers_per_thread);
+        setenv("QTHREADS_NUM_WORKERS_PER_SHEPHERDS",buff,1);
     }
     else
         num_workers_per_thread = atoi(getenv("QTHREADS_NUM_WORKERS_PER_SHEPHERDS"));
     
+    printf("Qthreads %d Shepherds, %d Workers_per_shepherd\n",num_threads,num_workers_per_thread);
     qthread_initialize();  //qthreads
 #endif
 }
