@@ -13,17 +13,16 @@
 
 
 
-
-
 #ifdef ARGOBOTS
 #include <stdio.h>
 #include <stdlib.h>
 #include <abt.h>
 
+
+
 #define ACOILT_ult ABT_thread
 #define ACOILT_tasklet ABT_task
 #define ACOILT_thread ABT_xstream
-#define ACOILT_ult_attribute ABT_THREAD_ATTR_NULL
 
 typedef struct acoilt_team {
     ABT_xstream master;
@@ -31,7 +30,7 @@ typedef struct acoilt_team {
     int num_xstreams;
     int num_pools;
     ABT_pool *pools;
-}acoilt_team_t;
+} acoilt_team_t;
 
 
 #endif
@@ -54,6 +53,9 @@ typedef struct acoilt_team {
 #define ACOILT_thread myth_thread_t
 #define ACOILT_ult_attribute NULL
 
+typedef struct acoilt_team {
+    int num_workers;
+} acoilt_team_t;
 
 #endif
 
@@ -67,6 +69,10 @@ typedef struct acoilt_team {
 #define ACOILT_thread aligned_t
 #define ACOILT_ult_attribute NULL
 
+typedef struct acoilt_team {
+    int num_shepherds;
+    int num_workers_per_shepherd;
+} acoilt_team_t;
 
 #endif
 
@@ -87,6 +93,15 @@ void acoilt_ult_creation_to(void(*thread_func)(void *), void *arg, ACOILT_ult *n
 
 void acoilt_tasklet_creation(void(*thread_func)(void *), void *arg, ACOILT_tasklet *new_ult);
 void acoilt_tasklet_creation_to(void(*thread_func)(void *), void *arg, ACOILT_tasklet *new_ult, int dest);
+
+void acoilt_yield();
+void acoilt_yield_to(ACOILT_ult ult);
+
+void acoilt_ult_join(ACOILT_ult *ult);
+void acoilt_tasklet_join(ACOILT_tasklet *tasklet);
+
+int acoilt_get_thread_num();
+int acoilt_get_num_threads();
 
 #endif	/* ACOILT_H */
 
