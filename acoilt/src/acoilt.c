@@ -123,27 +123,78 @@ void acoilt_finalize(){
 #endif    
 }
 
+ACOILT_ult * acoilt_ult_malloc(int number_of_ult){
+    ACOILT_ult * ults = (ACOILT_ult *) malloc(sizeof(ACOILT_ult) * number_of_ult);
+    return ults;
+}
+
+ACOILT_tasklet * acoilt_tasklet_malloc(int number_of_tasklets){
+    ACOILT_tasklet * tasklets = (ACOILT_tasklet *) malloc(sizeof(ACOILT_tasklet) * number_of_tasklets);
+    return tasklets;
+}
+
+void acoilt_ult_creation(void(*thread_func)(void *), void *arg, ACOILT_ult *new_ult){
+#ifdef ARGOBOTS
+    ABT_xstream xstream;
+    ABT_xstream_self(&xstream);
+    ABT_pool pool;
+    ABT_xstream_get_main_pools ( xstream, 1, &pool);
+    ABT_thread_create(pool, thread_func, arg, ABT_THREAD_ATTR_NULL ,new_ult);
+#endif
+#ifdef MASSIVETHREADS
+    *new_ult = myth_create((void *)thread_func, arg);
+#endif
+#ifdef QTHREADS
+    qthread_fork((void *)thread_func, arg, new_ult);
+#endif
+}
+
+void acoilt_ult_creation_to(void(*thread_func)(void *), void *arg, ACOILT_ult *new_ult, int dest){
+#ifdef ARGOBOTS
+    ABT_pool pool;
+    ABT_xstream_get_main_pools ( main_team->team[dest], 1, &pool);
+    ABT_thread_create(pool, thread_func, arg, ABT_THREAD_ATTR_NULL ,new_ult);
+#endif
+#ifdef MASSIVETHREADS
+    acoilt_ult_creation(thread_func,arg,new_ult);
+#endif
+#ifdef QTHREADS
+    qthread_fork_to((void *)thread_func, arg, new_ult,dest);
+#endif
+}
+
+void acoilt_tasklet_creation(void(*thread_func)(void *), void *arg, ACOILT_tasklet *new_ult){
+#ifdef ARGOBOTS
+    ABT_xstream xstream;
+    ABT_xstream_self(&xstream);
+    ABT_pool pool;
+    ABT_xstream_get_main_pools ( xstream, 1, &pool);
+    ABT_task_create(pool, thread_func, arg ,new_ult);
+#endif
+#ifdef MASSIVETHREADS
+    *new_ult = myth_create((void *)thread_func, arg);
+#endif
+#ifdef QTHREADS
+    qthread_fork((void *)thread_func, arg, new_ult);
+#endif
+}
+
+void acoilt_tasklet_creation_to(void(*thread_func)(void *), void *arg, ACOILT_tasklet *new_ult, int dest){
+#ifdef ARGOBOTS
+    ABT_pool pool;
+    ABT_xstream_get_main_pools ( main_team->team[dest], 1, &pool);
+    ABT_task_create(pool, thread_func, arg ,new_ult);
+#endif
+#ifdef MASSIVETHREADS
+    acoilt_ult_creation(thread_func,arg,new_ult);
+#endif
+#ifdef QTHREADS
+    qthread_fork_to((void *)thread_func, arg, new_ult,dest);
+#endif
+}
+
+
 /*
-ULT allocation. This function allocates memory for a given number of ULTs
-
-acoilt_ult_malloc()
-
-Tasklet allocation.  This function allocates memory for a given number of Tasklets
-
-acoilt_tasklet_malloc()
-call to acoilt_ult_malloc if tasklets are not supported
-
-ULT creation. This function creates a ULT into the current thread queue
-
-acoilt_ult_creation()
-ABT_thread_create(self_pool) //Argobots
-myth_create() //MassiveThreads
-qthread_fork() //Qthreads
-CthCreate() + CthAwaken() // Converse
-go + pointer // GO 
-
-
-
 
 ULT creation to. This function creates a ULT into a given thread queue
 
