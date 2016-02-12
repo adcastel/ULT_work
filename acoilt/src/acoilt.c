@@ -193,49 +193,31 @@ void acoilt_tasklet_creation_to(void(*thread_func)(void *), void *arg, ACOILT_ta
 #endif
 }
 
+void acoilt_yield(){
+#ifdef ARGOBOTS
+    ABT_thread_yield();
+#endif
+#ifdef MASSIVETHREADS
+   myth_yield(0);
+#endif
+#ifdef QTHREADS
+    qthread_yield();
+#endif
+}
+
+void acoilt_yield_to(ACOILT_ult ult){
+#ifdef ARGOBOTS
+    ABT_thread_yield_to(ult);
+#endif
+#ifdef MASSIVETHREADS
+   myth_yield(0);
+#endif
+#ifdef QTHREADS
+    qthread_yield();
+#endif
+}
 
 /*
-
-ULT creation to. This function creates a ULT into a given thread queue
-
-acoilt_ult_creation_to()
-ABT_thread_create(pool) //Argobots
-acoilt_ult_creation() //MassiveThreads
-qthread_fork_to() // Qthreads
-acoilt_ult_creation() //ConverseThreads
-acoilt_ult_creation() //GO
-
-Tasklet creation. This function creates a Tasklet into the current thread queue
-
-acoilt_tasklet_creation()
-call to acoilt_ult_creation() if tasklets are not supported
-ABT_task_create(self_pool) //Argobots
-CmiSetHandler() + CmiSyncSend() //ConverseThreads
-
-Tasklet creation to. This function creates a Tasklet into a given thread queue
-
-acoilt_tasklet_creation_to()
-call to acoilt_ult_creation_to() if tasklets are not supported
-ABT_thread_create(pool) //Argobots
-CmiSetHandler() + CmiSyncSend() //ConverseThreads
-
-Yield function. This function gives the control to the scheduler and the current thread is queued
-
-acoilt_yield()
-ABT_thread_yield() // Argobots
-myth_yield() //MassiveThreads
-qthread_yield() //Qthreads
-CthYield() //ConverseThreads
-GO // No yield function
-
-Yield to function. This function gives the control to a given thread and the current thread is queued
-
-acoilt_yield_to()
-ABT_thread_yield_to() // Argobots
-acoilt_yield() //MassiveThreads
-acoilt_yield() //Qthreads
-CthYieldPrio() //ConverseThreads
-GO // No yield_to function
 
 ULT join. This function joins a given ULT
 
