@@ -74,6 +74,8 @@ void accalt_init(int argc, char * argv[]) {
     } else
         num_threads = atoi(getenv("MYTH_WORKER_NUM"));
 
+    setenv("MYTH_BIND_WORKERS", "1", 1);
+
     //printf("Massive %d Workers\n", num_threads);
     main_team->num_workers = num_threads;
     myth_init(); //MassiveThreads
@@ -102,6 +104,7 @@ void accalt_init(int argc, char * argv[]) {
         setenv("QTHREAD_SHEPHERDS_BOUNDARY", "core", 1);
         setenv("QTHREAD_WORKER_UNIT", "core", 1);
     }
+    setenv("QTHREAD_AFFINITY", "yes", 1);
 
     //printf("Qthreads %d Shepherds, %d Workers_per_shepherd\n", num_threads, num_workers_per_thread);
 

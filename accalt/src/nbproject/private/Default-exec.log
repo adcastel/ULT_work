@@ -1,0 +1,13 @@
+called: gcc
+	/home/adcastel/anl/accalt/src
+	gcc
+	-Wall
+	-c
+	-fPIC
+	accalt.c
+	-I.
+	-I/home/adcastel/argobots/include
+	-L/home/adcastel/argobots/lib
+	-labt
+	-DARGOBOTS
+
