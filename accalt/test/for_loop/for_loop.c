@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <unistd.h>
-#include <qthread/qthread.h>
+#include <accalt.h>
 #include <math.h>
 #include <sys/time.h>
 #ifndef VERBOSE
@@ -25,7 +25,7 @@ typedef struct {
     int end;
 } vector_scal_args_t;
 
-static aligned_t vector_scal(void *arguments) {
+void vector_scal(void *arguments) {
     vector_scal_args_t *arg;
     arg = (vector_scal_args_t *) arguments;
     int mystart = arg->start;
@@ -35,7 +35,7 @@ static aligned_t vector_scal(void *arguments) {
 
 #ifdef VERBOSE
 
-    printf("#Shepherd: %d (CPU: %d) Worker %d, mystart: %d, myend: %d\n", qthread_shep(), qthread_worker(NULL),sched_getcpu(), mystart, myend);
+    printf("#Thread: %d (CPU: %d) mystart: %d, myend: %d\n", accalt_get_thread_num(), sched_getcpu(), mystart, myend);
 
 #endif
 
@@ -70,15 +70,11 @@ int main(int argc, char *argv[]) {
     args = (vector_scal_args_t *) malloc(sizeof (vector_scal_args_t)
             * ntasks);
 
-    status = qthread_initialize();
-    assert(status == QTHREAD_SUCCESS);
-    num_shepherds = qthread_num_shepherds();
-    num_workers = qthread_num_workers();
-    aligned_t *returned_values;
-    returned_values = (aligned_t *) malloc(sizeof (aligned_t) * num_workers);
+    int num_threads = accalt_get_num_threads();
+    ACCALT_ult * ults;
 
-    //printf("%i shepherds...\n", qthread_num_shepherds());
-    //printf("  %i threads total\n", qthread_num_workers());
+    ults = accalt_ult_malloc(num_threads);  
+    
     for (int t = 0; t < TIMES; t++) {
         for (int i = 0; i < ntasks; i++) {
             a[i] = i * 1.0f;
@@ -89,11 +85,11 @@ int main(int argc, char *argv[]) {
         gettimeofday(&t_start, NULL);
 
         /* Each task is created on the xstream which is going to execute it*/
-        int bloc = ntasks / (num_workers);
-        int rest = ntasks % (num_workers);
+        int bloc = ntasks / (num_threads);
+        int rest = ntasks % (num_threads);
         int start = 0;
         int end = 0;
-        for (int j = 0; j < num_workers; j++) {
+        for (int j = 0; j < num_threads; j++) {
             start = end;
             int inc = (j < rest) ? 1 : 0;
             end += bloc + inc;
@@ -101,16 +97,12 @@ int main(int argc, char *argv[]) {
             args[j].end = end;
             args[j].value = 0.9f;
             args[j].ptr = a;
-#ifdef FORKTO
-            status = qthread_fork_to(vector_scal, (void *) &args[j], &returned_values[j],j%num_shepherds);
-#else
-            status = qthread_fork(vector_scal, (void *) &args[j], &returned_values[j]);
-#endif
+            accalt_ult_creation_to(vector_scal, (void *) &args[j],&ults[j],j%num_threads);        
         }
-        qthread_yield();
+        accalt_yield();
         gettimeofday(&t_start2, NULL);
         for (int j = 0; j < num_workers; j++) {
-            int ret = qthread_readFF(NULL, &returned_values[j]);
+            accalt_ult_join(&ults[j]);
         }
         
         gettimeofday(&t_end, NULL);
@@ -143,8 +135,8 @@ int main(int argc, char *argv[]) {
 #else
     dev = sqrt(sigma);
 #endif
-    printf("%d %d %d %f [%f - %f] %f Join(%f)\n",
-            num_shepherds,num_workers, ntasks, avg, min, max, dev,avgj/TIMES);
+    printf("%d %d %f [%f - %f] %f Join(%f)\n",
+            num_threads, ntasks, avg, min, max, dev,avgj/TIMES);
     
     for (int i = 0; i < ntasks; i++) {
         if (a[i] != i * 0.9f) {
