@@ -75,26 +75,36 @@ void task_creator(void *arguments){
     printf("#Thread: %d (CPU: %d) crear task y creare  %d tareas (%d-%d) de granularidad %d\n", accalt_get_thread_num(), sched_getcpu(), ntasks, it_end, it_start, gran);
 #endif
     vector_scal_args_t * out_args = (vector_scal_args_t *) malloc(sizeof (vector_scal_args_t) * ntasks);
-   
+  
+#ifdef TASK
+    ACCALT_tasklet * tasklets;
+    tasklets = accalt_tasklet_malloc(ntasks);
+#else 
     ACCALT_ult * ults;
-
     ults = accalt_ult_malloc(ntasks);
-
+#endif
 int ct=0; 
 for(i=it_start;i<it_end;i++){
         out_args[ct].pos=i*gran;
         out_args[ct].value=value;
         out_args[ct].ptr=ptr;
         out_args[ct].gran=gran;
+#ifdef TASK
+	accalt_tasklet_creation(vector_scal,(void *)&out_args[ct],&tasklets[ct]);
+#else
 	accalt_ult_creation(vector_scal,(void *)&out_args[ct],&ults[ct]);
+#endif
         ct++;
 }
 
 accalt_yield();
 
 for (i = 0; i < ntasks; i++) {
-            accalt_ult_join(&ults[i]);
-
+#ifdef TASK
+   accalt_tasklet_join(&tasklets[i]);
+#else            
+accalt_ult_join(&ults[i]);
+#endif
 }
 return 0;
 }
@@ -131,8 +141,8 @@ int main(int argc, char *argv[]) {
             * ntasks);
 
     int num_threads = accalt_get_num_threads();
-    ACCALT_ult * ults;
 
+    ACCALT_ult * ults;
     ults = accalt_ult_malloc(num_threads);    
     for (int t = 0; t < TIMES; t++) {
         for (int i = 0; i < total; i++) {
@@ -201,8 +211,6 @@ int main(int argc, char *argv[]) {
             return 0;
         }
     }
-
-    //printf("greeter returned %lu\n", (unsigned long) return_value);
 
     return EXIT_SUCCESS;
 }
