@@ -90,8 +90,8 @@ void accalt_init(int argc, char * argv[]) {
     } else
         num_threads = atoi(getenv("QTHREAD_NUM_SHEPHERDS"));
 
-    if (getenv("ACOILT_NUM_WORKERS_PER_THREAD") != NULL) {
-        num_workers_per_thread = atoi(getenv("ACOILT_NUM_WORKERS_PER_THREAD"));
+    if (getenv("ACCALT_NUM_WORKERS_PER_THREAD") != NULL) {
+        num_workers_per_thread = atoi(getenv("ACCALT_NUM_WORKERS_PER_THREAD"));
         sprintf(buff, "%d", num_workers_per_thread);
         setenv("QTHREAD_NUM_WORKERS_PER_SHEPHERD", buff, 1);
     } else
@@ -163,7 +163,7 @@ void accalt_ult_creation_to(void(*thread_func)(void *), void *arg, ACCALT_ult *n
     ABT_thread_create(pool, thread_func, arg, ABT_THREAD_ATTR_NULL, new_ult);
 #endif
 #ifdef MASSIVETHREADS
-    acoilt_ult_creation(thread_func, arg, new_ult);
+    accalt_ult_creation(thread_func, arg, new_ult);
 #endif
 #ifdef QTHREADS
     qthread_fork_to((void *) thread_func, arg, new_ult, dest);
@@ -193,7 +193,7 @@ void accalt_tasklet_creation_to(void(*thread_func)(void *), void *arg, ACCALT_ta
     ABT_task_create(pool, thread_func, arg, new_ult);
 #endif
 #ifdef MASSIVETHREADS
-    acoilt_ult_creation(thread_func, arg, new_ult);
+    accalt_ult_creation(thread_func, arg, new_ult);
 #endif
 #ifdef QTHREADS
     qthread_fork_to((void *) thread_func, arg, new_ult, dest);
