@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <unistd.h>
-#include <qthread/qthread.h>
+#include <accalt.h>
 #include <math.h>
 #include <sys/time.h>
 #ifndef VERBOSE
@@ -38,7 +38,7 @@ typedef struct {
 } task_creator_args_t;
 
 
-static aligned_t vector_scal(void *arguments) {
+void vector_scal(void *arguments) {
     vector_scal_args_t *arg;
     arg = (vector_scal_args_t *) arguments;
     int pos = arg->pos;
@@ -50,7 +50,7 @@ static aligned_t vector_scal(void *arguments) {
 
 #ifdef VERBOSE
 
-    printf("#Shepherd: %d (CPU: %d) Worker %d, pos: %d\n", qthread_shep(),sched_getcpu(),qthread_worker(NULL), pos);
+    printf("#Thread: %d (CPU: %d), pos: %d\n", accalt_get_thread_num(),sched_getcpu(),pos);
 
 #endif
     for(i=pos;i<posfin;i++){
@@ -59,7 +59,7 @@ static aligned_t vector_scal(void *arguments) {
     return 0;
 }
 
-static aligned_t task_creator(void *arguments){
+void task_creator(void *arguments){
     int i;
     int status;
     task_creator_args_t *in_arg;
@@ -71,7 +71,7 @@ static aligned_t task_creator(void *arguments){
     int nchild = in_arg->nchildtask;
     int nlvl = in_arg->nlevels;
 #ifdef VERBOSE
-        printf("#Shepherd: %d (CPU: %d) en crear task para posicion %d, nchildtask %d, nlevels %d y granularidad %d\n", qthread_shep(), sched_getcpu(),  pos ,nchild,nlvl,gran);
+        printf("#Thread: %d (CPU: %d) en crear task para posicion %d, nchildtask %d, nlevels %d y granularidad %d\n", accalt_get_thread_num(), sched_getcpu(),  pos ,nchild,nlvl,gran);
 #endif
 
     if(nlvl > 1){
@@ -79,9 +79,10 @@ static aligned_t task_creator(void *arguments){
     }
     else{
         vector_scal_args_t * out_arg = (vector_scal_args_t *) malloc(sizeof (vector_scal_args_t) * nchild);
-        aligned_t *returned_values;
-        returned_values = (aligned_t *) malloc(sizeof (aligned_t) * nchild);
-	int t;
+	ACCALT_ult * ults;
+
+        ults = accalt_ult_malloc(nchild);    
+        int t;
         int start = pos;
         int stride=(nchild*nlvl*gran)/nchild;
         for(t=0;t<nchild;t++){
@@ -89,18 +90,14 @@ static aligned_t task_creator(void *arguments){
             out_arg[t].value=value;
             out_arg[t].pos=start;
             out_arg[t].gran=gran;
-            status = qthread_fork_to(vector_scal, (void *) &out_arg[t], &returned_values[t],qthread_shep());
-
-#ifdef VERBOSE
-            printf("#Shepherd %d: creada la tarea %d\n", qthread_shep(), t);
-#endif
+	    accalt_ult_creation_to(vector_scal, (void *) &out_arg[t],&ults[t],accalt_get_thread_num());        
            start+=stride;
         }
 
-        qthread_yield();
+        accalt_yield();
 
         for (i = 0; i < nchild; i++) {
-            int ret = qthread_readFF(NULL, &returned_values[i]);
+            accalt_ult_join(&ults[i]);
         }
     }
     
@@ -138,13 +135,11 @@ int main(int argc, char *argv[]) {
     args = (task_creator_args_t *) malloc(sizeof (task_creator_args_t)
             * ntasks);
 
-    status = qthread_initialize();
-    assert(status == QTHREAD_SUCCESS);
-    num_shepherds = qthread_num_shepherds();
-    num_workers = qthread_num_workers();
-    aligned_t *returned_values;
-    returned_values = (aligned_t *) malloc(sizeof (aligned_t) * ntasks);
+    int num_threads = accalt_get_num_threads();
+    ACCALT_ult * ults;
 
+    ults = accalt_ult_malloc(ntasks);
+ 
     for (int t = 0; t < TIMES; t++) {
         for (int i = 0; i < total; i++) {
             a[i] = i * 1.0f;
@@ -161,17 +156,13 @@ int main(int argc, char *argv[]) {
             args[ct].nlevels = nlevels;
             args[ct].nchildtask = nchildtask;
  
-#ifdef FORKTO
-            status = qthread_fork_to(task_creator, (void *) &args[ct], &returned_values[ct],ct%num_shepherds);
-#else
-            status = qthread_fork(task_creator, (void *) &args[ct], &returned_values[ct]);
-#endif
+	    accalt_ult_creation_to(task_creator,(void *) &args[ct],&ults[ct],ct%num_threads);
 	    ct++;
         }
-        qthread_yield();
+        accalt_yield();
         gettimeofday(&t_start2, NULL);
         for (int j = 0; j < ntasks; j++) {
-            int ret = qthread_readFF(NULL, &returned_values[j]);
+            accalt_ult_join(&ults[j]);
         }
         
         gettimeofday(&t_end, NULL);
@@ -204,8 +195,8 @@ int main(int argc, char *argv[]) {
 #else
     dev = sqrt(sigma);
 #endif
-    printf("%d %d %d %f [%f - %f] %f Join(%f)\n",
-            num_shepherds,num_workers, total, avg, min, max, dev,avgj/TIMES);
+    printf("%d %d %f [%f - %f] %f Join(%f)\n",
+            num_threads, total, avg, min, max, dev,avgj/TIMES);
     
     for (int i = 0; i < total; i++) {
         if (a[i] != i * 0.9f) {
