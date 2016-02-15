@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <unistd.h>
-#include <acoilt.h>
+#include <accalt.h>
 #include <math.h>
 #include <sys/time.h>
 #ifndef VERBOSE
@@ -25,7 +25,7 @@ typedef struct {
     int gran;
 } vector_scal_args_t;
 
-void * vector_scal(void *arguments) {
+void vector_scal(void *arguments) {
     vector_scal_args_t *arg;
     arg = (vector_scal_args_t *) arguments;
     int pos = arg->pos;
@@ -37,7 +37,7 @@ void * vector_scal(void *arguments) {
 
 #ifdef VERBOSE
 
-    printf("#Shepherd: %d (CPU: %d) Worker %d, pos: %d\n", qthread_shep(), qthread_worker(NULL),sched_getcpu(), pos);
+    printf("#Thread: %d (CPU: %d) pos: %d\n", accalt_get_thread_num(), sched_getcpu(), pos);
 
 #endif
     for(i=pos;i<posfin;i++){
@@ -71,28 +71,17 @@ int main(int argc, char *argv[]) {
 
     args = (vector_scal_args_t *) malloc(sizeof (vector_scal_args_t)
             * ntasks);
-acoilt_init(argc,argv);
+accalt_init(argc,argv);
 
-ACOILT_ult * ults;
+ACCALT_ult * ults;
 
-ults = acoilt_ult_malloc(ntasks);
-int num_threads = acoilt_get_num_threads();
-    /*status = qthread_initialize();
-    assert(status == QTHREAD_SUCCESS);
-    num_shepherds = qthread_num_shepherds();
-    num_workers = qthread_num_workers();
-    aligned_t *returned_values;
-    returned_values = (aligned_t *) malloc(sizeof (aligned_t) * ntasks);
-*/
-    //printf("%i shepherds...\n", qthread_num_shepherds());
-    //printf("  %i threads total\n", qthread_num_workers());
+ults = accalt_ult_malloc(ntasks);
+int num_threads = accalt_get_num_threads();
+    
     for (int t = 0; t < TIMES; t++) {
         for (int i = 0; i < total; i++) {
             a[i] = i * 1.0f;
         }
-        //for (int j = 0; j < num_workers; j++) {
-            //returned_values[j]=NULL;
-        //}
         gettimeofday(&t_start, NULL);
 	int current_task=0;
         /* Each task is created on the xstream which is going to execute it*/
@@ -101,13 +90,13 @@ int num_threads = acoilt_get_num_threads();
             args[current_task].pos = j;
             args[current_task].value = 0.9f;
             args[current_task].ptr = a;
-            acoilt_ult_creation_to(vector_scal, (void *) &args[current_task],&ults[j],j%num_threads);
+            accalt_ult_creation_to(vector_scal, (void *) &args[current_task],&ults[j],j%num_threads);
 	    current_task++;
 	}
-        acoilt_yield();
+        accalt_yield();
         gettimeofday(&t_start2, NULL);
         for (int j = 0; j < ntasks; j++) {
-            	acoilt_ult_join(&ults[j]);
+            	accalt_ult_join(&ults[j]);
         }
         
         gettimeofday(&t_end, NULL);
@@ -149,8 +138,6 @@ int num_threads = acoilt_get_num_threads();
             return 0;
         }
     }
-
-    //printf("greeter returned %lu\n", (unsigned long) return_value);
 
     return EXIT_SUCCESS;
 }

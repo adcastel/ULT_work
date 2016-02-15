@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <unistd.h>
-#include <acoilt.h>
+#include <accalt.h>
 #include <math.h>
 #include <sys/time.h>
 #ifndef VERBOSE
@@ -39,7 +39,7 @@ typedef struct {
 } innerloop_args_t;
 
 
-void * vector_scal(void *arguments) {
+void vector_scal(void *arguments) {
     innerloop_args_t *arg;
     arg = (innerloop_args_t *) arguments;
     int outer_pos = arg->outer_pos;
@@ -52,17 +52,17 @@ void * vector_scal(void *arguments) {
 
 #ifdef VERBOSE
 
-    printf("#Shepherd: %d (CPU: %d) Worker %d, pos_ini: %d, pos_fin: %d\n", qthread_shep(),sched_getcpu(),qthread_worker(NULL), inner_start_pos, inner_end_pos);
+    printf("#Thread: %d (CPU: %d) pos_ini: %d, pos_fin: %d\n", accalt_get_thread_num(),sched_getcpu(), inner_start_pos, inner_end_pos);
 
 #endif
     for(i=inner_start_pos;i<inner_end_pos;i++){
         ptr[outer_pos*niterations+i] *= value;
     }
 
-    //return 0;
+    return 0;
 }
 
-void * task_creator(void *arguments){
+void task_creator(void *arguments){
 
     int status;
     int i;
@@ -78,15 +78,12 @@ void * task_creator(void *arguments){
     float * ptr = in_arg->ptr;
 
 #ifdef VERBOSE
-    printf("#Shepherd: %d (CPU: %d) en task_creator y creare %d tareas para el rango de iteraciones de %d a %d del loop externo\n", qthread_shep(), sched_getcpu(), nthreads, it_start, it_end);
+    printf("#Thread: %d (CPU: %d) en task_creator y creare %d tareas para el rango de iteraciones de %d a %d del loop externo\n", accalt_get_thread_num(), sched_getcpu(), nthreads, it_start, it_end);
 #endif
  
     innerloop_args_t * out_args = (innerloop_args_t *) malloc(sizeof (innerloop_args_t) * nthreads);
-    /*aligned_t *returned_values;
-    returned_values = (aligned_t *) malloc(sizeof (aligned_t) * nthreads);
-*/
-    ACOILT_ult * ults;
-    ults = acoilt_ult_malloc(nthreads);
+    ACCALT_ult * ults;
+    ults = accalt_ult_malloc(nthreads);
     int ct; //current_task
     int start, end;
     int bloc = niterations / nthreads;
@@ -109,17 +106,14 @@ void * task_creator(void *arguments){
             out_args[ct].ptr=ptr;
             out_args[ct].niterations=niterations;
 	
-            acoilt_ult_creation_to(vector_scal, (void *) &out_args[ct],&ults[ct],acoilt_get_thread_num());
+            accalt_ult_creation_to(vector_scal, (void *) &out_args[ct],&ults[ct],accalt_get_thread_num());
 
-#ifdef VERBOSE
-            printf("#Shepherd: %d creada la tarea %d\n", qthread_shep(), ct);
-#endif
         }
 
-        acoilt_yield();
+        accalt_yield();
 
         for (j = 0; j < nthreads; j++) {
-            acoilt_ult_join(&ults[j]);
+            accalt_ult_join(&ults[j]);
         }
     }
     
@@ -156,19 +150,12 @@ int main(int argc, char *argv[]) {
 
 
 
-    /*status = qthread_initialize();
-    assert(status == QTHREAD_SUCCESS);
-    num_shepherds = qthread_num_shepherds();
-    num_workers = qthread_num_workers();
-    aligned_t *returned_values;
-    returned_values = (aligned_t *) malloc(sizeof (aligned_t) * num_workers);
-    */
-acoilt_init(argc,argv);
+accalt_init(argc,argv);
 
-ACOILT_ult * ults;
+ACCALT_ult * ults;
 
-num_workers = acoilt_get_num_threads();
-ults = acoilt_ult_malloc(num_workers);
+num_workers = accalt_get_num_threads();
+ults = accalt_ult_malloc(num_workers);
 
      args = (outerloop_args_t *) malloc(sizeof (outerloop_args_t)
             * num_workers);
@@ -195,13 +182,13 @@ ults = acoilt_ult_malloc(num_workers);
                 args[j].niterations=niterations;
                 args[j].nthreads=num_workers;
              
-                acoilt_ult_creation_to(task_creator, (void *) &args[j],&ults[j],j%num_workers);
+                accalt_ult_creation_to(task_creator, (void *) &args[j],&ults[j],j%num_workers);
  
 	}
-        acoilt_yield();
+        accalt_yield();
         gettimeofday(&t_start2, NULL);
         for (int j = 0; j < num_workers; j++) {
-            acoilt_ult_join(&ults[j]);
+            accalt_ult_join(&ults[j]);
         }
         
         gettimeofday(&t_end, NULL);
@@ -243,8 +230,6 @@ ults = acoilt_ult_malloc(num_workers);
             return 0;
         }
     }
-
-    //printf("greeter returned %lu\n", (unsigned long) return_value);
 
     return EXIT_SUCCESS;
 }
