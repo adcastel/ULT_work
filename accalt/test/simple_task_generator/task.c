@@ -72,10 +72,13 @@ int main(int argc, char *argv[]) {
     args = (vector_scal_args_t *) malloc(sizeof (vector_scal_args_t)
             * ntasks);
 accalt_init(argc,argv);
-
+#ifdef TASK
+ACCALT_tasklet * tasklets;
+tasklets = accalt_tasklet_malloc(ntasks);
+#else
 ACCALT_ult * ults;
-
 ults = accalt_ult_malloc(ntasks);
+#endif
 int num_threads = accalt_get_num_threads();
     
     for (int t = 0; t < TIMES; t++) {
@@ -90,13 +93,21 @@ int num_threads = accalt_get_num_threads();
             args[current_task].pos = j;
             args[current_task].value = 0.9f;
             args[current_task].ptr = a;
+#ifdef TASK
+            accalt_tasklet_creation_to(vector_scal, (void *) &args[current_task],&tasklets[j],j%num_threads);
+#else
             accalt_ult_creation_to(vector_scal, (void *) &args[current_task],&ults[j],j%num_threads);
-	    current_task++;
+#endif	   
+ current_task++;
 	}
         accalt_yield();
         gettimeofday(&t_start2, NULL);
         for (int j = 0; j < ntasks; j++) {
+#ifdef TASK
+            	accalt_tasklet_join(&tasklets[j]);
+#else
             	accalt_ult_join(&ults[j]);
+#endif
         }
         
         gettimeofday(&t_end, NULL);

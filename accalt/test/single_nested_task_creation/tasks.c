@@ -79,9 +79,13 @@ void task_creator(void *arguments){
     }
     else{
         vector_scal_args_t * out_arg = (vector_scal_args_t *) malloc(sizeof (vector_scal_args_t) * nchild);
+#ifdef TASK
+	ACCALT_tasklet * tasklets;
+        tasklets = accalt_tasklet_malloc(nchild);    
+#else
 	ACCALT_ult * ults;
-
         ults = accalt_ult_malloc(nchild);    
+#endif
         int t;
         int start = pos;
         int stride=(nchild*nlvl*gran)/nchild;
@@ -90,15 +94,23 @@ void task_creator(void *arguments){
             out_arg[t].value=value;
             out_arg[t].pos=start;
             out_arg[t].gran=gran;
+#ifdef TASK
+	    accalt_tasklet_creation_to(vector_scal, (void *) &out_arg[t],&tasklets[t],accalt_get_thread_num());        
+#else	    
 	    accalt_ult_creation_to(vector_scal, (void *) &out_arg[t],&ults[t],accalt_get_thread_num());        
-           start+=stride;
+#endif           
+start+=stride;
         }
 
         accalt_yield();
 
         for (i = 0; i < nchild; i++) {
-            accalt_ult_join(&ults[i]);
-        }
+#ifdef TASK
+            accalt_tasklet_join(&tasklets[i]);
+#else            
+	accalt_ult_join(&ults[i]);
+#endif     
+   }
     }
     
     return 0;

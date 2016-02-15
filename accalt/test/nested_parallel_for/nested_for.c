@@ -82,9 +82,14 @@ void task_creator(void *arguments){
 #endif
  
     innerloop_args_t * out_args = (innerloop_args_t *) malloc(sizeof (innerloop_args_t) * nthreads);
+#ifdef TASK
+    ACCALT_tasklet * tasklets;
+    tasklets = accalt_tasklet_malloc(nthreads);
+#else
     ACCALT_ult * ults;
     ults = accalt_ult_malloc(nthreads);
-    int ct; //current_task
+#endif    
+int ct; //current_task
     int start, end;
     int bloc = niterations / nthreads;
     int rest = niterations % nthreads;
@@ -106,15 +111,22 @@ void task_creator(void *arguments){
             out_args[ct].ptr=ptr;
             out_args[ct].niterations=niterations;
 	
+#ifdef TASK            
+            accalt_tasklet_creation_to(vector_scal, (void *) &out_args[ct],&tasklets[ct],accalt_get_thread_num());
+#else
             accalt_ult_creation_to(vector_scal, (void *) &out_args[ct],&ults[ct],accalt_get_thread_num());
-
+#endif
         }
 
         accalt_yield();
 
         for (j = 0; j < nthreads; j++) {
-            accalt_ult_join(&ults[j]);
-        }
+#ifdef TASK            
+accalt_tasklet_join(&tasklets[j]);
+#else           
+ accalt_ult_join(&ults[j]);
+#endif     
+   }
     }
     
     return 0;
