@@ -1,0 +1,6 @@
+gcc -Wall -c -fPIC acoilt.c -I/home/adcastel/argobots/include -L/home/adcastel/argobots/lib -labt -DARGOBOTS
+acoilt.c:4:17: fatal error: abt.h: No existe el archivo o el directorio
+ #include <abt.h>
+                 ^
+compilation terminated.
+make: *** [argobots] Error 1
