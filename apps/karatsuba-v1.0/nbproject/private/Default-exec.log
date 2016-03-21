@@ -1,0 +1,10 @@
+called: icpc
+	/home/adcastel/anl/apps/karatsuba-v1.0
+	icpc
+	-O3
+	-march=native
+	-o
+	karatsuba
+	driver.cpp
+	karatsuba.cpp
+

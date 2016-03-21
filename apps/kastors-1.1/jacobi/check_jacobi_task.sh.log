@@ -1,0 +1,18 @@
+Join (0.000008)
+Fork (0.000007) Join (0.001336)
+Fork (0.000008) Join (0.001120)
+Fork (0.000008) Join (0.060671)
+Fork (0.000040) Join (0.000992)
+Fork (0.000031) Join (0.002084)
+Fork (0.000064) Join (0.001162)
+Fork (0.000008) Join (0.055945)
+Fork (0.000049) Join (0.000989)
+Program : ./jacobi_task
+Size : 512
+Blocksize : 128
+Iteration time : 4
+Iterations : 1
+Threads : 36
+Time(sec):: avg : 0.055956 :: std : 0.000000 :: min : 0.055956 :: max : 0.055956 :: median : 0.055956
+Check : success
+

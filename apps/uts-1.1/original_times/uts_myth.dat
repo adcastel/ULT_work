@@ -1,0 +1,3708 @@
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 1 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=102181082
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 22.097 sec, performance = 4624111 nodes/sec (4624111 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 2 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=51084328
+In show stats id=1, nodes=51096754
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 11.278 sec, performance = 9060432 nodes/sec (4530216 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 3 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=44346143
+In show stats id=1, nodes=13479479
+In show stats id=2, nodes=44355460
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 10.221 sec, performance = 9997383 nodes/sec (3332461 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 4 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=25550751
+In show stats id=1, nodes=25545851
+In show stats id=2, nodes=25569868
+In show stats id=3, nodes=25514612
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 6.116 sec, performance = 16706863 nodes/sec (4176716 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 5 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=20899447
+In show stats id=1, nodes=19810022
+In show stats id=2, nodes=19753605
+In show stats id=3, nodes=20874088
+In show stats id=4, nodes=20843920
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 5.060 sec, performance = 20195514 nodes/sec (4039103 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 6 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=17068292
+In show stats id=1, nodes=17025413
+In show stats id=2, nodes=17043404
+In show stats id=3, nodes=17028114
+In show stats id=4, nodes=17022671
+In show stats id=5, nodes=16993188
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 4.282 sec, performance = 23865146 nodes/sec (3977524 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 7 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=14639843
+In show stats id=1, nodes=14628984
+In show stats id=2, nodes=14586076
+In show stats id=3, nodes=14602022
+In show stats id=4, nodes=14572082
+In show stats id=5, nodes=14550983
+In show stats id=6, nodes=14601092
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 4.035 sec, performance = 25324800 nodes/sec (3617829 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 8 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=12805305
+In show stats id=1, nodes=12783537
+In show stats id=2, nodes=12780071
+In show stats id=3, nodes=12768521
+In show stats id=4, nodes=12766126
+In show stats id=5, nodes=12768069
+In show stats id=6, nodes=12762929
+In show stats id=7, nodes=12746524
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 3.437 sec, performance = 29727956 nodes/sec (3715995 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 9 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=11390036
+In show stats id=1, nodes=11373976
+In show stats id=2, nodes=11410886
+In show stats id=3, nodes=11352374
+In show stats id=4, nodes=11341582
+In show stats id=5, nodes=11331304
+In show stats id=6, nodes=11332373
+In show stats id=7, nodes=11311511
+In show stats id=8, nodes=11337040
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 3.166 sec, performance = 32272914 nodes/sec (3585879 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 10 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=10264223
+In show stats id=1, nodes=10286562
+In show stats id=2, nodes=10241416
+In show stats id=3, nodes=10297191
+In show stats id=4, nodes=10205853
+In show stats id=5, nodes=10194866
+In show stats id=6, nodes=10189710
+In show stats id=7, nodes=10168643
+In show stats id=8, nodes=10182996
+In show stats id=9, nodes=10149622
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.877 sec, performance = 35511193 nodes/sec (3551119 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 11 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=9326405
+In show stats id=1, nodes=9363764
+In show stats id=2, nodes=9248764
+In show stats id=3, nodes=9292130
+In show stats id=4, nodes=9300963
+In show stats id=5, nodes=9284964
+In show stats id=6, nodes=9276320
+In show stats id=7, nodes=9276569
+In show stats id=8, nodes=9259787
+In show stats id=9, nodes=9244546
+In show stats id=10, nodes=9306870
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.652 sec, performance = 38533323 nodes/sec (3503029 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 12 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=8570891
+In show stats id=1, nodes=8563901
+In show stats id=2, nodes=8488965
+In show stats id=3, nodes=8523476
+In show stats id=4, nodes=8546718
+In show stats id=5, nodes=8526465
+In show stats id=6, nodes=8524350
+In show stats id=7, nodes=8509442
+In show stats id=8, nodes=8508557
+In show stats id=9, nodes=8479176
+In show stats id=10, nodes=8464543
+In show stats id=11, nodes=8474598
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.417 sec, performance = 42275595 nodes/sec (3522966 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 13 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=7921687
+In show stats id=1, nodes=7908788
+In show stats id=2, nodes=7882777
+In show stats id=3, nodes=7867003
+In show stats id=4, nodes=7917872
+In show stats id=5, nodes=7937640
+In show stats id=6, nodes=7881168
+In show stats id=7, nodes=7850477
+In show stats id=8, nodes=7820591
+In show stats id=9, nodes=7810026
+In show stats id=10, nodes=7784253
+In show stats id=11, nodes=7792421
+In show stats id=12, nodes=7806379
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.266 sec, performance = 45091163 nodes/sec (3468551 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 14 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=7367887
+In show stats id=1, nodes=7341228
+In show stats id=2, nodes=7355004
+In show stats id=3, nodes=7328261
+In show stats id=4, nodes=7322280
+In show stats id=5, nodes=7299307
+In show stats id=6, nodes=7317089
+In show stats id=7, nodes=7284927
+In show stats id=8, nodes=7307770
+In show stats id=9, nodes=7246930
+In show stats id=10, nodes=7328463
+In show stats id=11, nodes=7243821
+In show stats id=12, nodes=7229581
+In show stats id=13, nodes=7208534
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.119 sec, performance = 48211878 nodes/sec (3443706 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 15 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=6866257
+In show stats id=1, nodes=6819826
+In show stats id=2, nodes=6854308
+In show stats id=3, nodes=6963641
+In show stats id=4, nodes=6848285
+In show stats id=5, nodes=6834534
+In show stats id=6, nodes=6823043
+In show stats id=7, nodes=6808011
+In show stats id=8, nodes=6811457
+In show stats id=9, nodes=6799667
+In show stats id=10, nodes=6759279
+In show stats id=11, nodes=6788587
+In show stats id=12, nodes=6751203
+In show stats id=13, nodes=6734449
+In show stats id=14, nodes=6718535
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.993 sec, performance = 51260830 nodes/sec (3417389 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 16 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=6465943
+In show stats id=1, nodes=6449860
+In show stats id=2, nodes=6425400
+In show stats id=3, nodes=6420591
+In show stats id=4, nodes=6428035
+In show stats id=5, nodes=6414145
+In show stats id=6, nodes=6453956
+In show stats id=7, nodes=6390189
+In show stats id=8, nodes=6376554
+In show stats id=9, nodes=6353006
+In show stats id=10, nodes=6360846
+In show stats id=11, nodes=6352568
+In show stats id=12, nodes=6339180
+In show stats id=13, nodes=6334083
+In show stats id=14, nodes=6316487
+In show stats id=15, nodes=6300239
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.877 sec, performance = 54434738 nodes/sec (3402171 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 17 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=6088007
+In show stats id=1, nodes=6076157
+In show stats id=2, nodes=6107910
+In show stats id=3, nodes=6060334
+In show stats id=4, nodes=6062050
+In show stats id=5, nodes=6032355
+In show stats id=6, nodes=5603922
+In show stats id=7, nodes=6016348
+In show stats id=8, nodes=5929419
+In show stats id=9, nodes=6014913
+In show stats id=10, nodes=5980791
+In show stats id=11, nodes=5987307
+In show stats id=12, nodes=5968176
+In show stats id=13, nodes=6483700
+In show stats id=14, nodes=5929379
+In show stats id=15, nodes=5917927
+In show stats id=16, nodes=5922387
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.935 sec, performance = 52793772 nodes/sec (3105516 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 18 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=5778221
+In show stats id=1, nodes=5765349
+In show stats id=2, nodes=5755964
+In show stats id=3, nodes=5740076
+In show stats id=4, nodes=5721714
+In show stats id=5, nodes=5707668
+In show stats id=6, nodes=5722086
+In show stats id=7, nodes=5696076
+In show stats id=8, nodes=5667914
+In show stats id=9, nodes=5668679
+In show stats id=10, nodes=5674295
+In show stats id=11, nodes=5644654
+In show stats id=12, nodes=5643393
+In show stats id=13, nodes=5619877
+In show stats id=14, nodes=5603902
+In show stats id=15, nodes=5607737
+In show stats id=16, nodes=5587864
+In show stats id=17, nodes=5575613
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.742 sec, performance = 58658683 nodes/sec (3258816 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 19 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=5407029
+In show stats id=1, nodes=5379115
+In show stats id=2, nodes=5362713
+In show stats id=3, nodes=5343132
+In show stats id=4, nodes=5350371
+In show stats id=5, nodes=5417274
+In show stats id=6, nodes=5322712
+In show stats id=7, nodes=5295828
+In show stats id=8, nodes=5282332
+In show stats id=9, nodes=6891372
+In show stats id=10, nodes=5264171
+In show stats id=11, nodes=5277407
+In show stats id=12, nodes=5281408
+In show stats id=13, nodes=5256097
+In show stats id=14, nodes=5241445
+In show stats id=15, nodes=5217589
+In show stats id=16, nodes=5208258
+In show stats id=17, nodes=5193053
+In show stats id=18, nodes=5189776
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.667 sec, performance = 61307164 nodes/sec (3226693 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=5063395
+In show stats id=1, nodes=6594106
+In show stats id=2, nodes=5043312
+In show stats id=3, nodes=5030619
+In show stats id=4, nodes=5037640
+In show stats id=5, nodes=5012296
+In show stats id=6, nodes=4999709
+In show stats id=7, nodes=5001505
+In show stats id=8, nodes=4983877
+In show stats id=9, nodes=4970959
+In show stats id=10, nodes=4952804
+In show stats id=11, nodes=4924078
+In show stats id=12, nodes=4908306
+In show stats id=13, nodes=4891832
+In show stats id=14, nodes=6423030
+In show stats id=15, nodes=4886837
+In show stats id=16, nodes=4875020
+In show stats id=17, nodes=4869185
+In show stats id=18, nodes=4875964
+In show stats id=19, nodes=4836608
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.590 sec, performance = 64274367 nodes/sec (3213718 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 21 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=4834243
+In show stats id=1, nodes=4793228
+In show stats id=2, nodes=5883227
+In show stats id=3, nodes=5893055
+In show stats id=4, nodes=5886406
+In show stats id=5, nodes=4748175
+In show stats id=6, nodes=4742273
+In show stats id=7, nodes=4725308
+In show stats id=8, nodes=4820893
+In show stats id=9, nodes=4721482
+In show stats id=10, nodes=4700842
+In show stats id=11, nodes=4700516
+In show stats id=12, nodes=4707521
+In show stats id=13, nodes=4672312
+In show stats id=14, nodes=4663611
+In show stats id=15, nodes=4662626
+In show stats id=16, nodes=4636375
+In show stats id=17, nodes=4612381
+In show stats id=18, nodes=4598142
+In show stats id=19, nodes=4581731
+In show stats id=20, nodes=4596735
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.559 sec, performance = 65527165 nodes/sec (3120341 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 22 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=4620811
+In show stats id=1, nodes=4601042
+In show stats id=2, nodes=4588810
+In show stats id=3, nodes=4569665
+In show stats id=4, nodes=4545608
+In show stats id=5, nodes=4547449
+In show stats id=6, nodes=4519759
+In show stats id=7, nodes=4504591
+In show stats id=8, nodes=4526646
+In show stats id=9, nodes=4515980
+In show stats id=10, nodes=4483819
+In show stats id=11, nodes=5349364
+In show stats id=12, nodes=5329293
+In show stats id=13, nodes=5320647
+In show stats id=14, nodes=4450830
+In show stats id=15, nodes=4424339
+In show stats id=16, nodes=4430963
+In show stats id=17, nodes=4407767
+In show stats id=18, nodes=4460802
+In show stats id=19, nodes=5237221
+In show stats id=20, nodes=4365061
+In show stats id=21, nodes=4380615
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.483 sec, performance = 68913271 nodes/sec (3132421 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 23 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=4424775
+In show stats id=1, nodes=4458105
+In show stats id=2, nodes=5093000
+In show stats id=3, nodes=4400351
+In show stats id=4, nodes=4406320
+In show stats id=5, nodes=4362702
+In show stats id=6, nodes=4372443
+In show stats id=7, nodes=4345766
+In show stats id=8, nodes=4310342
+In show stats id=9, nodes=4993984
+In show stats id=10, nodes=4977096
+In show stats id=11, nodes=4295611
+In show stats id=12, nodes=4254265
+In show stats id=13, nodes=4949563
+In show stats id=14, nodes=4231302
+In show stats id=15, nodes=4238158
+In show stats id=16, nodes=4916712
+In show stats id=17, nodes=4224392
+In show stats id=18, nodes=4189770
+In show stats id=19, nodes=4186611
+In show stats id=20, nodes=4201231
+In show stats id=21, nodes=4203216
+In show stats id=22, nodes=4145367
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.453 sec, performance = 70306363 nodes/sec (3056798 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 24 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=4290551
+In show stats id=1, nodes=4778933
+In show stats id=2, nodes=4753692
+In show stats id=3, nodes=4226522
+In show stats id=4, nodes=4223956
+In show stats id=5, nodes=4718568
+In show stats id=6, nodes=4187125
+In show stats id=7, nodes=4159655
+In show stats id=8, nodes=4687393
+In show stats id=9, nodes=4139882
+In show stats id=10, nodes=4120402
+In show stats id=11, nodes=4650353
+In show stats id=12, nodes=4086530
+In show stats id=13, nodes=4083441
+In show stats id=14, nodes=4187895
+In show stats id=15, nodes=4077117
+In show stats id=16, nodes=4577050
+In show stats id=17, nodes=4063882
+In show stats id=18, nodes=4045938
+In show stats id=19, nodes=4040487
+In show stats id=20, nodes=4040269
+In show stats id=21, nodes=4035051
+In show stats id=22, nodes=4034923
+In show stats id=23, nodes=3971467
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.425 sec, performance = 71708388 nodes/sec (2987850 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 25 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=4131151
+In show stats id=1, nodes=4116873
+In show stats id=2, nodes=4112631
+In show stats id=3, nodes=4069918
+In show stats id=4, nodes=4061757
+In show stats id=5, nodes=4093087
+In show stats id=6, nodes=4054745
+In show stats id=7, nodes=4423144
+In show stats id=8, nodes=4405817
+In show stats id=9, nodes=4396844
+In show stats id=10, nodes=4016776
+In show stats id=11, nodes=4033685
+In show stats id=12, nodes=3981229
+In show stats id=13, nodes=3977604
+In show stats id=14, nodes=4349968
+In show stats id=15, nodes=3935600
+In show stats id=16, nodes=3909940
+In show stats id=17, nodes=3908258
+In show stats id=18, nodes=4276300
+In show stats id=19, nodes=3884678
+In show stats id=20, nodes=3873726
+In show stats id=21, nodes=3859043
+In show stats id=22, nodes=3870238
+In show stats id=23, nodes=4218056
+In show stats id=24, nodes=4220014
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.385 sec, performance = 73757034 nodes/sec (2950281 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 26 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=4037991
+In show stats id=1, nodes=3990263
+In show stats id=2, nodes=4195109
+In show stats id=3, nodes=3969290
+In show stats id=4, nodes=3951418
+In show stats id=5, nodes=3933045
+In show stats id=6, nodes=4149016
+In show stats id=7, nodes=4128531
+In show stats id=8, nodes=4113689
+In show stats id=9, nodes=4107488
+In show stats id=10, nodes=4085177
+In show stats id=11, nodes=4096850
+In show stats id=12, nodes=4045156
+In show stats id=13, nodes=3891496
+In show stats id=14, nodes=3863101
+In show stats id=15, nodes=3853387
+In show stats id=16, nodes=3841449
+In show stats id=17, nodes=3801460
+In show stats id=18, nodes=3731679
+In show stats id=19, nodes=3807985
+In show stats id=20, nodes=3776194
+In show stats id=21, nodes=3794875
+In show stats id=22, nodes=3788048
+In show stats id=23, nodes=3761271
+In show stats id=24, nodes=3727672
+In show stats id=25, nodes=3739442
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.322 sec, performance = 77312096 nodes/sec (2973542 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 27 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=3940271
+In show stats id=1, nodes=3960503
+In show stats id=2, nodes=3913146
+In show stats id=3, nodes=3907148
+In show stats id=4, nodes=3891832
+In show stats id=5, nodes=3916683
+In show stats id=6, nodes=3911080
+In show stats id=7, nodes=3511391
+In show stats id=8, nodes=3883835
+In show stats id=9, nodes=3845608
+In show stats id=10, nodes=3831436
+In show stats id=11, nodes=3797411
+In show stats id=12, nodes=3777720
+In show stats id=13, nodes=3767881
+In show stats id=14, nodes=3772916
+In show stats id=15, nodes=3754448
+In show stats id=16, nodes=3798703
+In show stats id=17, nodes=3724394
+In show stats id=18, nodes=3764116
+In show stats id=19, nodes=3772587
+In show stats id=20, nodes=3750832
+In show stats id=21, nodes=3707718
+In show stats id=22, nodes=3680148
+In show stats id=23, nodes=3658626
+In show stats id=24, nodes=3639193
+In show stats id=25, nodes=3652313
+In show stats id=26, nodes=3649143
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.347 sec, performance = 75874091 nodes/sec (2810152 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 28 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=3818470
+In show stats id=1, nodes=3844505
+In show stats id=2, nodes=3779377
+In show stats id=3, nodes=3817739
+In show stats id=4, nodes=3805981
+In show stats id=5, nodes=3792806
+In show stats id=6, nodes=3781475
+In show stats id=7, nodes=3731849
+In show stats id=8, nodes=3721499
+In show stats id=9, nodes=3729585
+In show stats id=10, nodes=3631181
+In show stats id=11, nodes=3631689
+In show stats id=12, nodes=3617539
+In show stats id=13, nodes=3630035
+In show stats id=14, nodes=3693171
+In show stats id=15, nodes=3643725
+In show stats id=16, nodes=3632647
+In show stats id=17, nodes=3614014
+In show stats id=18, nodes=3570489
+In show stats id=19, nodes=3607747
+In show stats id=20, nodes=3529146
+In show stats id=21, nodes=3520073
+In show stats id=22, nodes=3513468
+In show stats id=23, nodes=3509037
+In show stats id=24, nodes=3482014
+In show stats id=25, nodes=3532386
+In show stats id=26, nodes=3517654
+In show stats id=27, nodes=3481781
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.303 sec, performance = 78423897 nodes/sec (2800853 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 29 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=3697997
+In show stats id=1, nodes=3702430
+In show stats id=2, nodes=3681675
+In show stats id=3, nodes=3624891
+In show stats id=4, nodes=3600815
+In show stats id=5, nodes=3730546
+In show stats id=6, nodes=3645522
+In show stats id=7, nodes=3630329
+In show stats id=8, nodes=3609912
+In show stats id=9, nodes=3615839
+In show stats id=10, nodes=3556242
+In show stats id=11, nodes=3544628
+In show stats id=12, nodes=3499891
+In show stats id=13, nodes=3475830
+In show stats id=14, nodes=3543110
+In show stats id=15, nodes=3505886
+In show stats id=16, nodes=3496714
+In show stats id=17, nodes=3477594
+In show stats id=18, nodes=3474874
+In show stats id=19, nodes=3481584
+In show stats id=20, nodes=3559151
+In show stats id=21, nodes=3403710
+In show stats id=22, nodes=3408300
+In show stats id=23, nodes=3378424
+In show stats id=24, nodes=3375543
+In show stats id=25, nodes=3350550
+In show stats id=26, nodes=3367615
+In show stats id=27, nodes=3362783
+In show stats id=28, nodes=3378697
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.287 sec, performance = 79390901 nodes/sec (2737617 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 30 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=3562045
+In show stats id=1, nodes=3561794
+In show stats id=2, nodes=3544039
+In show stats id=3, nodes=3575640
+In show stats id=4, nodes=3569951
+In show stats id=5, nodes=3535105
+In show stats id=6, nodes=3578927
+In show stats id=7, nodes=3507673
+In show stats id=8, nodes=3554361
+In show stats id=9, nodes=3507567
+In show stats id=10, nodes=3545512
+In show stats id=11, nodes=3426202
+In show stats id=12, nodes=3378014
+In show stats id=13, nodes=3364802
+In show stats id=14, nodes=3350893
+In show stats id=15, nodes=3376612
+In show stats id=16, nodes=3337642
+In show stats id=17, nodes=3323319
+In show stats id=18, nodes=3383123
+In show stats id=19, nodes=3384146
+In show stats id=20, nodes=3368741
+In show stats id=21, nodes=3354341
+In show stats id=22, nodes=3268683
+In show stats id=23, nodes=3333694
+In show stats id=24, nodes=3281869
+In show stats id=25, nodes=3279585
+In show stats id=26, nodes=3262700
+In show stats id=27, nodes=3217611
+In show stats id=28, nodes=3212762
+In show stats id=29, nodes=3233729
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.282 sec, performance = 79696425 nodes/sec (2656547 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 31 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=3463397
+In show stats id=1, nodes=3452634
+In show stats id=2, nodes=3448086
+In show stats id=3, nodes=3427842
+In show stats id=4, nodes=3361692
+In show stats id=5, nodes=3403983
+In show stats id=6, nodes=3365475
+In show stats id=7, nodes=3383409
+In show stats id=8, nodes=3386455
+In show stats id=9, nodes=3334669
+In show stats id=10, nodes=3316727
+In show stats id=11, nodes=3302560
+In show stats id=12, nodes=3288980
+In show stats id=13, nodes=3209537
+In show stats id=14, nodes=3393045
+In show stats id=15, nodes=3355743
+In show stats id=16, nodes=3335995
+In show stats id=17, nodes=3322193
+In show stats id=18, nodes=3310837
+In show stats id=19, nodes=3303770
+In show stats id=20, nodes=3309473
+In show stats id=21, nodes=3195001
+In show stats id=22, nodes=3190528
+In show stats id=23, nodes=3188222
+In show stats id=24, nodes=3273424
+In show stats id=25, nodes=3169847
+In show stats id=26, nodes=3166495
+In show stats id=27, nodes=3152484
+In show stats id=28, nodes=3152921
+In show stats id=29, nodes=3128385
+In show stats id=30, nodes=3087273
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.236 sec, performance = 82693521 nodes/sec (2667533 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 32 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=3350235
+In show stats id=1, nodes=3343109
+In show stats id=2, nodes=3289464
+In show stats id=3, nodes=3292429
+In show stats id=4, nodes=3394279
+In show stats id=5, nodes=3331680
+In show stats id=6, nodes=3227149
+In show stats id=7, nodes=3326072
+In show stats id=8, nodes=3339906
+In show stats id=9, nodes=3322713
+In show stats id=10, nodes=3299468
+In show stats id=11, nodes=3232694
+In show stats id=12, nodes=3264011
+In show stats id=13, nodes=3209677
+In show stats id=14, nodes=3196222
+In show stats id=15, nodes=3129851
+In show stats id=16, nodes=3134466
+In show stats id=17, nodes=3107527
+In show stats id=18, nodes=3099172
+In show stats id=19, nodes=3086082
+In show stats id=20, nodes=3077385
+In show stats id=21, nodes=3196061
+In show stats id=22, nodes=3177088
+In show stats id=23, nodes=3181639
+In show stats id=24, nodes=3151757
+In show stats id=25, nodes=3119119
+In show stats id=26, nodes=3112952
+In show stats id=27, nodes=3050751
+In show stats id=28, nodes=3083276
+In show stats id=29, nodes=3029938
+In show stats id=30, nodes=3016310
+In show stats id=31, nodes=3008600
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.226 sec, performance = 83376039 nodes/sec (2605501 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 33 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=3257956
+In show stats id=1, nodes=3303198
+In show stats id=2, nodes=3286855
+In show stats id=3, nodes=3272752
+In show stats id=4, nodes=3275292
+In show stats id=5, nodes=3249717
+In show stats id=6, nodes=3243733
+In show stats id=7, nodes=3161260
+In show stats id=8, nodes=3133494
+In show stats id=9, nodes=3116090
+In show stats id=10, nodes=3117141
+In show stats id=11, nodes=3206246
+In show stats id=12, nodes=3188974
+In show stats id=13, nodes=3164246
+In show stats id=14, nodes=3098392
+In show stats id=15, nodes=3119246
+In show stats id=16, nodes=3082953
+In show stats id=17, nodes=3063550
+In show stats id=18, nodes=3114905
+In show stats id=19, nodes=3085204
+In show stats id=20, nodes=3095462
+In show stats id=21, nodes=2977644
+In show stats id=22, nodes=2976892
+In show stats id=23, nodes=2968624
+In show stats id=24, nodes=2992354
+In show stats id=25, nodes=2984963
+In show stats id=26, nodes=2969694
+In show stats id=27, nodes=2956095
+In show stats id=28, nodes=2905306
+In show stats id=29, nodes=2984219
+In show stats id=30, nodes=2982868
+In show stats id=31, nodes=2979795
+In show stats id=32, nodes=2865962
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.191 sec, performance = 85800046 nodes/sec (2600001 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 34 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=3161202
+In show stats id=1, nodes=3134521
+In show stats id=2, nodes=3195508
+In show stats id=3, nodes=3197296
+In show stats id=4, nodes=3186737
+In show stats id=5, nodes=3176299
+In show stats id=6, nodes=3225369
+In show stats id=7, nodes=3132375
+In show stats id=8, nodes=3140326
+In show stats id=9, nodes=3055092
+In show stats id=10, nodes=3031229
+In show stats id=11, nodes=3033759
+In show stats id=12, nodes=3147094
+In show stats id=13, nodes=3209607
+In show stats id=14, nodes=2970609
+In show stats id=15, nodes=2966827
+In show stats id=16, nodes=3042925
+In show stats id=17, nodes=2918281
+In show stats id=18, nodes=2982858
+In show stats id=19, nodes=2905546
+In show stats id=20, nodes=2982937
+In show stats id=21, nodes=2987829
+In show stats id=22, nodes=2945726
+In show stats id=23, nodes=2956089
+In show stats id=24, nodes=2840030
+In show stats id=25, nodes=2847191
+In show stats id=26, nodes=2825206
+In show stats id=27, nodes=2817764
+In show stats id=28, nodes=2907810
+In show stats id=29, nodes=2815671
+In show stats id=30, nodes=2791861
+In show stats id=31, nodes=2837327
+In show stats id=32, nodes=2798955
+In show stats id=33, nodes=3013226
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.186 sec, performance = 86160118 nodes/sec (2534121 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 35 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=3081581
+In show stats id=1, nodes=3060508
+In show stats id=2, nodes=3002976
+In show stats id=3, nodes=2754942
+In show stats id=4, nodes=3113422
+In show stats id=5, nodes=3087395
+In show stats id=6, nodes=3076714
+In show stats id=7, nodes=3064117
+In show stats id=8, nodes=3078289
+In show stats id=9, nodes=3061140
+In show stats id=10, nodes=3057732
+In show stats id=11, nodes=3037349
+In show stats id=12, nodes=3015629
+In show stats id=13, nodes=3012860
+In show stats id=14, nodes=2924318
+In show stats id=15, nodes=2916880
+In show stats id=16, nodes=2896806
+In show stats id=17, nodes=2884496
+In show stats id=18, nodes=2849419
+In show stats id=19, nodes=2851168
+In show stats id=20, nodes=2823568
+In show stats id=21, nodes=2829361
+In show stats id=22, nodes=2809642
+In show stats id=23, nodes=2796785
+In show stats id=24, nodes=2793631
+In show stats id=25, nodes=2915144
+In show stats id=26, nodes=2897428
+In show stats id=27, nodes=2801585
+In show stats id=28, nodes=2876328
+In show stats id=29, nodes=2844061
+In show stats id=30, nodes=2886431
+In show stats id=31, nodes=2759476
+In show stats id=32, nodes=2742554
+In show stats id=33, nodes=2759879
+In show stats id=34, nodes=2817468
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.164 sec, performance = 87758638 nodes/sec (2507390 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 36 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=3014569
+In show stats id=1, nodes=3089222
+In show stats id=2, nodes=2977063
+In show stats id=3, nodes=2972141
+In show stats id=4, nodes=2947466
+In show stats id=5, nodes=3042525
+In show stats id=6, nodes=3031240
+In show stats id=7, nodes=2972636
+In show stats id=8, nodes=2888544
+In show stats id=9, nodes=2898155
+In show stats id=10, nodes=2878324
+In show stats id=11, nodes=2848863
+In show stats id=12, nodes=2822681
+In show stats id=13, nodes=2925618
+In show stats id=14, nodes=2953908
+In show stats id=15, nodes=2897721
+In show stats id=16, nodes=2868112
+In show stats id=17, nodes=2888886
+In show stats id=18, nodes=2830399
+In show stats id=19, nodes=2868539
+In show stats id=20, nodes=2837762
+In show stats id=21, nodes=2858243
+In show stats id=22, nodes=2731308
+In show stats id=23, nodes=2721468
+In show stats id=24, nodes=2722664
+In show stats id=25, nodes=2794089
+In show stats id=26, nodes=2704606
+In show stats id=27, nodes=2711813
+In show stats id=28, nodes=2707212
+In show stats id=29, nodes=2740731
+In show stats id=30, nodes=2774526
+In show stats id=31, nodes=2719387
+In show stats id=32, nodes=2717295
+In show stats id=33, nodes=2592997
+In show stats id=34, nodes=2629654
+In show stats id=35, nodes=2600715
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.143 sec, performance = 89363654 nodes/sec (2482324 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 37 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1616137
+In show stats id=1, nodes=2961359
+In show stats id=2, nodes=2951349
+In show stats id=3, nodes=2949099
+In show stats id=4, nodes=2934206
+In show stats id=5, nodes=3031830
+In show stats id=6, nodes=3017065
+In show stats id=7, nodes=3008269
+In show stats id=8, nodes=2985936
+In show stats id=9, nodes=2981517
+In show stats id=10, nodes=2859259
+In show stats id=11, nodes=2964817
+In show stats id=12, nodes=2912949
+In show stats id=13, nodes=2897066
+In show stats id=14, nodes=2920939
+In show stats id=15, nodes=1551020
+In show stats id=16, nodes=2868402
+In show stats id=17, nodes=2780246
+In show stats id=18, nodes=2784166
+In show stats id=19, nodes=2767724
+In show stats id=20, nodes=2774850
+In show stats id=21, nodes=2791506
+In show stats id=22, nodes=2804250
+In show stats id=23, nodes=2778640
+In show stats id=24, nodes=2786243
+In show stats id=25, nodes=2748357
+In show stats id=26, nodes=2747386
+In show stats id=27, nodes=2726871
+In show stats id=28, nodes=2790379
+In show stats id=29, nodes=2796107
+In show stats id=30, nodes=2583428
+In show stats id=31, nodes=2700840
+In show stats id=32, nodes=2689686
+In show stats id=33, nodes=2714368
+In show stats id=34, nodes=2689094
+In show stats id=35, nodes=2674513
+In show stats id=36, nodes=2641209
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.120 sec, performance = 91228788 nodes/sec (2465643 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 38 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1621832
+In show stats id=1, nodes=3057578
+In show stats id=2, nodes=3017009
+In show stats id=3, nodes=2979110
+In show stats id=4, nodes=3023039
+In show stats id=5, nodes=3005064
+In show stats id=6, nodes=3007890
+In show stats id=7, nodes=2960295
+In show stats id=8, nodes=2904819
+In show stats id=9, nodes=1576994
+In show stats id=10, nodes=2910786
+In show stats id=11, nodes=2879452
+In show stats id=12, nodes=1568827
+In show stats id=13, nodes=1548964
+In show stats id=14, nodes=2861897
+In show stats id=15, nodes=2829695
+In show stats id=16, nodes=2891766
+In show stats id=17, nodes=2787103
+In show stats id=18, nodes=2797935
+In show stats id=19, nodes=2839624
+In show stats id=20, nodes=2855012
+In show stats id=21, nodes=2858657
+In show stats id=22, nodes=2816665
+In show stats id=23, nodes=2777950
+In show stats id=24, nodes=2807788
+In show stats id=25, nodes=2804564
+In show stats id=26, nodes=2782667
+In show stats id=27, nodes=2748911
+In show stats id=28, nodes=2759703
+In show stats id=29, nodes=2718346
+In show stats id=30, nodes=2746057
+In show stats id=31, nodes=2660250
+In show stats id=32, nodes=2651298
+In show stats id=33, nodes=2592688
+In show stats id=34, nodes=2640921
+In show stats id=35, nodes=2635299
+In show stats id=36, nodes=2660738
+In show stats id=37, nodes=2593889
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.148 sec, performance = 89025808 nodes/sec (2342784 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 39 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1605301
+In show stats id=1, nodes=1605444
+In show stats id=2, nodes=2968369
+In show stats id=3, nodes=3013138
+In show stats id=4, nodes=3020104
+In show stats id=5, nodes=3009713
+In show stats id=6, nodes=2996393
+In show stats id=7, nodes=2971977
+In show stats id=8, nodes=2971867
+In show stats id=9, nodes=2978362
+In show stats id=10, nodes=2939677
+In show stats id=11, nodes=1553701
+In show stats id=12, nodes=2931216
+In show stats id=13, nodes=2923777
+In show stats id=14, nodes=2815004
+In show stats id=15, nodes=2873298
+In show stats id=16, nodes=2902627
+In show stats id=17, nodes=2778681
+In show stats id=18, nodes=2764168
+In show stats id=19, nodes=2751159
+In show stats id=20, nodes=2754155
+In show stats id=21, nodes=2740540
+In show stats id=22, nodes=2724251
+In show stats id=23, nodes=2714111
+In show stats id=24, nodes=2710384
+In show stats id=25, nodes=2798199
+In show stats id=26, nodes=2739187
+In show stats id=27, nodes=2729833
+In show stats id=28, nodes=2684566
+In show stats id=29, nodes=2750795
+In show stats id=30, nodes=2760246
+In show stats id=31, nodes=2739853
+In show stats id=32, nodes=1444719
+In show stats id=33, nodes=2671106
+In show stats id=34, nodes=1441443
+In show stats id=35, nodes=2699228
+In show stats id=36, nodes=2593073
+In show stats id=37, nodes=2691759
+In show stats id=38, nodes=1419658
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.138 sec, performance = 89814139 nodes/sec (2302927 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 40 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1612544
+In show stats id=1, nodes=1604051
+In show stats id=2, nodes=2953889
+In show stats id=3, nodes=3047722
+In show stats id=4, nodes=2944924
+In show stats id=5, nodes=2994001
+In show stats id=6, nodes=2965842
+In show stats id=7, nodes=3012663
+In show stats id=8, nodes=2991326
+In show stats id=9, nodes=2983960
+In show stats id=10, nodes=1549724
+In show stats id=11, nodes=1551707
+In show stats id=12, nodes=2900829
+In show stats id=13, nodes=2901428
+In show stats id=14, nodes=2885552
+In show stats id=15, nodes=2919916
+In show stats id=16, nodes=2903394
+In show stats id=17, nodes=2847282
+In show stats id=18, nodes=2760329
+In show stats id=19, nodes=2757334
+In show stats id=20, nodes=2754485
+In show stats id=21, nodes=2733203
+In show stats id=22, nodes=2848526
+In show stats id=23, nodes=2830677
+In show stats id=24, nodes=2777064
+In show stats id=25, nodes=2753011
+In show stats id=26, nodes=2730868
+In show stats id=27, nodes=1469973
+In show stats id=28, nodes=1460349
+In show stats id=29, nodes=1476782
+In show stats id=30, nodes=1450663
+In show stats id=31, nodes=2691385
+In show stats id=32, nodes=2624021
+In show stats id=33, nodes=2628648
+In show stats id=34, nodes=2620445
+In show stats id=35, nodes=2608617
+In show stats id=36, nodes=2718732
+In show stats id=37, nodes=2681483
+In show stats id=38, nodes=2577644
+In show stats id=39, nodes=2656089
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.131 sec, performance = 90333156 nodes/sec (2258329 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 41 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1628768
+In show stats id=1, nodes=1651672
+In show stats id=2, nodes=2942477
+In show stats id=3, nodes=3018360
+In show stats id=4, nodes=3067940
+In show stats id=5, nodes=2995215
+In show stats id=6, nodes=2965561
+In show stats id=7, nodes=2968046
+In show stats id=8, nodes=2951329
+In show stats id=9, nodes=2941589
+In show stats id=10, nodes=2928032
+In show stats id=11, nodes=2913171
+In show stats id=12, nodes=2773769
+In show stats id=13, nodes=2780312
+In show stats id=14, nodes=2760824
+In show stats id=15, nodes=2986652
+In show stats id=16, nodes=1505951
+In show stats id=17, nodes=2854802
+In show stats id=18, nodes=2850460
+In show stats id=19, nodes=2843156
+In show stats id=20, nodes=2830494
+In show stats id=21, nodes=2924791
+In show stats id=22, nodes=2680853
+In show stats id=23, nodes=2681045
+In show stats id=24, nodes=2678709
+In show stats id=25, nodes=1463049
+In show stats id=26, nodes=1460618
+In show stats id=27, nodes=2675906
+In show stats id=28, nodes=1509298
+In show stats id=29, nodes=1442740
+In show stats id=30, nodes=2662567
+In show stats id=31, nodes=2731311
+In show stats id=32, nodes=2718547
+In show stats id=33, nodes=2586881
+In show stats id=34, nodes=2639646
+In show stats id=35, nodes=2676432
+In show stats id=36, nodes=2554798
+In show stats id=37, nodes=2699744
+In show stats id=38, nodes=1405070
+In show stats id=39, nodes=1434283
+In show stats id=40, nodes=1396214
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.165 sec, performance = 87691319 nodes/sec (2138813 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 42 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1601762
+In show stats id=1, nodes=3042263
+In show stats id=2, nodes=3033664
+In show stats id=3, nodes=3000995
+In show stats id=4, nodes=3001677
+In show stats id=5, nodes=3006658
+In show stats id=6, nodes=1576773
+In show stats id=7, nodes=2945485
+In show stats id=8, nodes=2950995
+In show stats id=9, nodes=2933545
+In show stats id=10, nodes=2927711
+In show stats id=11, nodes=2926969
+In show stats id=12, nodes=2916226
+In show stats id=13, nodes=2833607
+In show stats id=14, nodes=2882509
+In show stats id=15, nodes=2795467
+In show stats id=16, nodes=2778573
+In show stats id=17, nodes=2868877
+In show stats id=18, nodes=2760558
+In show stats id=19, nodes=2766112
+In show stats id=20, nodes=2734083
+In show stats id=21, nodes=2746304
+In show stats id=22, nodes=2809746
+In show stats id=23, nodes=1472830
+In show stats id=24, nodes=1469357
+In show stats id=25, nodes=1468181
+In show stats id=26, nodes=1462080
+In show stats id=27, nodes=1457134
+In show stats id=28, nodes=1456747
+In show stats id=29, nodes=2672346
+In show stats id=30, nodes=1458031
+In show stats id=31, nodes=1439725
+In show stats id=32, nodes=2729431
+In show stats id=33, nodes=2717931
+In show stats id=34, nodes=2625594
+In show stats id=35, nodes=2616163
+In show stats id=36, nodes=2592367
+In show stats id=37, nodes=1411898
+In show stats id=38, nodes=1404429
+In show stats id=39, nodes=2675866
+In show stats id=40, nodes=2654192
+In show stats id=41, nodes=2556221
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.142 sec, performance = 89483235 nodes/sec (2130553 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 43 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1674533
+In show stats id=1, nodes=1594897
+In show stats id=2, nodes=3014261
+In show stats id=3, nodes=3004609
+In show stats id=4, nodes=2971427
+In show stats id=5, nodes=2987508
+In show stats id=6, nodes=3017875
+In show stats id=7, nodes=2933159
+In show stats id=8, nodes=2936198
+In show stats id=9, nodes=2837821
+In show stats id=10, nodes=2817821
+In show stats id=11, nodes=2815005
+In show stats id=12, nodes=2796317
+In show stats id=13, nodes=2786236
+In show stats id=14, nodes=2863322
+In show stats id=15, nodes=2776064
+In show stats id=16, nodes=2897837
+In show stats id=17, nodes=1516337
+In show stats id=18, nodes=1511007
+In show stats id=19, nodes=2835108
+In show stats id=20, nodes=2816503
+In show stats id=21, nodes=2806012
+In show stats id=22, nodes=1491264
+In show stats id=23, nodes=1500650
+In show stats id=24, nodes=1476108
+In show stats id=25, nodes=2766584
+In show stats id=26, nodes=1413247
+In show stats id=27, nodes=1462119
+In show stats id=28, nodes=2747856
+In show stats id=29, nodes=2721881
+In show stats id=30, nodes=2866424
+In show stats id=31, nodes=2696104
+In show stats id=32, nodes=2707668
+In show stats id=33, nodes=2672110
+In show stats id=34, nodes=2575009
+In show stats id=35, nodes=2578576
+In show stats id=36, nodes=1418375
+In show stats id=37, nodes=1413432
+In show stats id=38, nodes=2633384
+In show stats id=39, nodes=2585081
+In show stats id=40, nodes=1388743
+In show stats id=41, nodes=1462444
+In show stats id=42, nodes=1394166
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.171 sec, performance = 87248574 nodes/sec (2029037 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 44 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1639083
+In show stats id=1, nodes=1582867
+In show stats id=2, nodes=1579537
+In show stats id=3, nodes=1576851
+In show stats id=4, nodes=2895306
+In show stats id=5, nodes=3000896
+In show stats id=6, nodes=2984248
+In show stats id=7, nodes=2849013
+In show stats id=8, nodes=2840792
+In show stats id=9, nodes=2825635
+In show stats id=10, nodes=2817794
+In show stats id=11, nodes=2905871
+In show stats id=12, nodes=2899189
+In show stats id=13, nodes=2900428
+In show stats id=14, nodes=2766004
+In show stats id=15, nodes=2892916
+In show stats id=16, nodes=2879925
+In show stats id=17, nodes=2844921
+In show stats id=18, nodes=1489836
+In show stats id=19, nodes=1536593
+In show stats id=20, nodes=2839429
+In show stats id=21, nodes=2806632
+In show stats id=22, nodes=2889051
+In show stats id=23, nodes=2804901
+In show stats id=24, nodes=2797031
+In show stats id=25, nodes=2663421
+In show stats id=26, nodes=2739358
+In show stats id=27, nodes=2747192
+In show stats id=28, nodes=2820800
+In show stats id=29, nodes=1429386
+In show stats id=30, nodes=2721696
+In show stats id=31, nodes=1428611
+In show stats id=32, nodes=2697749
+In show stats id=33, nodes=1416977
+In show stats id=34, nodes=1411891
+In show stats id=35, nodes=1406580
+In show stats id=36, nodes=1398044
+In show stats id=37, nodes=2729480
+In show stats id=38, nodes=1394713
+In show stats id=39, nodes=2542746
+In show stats id=40, nodes=2614070
+In show stats id=41, nodes=1378178
+In show stats id=42, nodes=1371939
+In show stats id=43, nodes=1423502
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.147 sec, performance = 89048486 nodes/sec (2023829 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 45 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1586341
+In show stats id=1, nodes=3043204
+In show stats id=2, nodes=3042921
+In show stats id=3, nodes=3019051
+In show stats id=4, nodes=3025923
+In show stats id=5, nodes=2978058
+In show stats id=6, nodes=2714369
+In show stats id=7, nodes=2982950
+In show stats id=8, nodes=2972950
+In show stats id=9, nodes=2934044
+In show stats id=10, nodes=2930363
+In show stats id=11, nodes=2823469
+In show stats id=12, nodes=2796827
+In show stats id=13, nodes=2917793
+In show stats id=14, nodes=2894773
+In show stats id=15, nodes=2763674
+In show stats id=16, nodes=2757868
+In show stats id=17, nodes=2746285
+In show stats id=18, nodes=2734545
+In show stats id=19, nodes=2721838
+In show stats id=20, nodes=2714193
+In show stats id=21, nodes=2836799
+In show stats id=22, nodes=2796973
+In show stats id=23, nodes=1457558
+In show stats id=24, nodes=2841279
+In show stats id=25, nodes=1459046
+In show stats id=26, nodes=1445568
+In show stats id=27, nodes=2785575
+In show stats id=28, nodes=2742732
+In show stats id=29, nodes=1431086
+In show stats id=30, nodes=1443004
+In show stats id=31, nodes=1368986
+In show stats id=32, nodes=1417158
+In show stats id=33, nodes=2697136
+In show stats id=34, nodes=1412108
+In show stats id=35, nodes=1402254
+In show stats id=36, nodes=1392121
+In show stats id=37, nodes=1391954
+In show stats id=38, nodes=1383672
+In show stats id=39, nodes=1378967
+In show stats id=40, nodes=2538385
+In show stats id=41, nodes=1375291
+In show stats id=42, nodes=1365883
+In show stats id=43, nodes=1355256
+In show stats id=44, nodes=1360852
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.106 sec, performance = 92371515 nodes/sec (2052700 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 46 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1614653
+In show stats id=1, nodes=3051617
+In show stats id=2, nodes=3035219
+In show stats id=3, nodes=3001033
+In show stats id=4, nodes=1569771
+In show stats id=5, nodes=1575134
+In show stats id=6, nodes=2457259
+In show stats id=7, nodes=3021556
+In show stats id=8, nodes=2960691
+In show stats id=9, nodes=2995971
+In show stats id=10, nodes=2937415
+In show stats id=11, nodes=2963824
+In show stats id=12, nodes=2832116
+In show stats id=13, nodes=2819778
+In show stats id=14, nodes=2786951
+In show stats id=15, nodes=2905574
+In show stats id=16, nodes=1513334
+In show stats id=17, nodes=1496351
+In show stats id=18, nodes=1510653
+In show stats id=19, nodes=2897123
+In show stats id=20, nodes=2809519
+In show stats id=21, nodes=2716350
+In show stats id=22, nodes=1489582
+In show stats id=23, nodes=1462303
+In show stats id=24, nodes=2776337
+In show stats id=25, nodes=2803863
+In show stats id=26, nodes=2782662
+In show stats id=27, nodes=1463447
+In show stats id=28, nodes=1438686
+In show stats id=29, nodes=2671628
+In show stats id=30, nodes=1451863
+In show stats id=31, nodes=1429241
+In show stats id=32, nodes=1419966
+In show stats id=33, nodes=2625826
+In show stats id=34, nodes=2610401
+In show stats id=35, nodes=2577059
+In show stats id=36, nodes=2711102
+In show stats id=37, nodes=2659326
+In show stats id=38, nodes=1408114
+In show stats id=39, nodes=1396840
+In show stats id=40, nodes=1407935
+In show stats id=41, nodes=2647603
+In show stats id=42, nodes=1376591
+In show stats id=43, nodes=1355348
+In show stats id=44, nodes=1381573
+In show stats id=45, nodes=1361894
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.128 sec, performance = 90556435 nodes/sec (1968618 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 47 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1608772
+In show stats id=1, nodes=3007196
+In show stats id=2, nodes=3069310
+In show stats id=3, nodes=3064449
+In show stats id=4, nodes=2892663
+In show stats id=5, nodes=3035013
+In show stats id=6, nodes=1556556
+In show stats id=7, nodes=3010955
+In show stats id=8, nodes=2992006
+In show stats id=9, nodes=1491851
+In show stats id=10, nodes=2984156
+In show stats id=11, nodes=2893754
+In show stats id=12, nodes=2880210
+In show stats id=13, nodes=2893617
+In show stats id=14, nodes=2863295
+In show stats id=15, nodes=1514212
+In show stats id=16, nodes=1506835
+In show stats id=17, nodes=1527713
+In show stats id=18, nodes=1509213
+In show stats id=19, nodes=1485654
+In show stats id=20, nodes=1481679
+In show stats id=21, nodes=2696439
+In show stats id=22, nodes=2701540
+In show stats id=23, nodes=1364152
+In show stats id=24, nodes=1481505
+In show stats id=25, nodes=2639636
+In show stats id=26, nodes=2740982
+In show stats id=27, nodes=2791035
+In show stats id=28, nodes=2798270
+In show stats id=29, nodes=2616675
+In show stats id=30, nodes=2637049
+In show stats id=31, nodes=2579501
+In show stats id=32, nodes=2687215
+In show stats id=33, nodes=1410791
+In show stats id=34, nodes=2676151
+In show stats id=35, nodes=1415722
+In show stats id=36, nodes=1405631
+In show stats id=37, nodes=1397158
+In show stats id=38, nodes=2604247
+In show stats id=39, nodes=2663974
+In show stats id=40, nodes=1402521
+In show stats id=41, nodes=1394336
+In show stats id=42, nodes=1388188
+In show stats id=43, nodes=1373093
+In show stats id=44, nodes=1364699
+In show stats id=45, nodes=1346845
+In show stats id=46, nodes=1334618
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.144 sec, performance = 89331932 nodes/sec (1900679 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 48 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1601136
+In show stats id=1, nodes=1590959
+In show stats id=2, nodes=1582178
+In show stats id=3, nodes=3006654
+In show stats id=4, nodes=2992829
+In show stats id=5, nodes=2988608
+In show stats id=6, nodes=3015309
+In show stats id=7, nodes=1553152
+In show stats id=8, nodes=1551726
+In show stats id=9, nodes=2961468
+In show stats id=10, nodes=2903654
+In show stats id=11, nodes=2892665
+In show stats id=12, nodes=2783809
+In show stats id=13, nodes=2939821
+In show stats id=14, nodes=2918462
+In show stats id=15, nodes=2895452
+In show stats id=16, nodes=2849082
+In show stats id=17, nodes=2885577
+In show stats id=18, nodes=1472064
+In show stats id=19, nodes=2720187
+In show stats id=20, nodes=2877088
+In show stats id=21, nodes=2809866
+In show stats id=22, nodes=2835801
+In show stats id=23, nodes=2793061
+In show stats id=24, nodes=1454706
+In show stats id=25, nodes=1451009
+In show stats id=26, nodes=1437341
+In show stats id=27, nodes=1448051
+In show stats id=28, nodes=1433805
+In show stats id=29, nodes=1430461
+In show stats id=30, nodes=2721334
+In show stats id=31, nodes=1423735
+In show stats id=32, nodes=2748838
+In show stats id=33, nodes=1397885
+In show stats id=34, nodes=1388106
+In show stats id=35, nodes=2557950
+In show stats id=36, nodes=2564415
+In show stats id=37, nodes=2559222
+In show stats id=38, nodes=1391954
+In show stats id=39, nodes=1380345
+In show stats id=40, nodes=1371473
+In show stats id=41, nodes=1369720
+In show stats id=42, nodes=2487193
+In show stats id=43, nodes=1370037
+In show stats id=44, nodes=1357952
+In show stats id=45, nodes=1341565
+In show stats id=46, nodes=1341862
+In show stats id=47, nodes=1331515
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.132 sec, performance = 90280484 nodes/sec (1880843 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 49 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1563491
+In show stats id=1, nodes=2847237
+In show stats id=2, nodes=2839147
+In show stats id=3, nodes=2872693
+In show stats id=4, nodes=2825898
+In show stats id=5, nodes=2989148
+In show stats id=6, nodes=2970720
+In show stats id=7, nodes=2994561
+In show stats id=8, nodes=2952572
+In show stats id=9, nodes=2956389
+In show stats id=10, nodes=2916882
+In show stats id=11, nodes=2953110
+In show stats id=12, nodes=1506870
+In show stats id=13, nodes=1580924
+In show stats id=14, nodes=1499931
+In show stats id=15, nodes=1582934
+In show stats id=16, nodes=1489150
+In show stats id=17, nodes=1483821
+In show stats id=18, nodes=1464335
+In show stats id=19, nodes=1455460
+In show stats id=20, nodes=2840881
+In show stats id=21, nodes=1442556
+In show stats id=22, nodes=2807520
+In show stats id=23, nodes=2840338
+In show stats id=24, nodes=2787590
+In show stats id=25, nodes=2788507
+In show stats id=26, nodes=2763480
+In show stats id=27, nodes=2762015
+In show stats id=28, nodes=1408055
+In show stats id=29, nodes=1396010
+In show stats id=30, nodes=1387110
+In show stats id=31, nodes=2731317
+In show stats id=32, nodes=1389291
+In show stats id=33, nodes=2907963
+In show stats id=34, nodes=2691378
+In show stats id=35, nodes=1469901
+In show stats id=36, nodes=1475224
+In show stats id=37, nodes=1381200
+In show stats id=38, nodes=1345109
+In show stats id=39, nodes=1339866
+In show stats id=40, nodes=2667711
+In show stats id=41, nodes=1347367
+In show stats id=42, nodes=1343008
+In show stats id=43, nodes=1318560
+In show stats id=44, nodes=2441576
+In show stats id=45, nodes=1374301
+In show stats id=46, nodes=1338955
+In show stats id=47, nodes=1336104
+In show stats id=48, nodes=1312916
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.159 sec, performance = 88127399 nodes/sec (1798518 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 50 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1616136
+In show stats id=1, nodes=1569845
+In show stats id=2, nodes=3096785
+In show stats id=3, nodes=2950226
+In show stats id=4, nodes=3041084
+In show stats id=5, nodes=1550470
+In show stats id=6, nodes=1578177
+In show stats id=7, nodes=1543121
+In show stats id=8, nodes=1582899
+In show stats id=9, nodes=1548600
+In show stats id=10, nodes=1552130
+In show stats id=11, nodes=1547239
+In show stats id=12, nodes=2948571
+In show stats id=13, nodes=2898521
+In show stats id=14, nodes=2931980
+In show stats id=15, nodes=2887203
+In show stats id=16, nodes=2878914
+In show stats id=17, nodes=1469312
+In show stats id=18, nodes=2877609
+In show stats id=19, nodes=2910953
+In show stats id=20, nodes=2835238
+In show stats id=21, nodes=2821308
+In show stats id=22, nodes=2807084
+In show stats id=23, nodes=2798179
+In show stats id=24, nodes=2650265
+In show stats id=25, nodes=2632169
+In show stats id=26, nodes=1418779
+In show stats id=27, nodes=1413494
+In show stats id=28, nodes=1437732
+In show stats id=29, nodes=1444483
+In show stats id=30, nodes=1394244
+In show stats id=31, nodes=1425125
+In show stats id=32, nodes=1408695
+In show stats id=33, nodes=1378032
+In show stats id=34, nodes=2559425
+In show stats id=35, nodes=1383420
+In show stats id=36, nodes=1417554
+In show stats id=37, nodes=2656851
+In show stats id=38, nodes=2680594
+In show stats id=39, nodes=2680328
+In show stats id=40, nodes=2658389
+In show stats id=41, nodes=1356804
+In show stats id=42, nodes=1391663
+In show stats id=43, nodes=1385958
+In show stats id=44, nodes=1387230
+In show stats id=45, nodes=1346997
+In show stats id=46, nodes=1336838
+In show stats id=47, nodes=1331163
+In show stats id=48, nodes=2435775
+In show stats id=49, nodes=1327491
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.126 sec, performance = 90729565 nodes/sec (1814591 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 51 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1573323
+In show stats id=1, nodes=3000385
+In show stats id=2, nodes=3045894
+In show stats id=3, nodes=3021695
+In show stats id=4, nodes=2983632
+In show stats id=5, nodes=2962425
+In show stats id=6, nodes=2963587
+In show stats id=7, nodes=2966654
+In show stats id=8, nodes=1603045
+In show stats id=9, nodes=1496181
+In show stats id=10, nodes=1498769
+In show stats id=11, nodes=1492812
+In show stats id=12, nodes=2772261
+In show stats id=13, nodes=2912388
+In show stats id=14, nodes=2867251
+In show stats id=15, nodes=2876921
+In show stats id=16, nodes=2882210
+In show stats id=17, nodes=2712457
+In show stats id=18, nodes=2854235
+In show stats id=19, nodes=2844823
+In show stats id=20, nodes=2863193
+In show stats id=21, nodes=2783851
+In show stats id=22, nodes=2816225
+In show stats id=23, nodes=1433996
+In show stats id=24, nodes=1439711
+In show stats id=25, nodes=2626191
+In show stats id=26, nodes=1414668
+In show stats id=27, nodes=1418114
+In show stats id=28, nodes=1417031
+In show stats id=29, nodes=1397415
+In show stats id=30, nodes=1474505
+In show stats id=31, nodes=1391630
+In show stats id=32, nodes=1465850
+In show stats id=33, nodes=1380565
+In show stats id=34, nodes=1386577
+In show stats id=35, nodes=1348847
+In show stats id=36, nodes=1366663
+In show stats id=37, nodes=2655966
+In show stats id=38, nodes=1356707
+In show stats id=39, nodes=1356822
+In show stats id=40, nodes=1391130
+In show stats id=41, nodes=1341275
+In show stats id=42, nodes=1406473
+In show stats id=43, nodes=1321888
+In show stats id=44, nodes=2625255
+In show stats id=45, nodes=1337600
+In show stats id=46, nodes=1319221
+In show stats id=47, nodes=1388603
+In show stats id=48, nodes=1318899
+In show stats id=49, nodes=1292905
+In show stats id=50, nodes=1312358
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.160 sec, performance = 88093144 nodes/sec (1727317 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 52 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1572271
+In show stats id=1, nodes=3140342
+In show stats id=2, nodes=3046440
+In show stats id=3, nodes=1597310
+In show stats id=4, nodes=1554193
+In show stats id=5, nodes=3012339
+In show stats id=6, nodes=1582953
+In show stats id=7, nodes=1518917
+In show stats id=8, nodes=1568746
+In show stats id=9, nodes=1503521
+In show stats id=10, nodes=2786932
+In show stats id=11, nodes=1529461
+In show stats id=12, nodes=1520931
+In show stats id=13, nodes=1486386
+In show stats id=14, nodes=2837898
+In show stats id=15, nodes=1507457
+In show stats id=16, nodes=1456964
+In show stats id=17, nodes=2958953
+In show stats id=18, nodes=1504175
+In show stats id=19, nodes=1467679
+In show stats id=20, nodes=1532124
+In show stats id=21, nodes=1455186
+In show stats id=22, nodes=1488102
+In show stats id=23, nodes=1486593
+In show stats id=24, nodes=2795029
+In show stats id=25, nodes=2865506
+In show stats id=26, nodes=2781220
+In show stats id=27, nodes=1455571
+In show stats id=28, nodes=2755093
+In show stats id=29, nodes=2767576
+In show stats id=30, nodes=2829760
+In show stats id=31, nodes=2822709
+In show stats id=32, nodes=1396074
+In show stats id=33, nodes=2711315
+In show stats id=34, nodes=1419570
+In show stats id=35, nodes=1419552
+In show stats id=36, nodes=1416195
+In show stats id=37, nodes=2732077
+In show stats id=38, nodes=2651368
+In show stats id=39, nodes=1361922
+In show stats id=40, nodes=1359166
+In show stats id=41, nodes=1334132
+In show stats id=42, nodes=1369405
+In show stats id=43, nodes=2694065
+In show stats id=44, nodes=2213793
+In show stats id=45, nodes=2663365
+In show stats id=46, nodes=1354652
+In show stats id=47, nodes=1302528
+In show stats id=48, nodes=2580710
+In show stats id=49, nodes=1354184
+In show stats id=50, nodes=1330211
+In show stats id=51, nodes=1328461
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.149 sec, performance = 88929510 nodes/sec (1710183 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 53 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1596887
+In show stats id=1, nodes=1580157
+In show stats id=2, nodes=1594386
+In show stats id=3, nodes=1565087
+In show stats id=4, nodes=1573991
+In show stats id=5, nodes=2852961
+In show stats id=6, nodes=1581594
+In show stats id=7, nodes=3007865
+In show stats id=8, nodes=1550293
+In show stats id=9, nodes=2991806
+In show stats id=10, nodes=2982760
+In show stats id=11, nodes=2971224
+In show stats id=12, nodes=2953486
+In show stats id=13, nodes=1494161
+In show stats id=14, nodes=1518233
+In show stats id=15, nodes=1501295
+In show stats id=16, nodes=1494412
+In show stats id=17, nodes=1496301
+In show stats id=18, nodes=2851027
+In show stats id=19, nodes=2848676
+In show stats id=20, nodes=1474170
+In show stats id=21, nodes=1452993
+In show stats id=22, nodes=1458387
+In show stats id=23, nodes=1453974
+In show stats id=24, nodes=1445940
+In show stats id=25, nodes=1454753
+In show stats id=26, nodes=1433555
+In show stats id=27, nodes=1370820
+In show stats id=28, nodes=1416922
+In show stats id=29, nodes=2770943
+In show stats id=30, nodes=1432354
+In show stats id=31, nodes=2766346
+In show stats id=32, nodes=2708376
+In show stats id=33, nodes=2701557
+In show stats id=34, nodes=2691287
+In show stats id=35, nodes=2689541
+In show stats id=36, nodes=2676151
+In show stats id=37, nodes=2668899
+In show stats id=38, nodes=2662875
+In show stats id=39, nodes=2669868
+In show stats id=40, nodes=2670326
+In show stats id=41, nodes=1371200
+In show stats id=42, nodes=1345990
+In show stats id=43, nodes=1357213
+In show stats id=44, nodes=1359040
+In show stats id=45, nodes=1342790
+In show stats id=46, nodes=1337327
+In show stats id=47, nodes=1346687
+In show stats id=48, nodes=1341955
+In show stats id=49, nodes=1325726
+In show stats id=50, nodes=1339865
+In show stats id=51, nodes=1314150
+In show stats id=52, nodes=1322500
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.149 sec, performance = 88946397 nodes/sec (1678234 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 54 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1576019
+In show stats id=1, nodes=3017765
+In show stats id=2, nodes=3066651
+In show stats id=3, nodes=1547579
+In show stats id=4, nodes=3053303
+In show stats id=5, nodes=1547143
+In show stats id=6, nodes=1531726
+In show stats id=7, nodes=1545226
+In show stats id=8, nodes=1509537
+In show stats id=9, nodes=1540336
+In show stats id=10, nodes=1495905
+In show stats id=11, nodes=1491808
+In show stats id=12, nodes=1501974
+In show stats id=13, nodes=1529388
+In show stats id=14, nodes=1516758
+In show stats id=15, nodes=1516969
+In show stats id=16, nodes=1500222
+In show stats id=17, nodes=1495600
+In show stats id=18, nodes=2843497
+In show stats id=19, nodes=2883209
+In show stats id=20, nodes=2825677
+In show stats id=21, nodes=2819701
+In show stats id=22, nodes=2827672
+In show stats id=23, nodes=1450729
+In show stats id=24, nodes=2840137
+In show stats id=25, nodes=2889947
+In show stats id=26, nodes=1421686
+In show stats id=27, nodes=1418476
+In show stats id=28, nodes=1436554
+In show stats id=29, nodes=1415127
+In show stats id=30, nodes=1392510
+In show stats id=31, nodes=1419291
+In show stats id=32, nodes=2776468
+In show stats id=33, nodes=2748972
+In show stats id=34, nodes=1415513
+In show stats id=35, nodes=2732936
+In show stats id=36, nodes=1390800
+In show stats id=37, nodes=1383562
+In show stats id=38, nodes=1384196
+In show stats id=39, nodes=2723141
+In show stats id=40, nodes=2648861
+In show stats id=41, nodes=1338067
+In show stats id=42, nodes=1332300
+In show stats id=43, nodes=1382240
+In show stats id=44, nodes=2656456
+In show stats id=45, nodes=1341683
+In show stats id=46, nodes=1331277
+In show stats id=47, nodes=1357801
+In show stats id=48, nodes=1339372
+In show stats id=49, nodes=2567051
+In show stats id=50, nodes=1297809
+In show stats id=51, nodes=2548808
+In show stats id=52, nodes=1314317
+In show stats id=53, nodes=1301330
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.149 sec, performance = 88908940 nodes/sec (1646462 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 55 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1585291
+In show stats id=1, nodes=1568712
+In show stats id=2, nodes=1572812
+In show stats id=3, nodes=1573176
+In show stats id=4, nodes=3044089
+In show stats id=5, nodes=1406523
+In show stats id=6, nodes=1587474
+In show stats id=7, nodes=1537282
+In show stats id=8, nodes=2949226
+In show stats id=9, nodes=2963623
+In show stats id=10, nodes=2954952
+In show stats id=11, nodes=2924786
+In show stats id=12, nodes=2916204
+In show stats id=13, nodes=2938246
+In show stats id=14, nodes=2893792
+In show stats id=15, nodes=2870944
+In show stats id=16, nodes=2891082
+In show stats id=17, nodes=1463861
+In show stats id=18, nodes=1469122
+In show stats id=19, nodes=1477132
+In show stats id=20, nodes=1470507
+In show stats id=21, nodes=1544785
+In show stats id=22, nodes=1458419
+In show stats id=23, nodes=1446487
+In show stats id=24, nodes=2852467
+In show stats id=25, nodes=2796642
+In show stats id=26, nodes=2799894
+In show stats id=27, nodes=1434171
+In show stats id=28, nodes=1417087
+In show stats id=29, nodes=1410530
+In show stats id=30, nodes=1403282
+In show stats id=31, nodes=1403404
+In show stats id=32, nodes=1395781
+In show stats id=33, nodes=1399193
+In show stats id=34, nodes=1383788
+In show stats id=35, nodes=1382847
+In show stats id=36, nodes=1367145
+In show stats id=37, nodes=1371772
+In show stats id=38, nodes=2672473
+In show stats id=39, nodes=1454964
+In show stats id=40, nodes=2684650
+In show stats id=41, nodes=2670158
+In show stats id=42, nodes=1365595
+In show stats id=43, nodes=1325149
+In show stats id=44, nodes=1339141
+In show stats id=45, nodes=1334583
+In show stats id=46, nodes=1329431
+In show stats id=47, nodes=1324041
+In show stats id=48, nodes=1322442
+In show stats id=49, nodes=1302612
+In show stats id=50, nodes=1301577
+In show stats id=51, nodes=1306038
+In show stats id=52, nodes=1293476
+In show stats id=53, nodes=1300305
+In show stats id=54, nodes=2527917
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.138 sec, performance = 89786028 nodes/sec (1632473 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 56 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1582319
+In show stats id=1, nodes=3102822
+In show stats id=2, nodes=3065415
+In show stats id=3, nodes=1523434
+In show stats id=4, nodes=1553944
+In show stats id=5, nodes=1649707
+In show stats id=6, nodes=3001950
+In show stats id=7, nodes=1709288
+In show stats id=8, nodes=1513437
+In show stats id=9, nodes=1590780
+In show stats id=10, nodes=1518628
+In show stats id=11, nodes=1482764
+In show stats id=12, nodes=1509658
+In show stats id=13, nodes=1529742
+In show stats id=14, nodes=1498115
+In show stats id=15, nodes=1569156
+In show stats id=16, nodes=1487810
+In show stats id=17, nodes=1504042
+In show stats id=18, nodes=1462398
+In show stats id=19, nodes=1490689
+In show stats id=20, nodes=1465233
+In show stats id=21, nodes=1455376
+In show stats id=22, nodes=1438091
+In show stats id=23, nodes=1446513
+In show stats id=24, nodes=1431392
+In show stats id=25, nodes=1436780
+In show stats id=26, nodes=1412983
+In show stats id=27, nodes=1505031
+In show stats id=28, nodes=1406174
+In show stats id=29, nodes=2788913
+In show stats id=30, nodes=2744636
+In show stats id=31, nodes=2767408
+In show stats id=32, nodes=2751575
+In show stats id=33, nodes=2752152
+In show stats id=34, nodes=2736027
+In show stats id=35, nodes=1371338
+In show stats id=36, nodes=2711121
+In show stats id=37, nodes=1355775
+In show stats id=38, nodes=1354034
+In show stats id=39, nodes=2707320
+In show stats id=40, nodes=2696488
+In show stats id=41, nodes=1342421
+In show stats id=42, nodes=1349171
+In show stats id=43, nodes=1327500
+In show stats id=44, nodes=2651409
+In show stats id=45, nodes=1395979
+In show stats id=46, nodes=1322997
+In show stats id=47, nodes=2603010
+In show stats id=48, nodes=1313888
+In show stats id=49, nodes=1318445
+In show stats id=50, nodes=1258747
+In show stats id=51, nodes=1289071
+In show stats id=52, nodes=1393361
+In show stats id=53, nodes=1384139
+In show stats id=54, nodes=2617698
+In show stats id=55, nodes=2532788
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.155 sec, performance = 88489240 nodes/sec (1580165 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 57 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1578160
+In show stats id=1, nodes=1568058
+In show stats id=2, nodes=1573846
+In show stats id=3, nodes=3031828
+In show stats id=4, nodes=1717632
+In show stats id=5, nodes=1541917
+In show stats id=6, nodes=1610841
+In show stats id=7, nodes=1526601
+In show stats id=8, nodes=2973590
+In show stats id=9, nodes=1605190
+In show stats id=10, nodes=1539199
+In show stats id=11, nodes=1509208
+In show stats id=12, nodes=1503886
+In show stats id=13, nodes=1492600
+In show stats id=14, nodes=2918157
+In show stats id=15, nodes=1561946
+In show stats id=16, nodes=1488316
+In show stats id=17, nodes=1471647
+In show stats id=18, nodes=1460779
+In show stats id=19, nodes=1461723
+In show stats id=20, nodes=1452956
+In show stats id=21, nodes=2845687
+In show stats id=22, nodes=1530068
+In show stats id=23, nodes=1456672
+In show stats id=24, nodes=1516134
+In show stats id=25, nodes=2758255
+In show stats id=26, nodes=2770934
+In show stats id=27, nodes=2761180
+In show stats id=28, nodes=2745448
+In show stats id=29, nodes=1423987
+In show stats id=30, nodes=2728070
+In show stats id=31, nodes=2730962
+In show stats id=32, nodes=2710354
+In show stats id=33, nodes=1384613
+In show stats id=34, nodes=1391308
+In show stats id=35, nodes=2677260
+In show stats id=36, nodes=1369889
+In show stats id=37, nodes=1363224
+In show stats id=38, nodes=1367918
+In show stats id=39, nodes=1432060
+In show stats id=40, nodes=2638287
+In show stats id=41, nodes=1430060
+In show stats id=42, nodes=2628630
+In show stats id=43, nodes=1342153
+In show stats id=44, nodes=1349166
+In show stats id=45, nodes=1405147
+In show stats id=46, nodes=1338858
+In show stats id=47, nodes=2545996
+In show stats id=48, nodes=1314699
+In show stats id=49, nodes=1320009
+In show stats id=50, nodes=1311069
+In show stats id=51, nodes=1299974
+In show stats id=52, nodes=1380264
+In show stats id=53, nodes=1260373
+In show stats id=54, nodes=1359373
+In show stats id=55, nodes=1358451
+In show stats id=56, nodes=1346470
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.182 sec, performance = 86430205 nodes/sec (1516319 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 58 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1580198
+In show stats id=1, nodes=1621377
+In show stats id=2, nodes=3012094
+In show stats id=3, nodes=3014630
+In show stats id=4, nodes=3010247
+In show stats id=5, nodes=2992639
+In show stats id=6, nodes=1552472
+In show stats id=7, nodes=1579214
+In show stats id=8, nodes=1540210
+In show stats id=9, nodes=1604722
+In show stats id=10, nodes=1559906
+In show stats id=11, nodes=1552145
+In show stats id=12, nodes=2932891
+In show stats id=13, nodes=1504675
+In show stats id=14, nodes=1484039
+In show stats id=15, nodes=1514688
+In show stats id=16, nodes=1484845
+In show stats id=17, nodes=1465181
+In show stats id=18, nodes=1499291
+In show stats id=19, nodes=1477495
+In show stats id=20, nodes=1468495
+In show stats id=21, nodes=1458177
+In show stats id=22, nodes=1483347
+In show stats id=23, nodes=1483042
+In show stats id=24, nodes=1427154
+In show stats id=25, nodes=1459372
+In show stats id=26, nodes=2793162
+In show stats id=27, nodes=1450426
+In show stats id=28, nodes=2528373
+In show stats id=29, nodes=1403708
+In show stats id=30, nodes=1393261
+In show stats id=31, nodes=2718908
+In show stats id=32, nodes=2706104
+In show stats id=33, nodes=2693923
+In show stats id=34, nodes=1392680
+In show stats id=35, nodes=2673340
+In show stats id=36, nodes=1389454
+In show stats id=37, nodes=1361418
+In show stats id=38, nodes=1356278
+In show stats id=39, nodes=1353559
+In show stats id=40, nodes=1359721
+In show stats id=41, nodes=2611199
+In show stats id=42, nodes=2661214
+In show stats id=43, nodes=1418940
+In show stats id=44, nodes=2622648
+In show stats id=45, nodes=1324611
+In show stats id=46, nodes=1385715
+In show stats id=47, nodes=1399681
+In show stats id=48, nodes=1326721
+In show stats id=49, nodes=1300492
+In show stats id=50, nodes=1335514
+In show stats id=51, nodes=1315987
+In show stats id=52, nodes=1397111
+In show stats id=53, nodes=1410836
+In show stats id=54, nodes=1362649
+In show stats id=55, nodes=1354948
+In show stats id=56, nodes=1265460
+In show stats id=57, nodes=1350495
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.147 sec, performance = 89071139 nodes/sec (1535709 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 59 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1594276
+In show stats id=1, nodes=1654450
+In show stats id=2, nodes=1595257
+In show stats id=3, nodes=1567022
+In show stats id=4, nodes=1564802
+In show stats id=5, nodes=1596514
+In show stats id=6, nodes=1543466
+In show stats id=7, nodes=1540251
+In show stats id=8, nodes=3061656
+In show stats id=9, nodes=2982425
+In show stats id=10, nodes=1569502
+In show stats id=11, nodes=1502229
+In show stats id=12, nodes=1499564
+In show stats id=13, nodes=1500320
+In show stats id=14, nodes=1506827
+In show stats id=15, nodes=1496915
+In show stats id=16, nodes=1572101
+In show stats id=17, nodes=1469807
+In show stats id=18, nodes=1463606
+In show stats id=19, nodes=1475833
+In show stats id=20, nodes=1453024
+In show stats id=21, nodes=1510339
+In show stats id=22, nodes=1441457
+In show stats id=23, nodes=1439532
+In show stats id=24, nodes=1455595
+In show stats id=25, nodes=2864928
+In show stats id=26, nodes=1511252
+In show stats id=27, nodes=1435178
+In show stats id=28, nodes=1508998
+In show stats id=29, nodes=2791119
+In show stats id=30, nodes=1485152
+In show stats id=31, nodes=2345888
+In show stats id=32, nodes=2813119
+In show stats id=33, nodes=2734309
+In show stats id=34, nodes=1489720
+In show stats id=35, nodes=1408448
+In show stats id=36, nodes=2753480
+In show stats id=37, nodes=1413522
+In show stats id=38, nodes=1386494
+In show stats id=39, nodes=2662832
+In show stats id=40, nodes=2661986
+In show stats id=41, nodes=2660536
+In show stats id=42, nodes=1340130
+In show stats id=43, nodes=1336745
+In show stats id=44, nodes=1351782
+In show stats id=45, nodes=1401323
+In show stats id=46, nodes=2617771
+In show stats id=47, nodes=1320158
+In show stats id=48, nodes=1353527
+In show stats id=49, nodes=1323289
+In show stats id=50, nodes=1324690
+In show stats id=51, nodes=1303729
+In show stats id=52, nodes=1293057
+In show stats id=53, nodes=1325219
+In show stats id=54, nodes=1364354
+In show stats id=55, nodes=1331262
+In show stats id=56, nodes=1396357
+In show stats id=57, nodes=1349496
+In show stats id=58, nodes=2464462
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.140 sec, performance = 89630720 nodes/sec (1519165 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 60 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1583525
+In show stats id=1, nodes=1568568
+In show stats id=2, nodes=1545751
+In show stats id=3, nodes=1553234
+In show stats id=4, nodes=1545128
+In show stats id=5, nodes=1534545
+In show stats id=6, nodes=2964832
+In show stats id=7, nodes=2967654
+In show stats id=8, nodes=2963867
+In show stats id=9, nodes=2944866
+In show stats id=10, nodes=2931257
+In show stats id=11, nodes=2908938
+In show stats id=12, nodes=1494447
+In show stats id=13, nodes=1481615
+In show stats id=14, nodes=1463962
+In show stats id=15, nodes=1570709
+In show stats id=16, nodes=1496609
+In show stats id=17, nodes=1495248
+In show stats id=18, nodes=2829385
+In show stats id=19, nodes=1482091
+In show stats id=20, nodes=1451864
+In show stats id=21, nodes=1474984
+In show stats id=22, nodes=1446996
+In show stats id=23, nodes=1434107
+In show stats id=24, nodes=1440021
+In show stats id=25, nodes=1420460
+In show stats id=26, nodes=1414726
+In show stats id=27, nodes=1420188
+In show stats id=28, nodes=1415046
+In show stats id=29, nodes=1390670
+In show stats id=30, nodes=2750288
+In show stats id=31, nodes=1487319
+In show stats id=32, nodes=1407881
+In show stats id=33, nodes=1404262
+In show stats id=34, nodes=1468306
+In show stats id=35, nodes=2691574
+In show stats id=36, nodes=2658103
+In show stats id=37, nodes=2662563
+In show stats id=38, nodes=1361424
+In show stats id=39, nodes=1352170
+In show stats id=40, nodes=1365712
+In show stats id=41, nodes=1431567
+In show stats id=42, nodes=1353467
+In show stats id=43, nodes=1349033
+In show stats id=44, nodes=1368993
+In show stats id=45, nodes=1351746
+In show stats id=46, nodes=2580033
+In show stats id=47, nodes=1403397
+In show stats id=48, nodes=1336127
+In show stats id=49, nodes=1389449
+In show stats id=50, nodes=1302296
+In show stats id=51, nodes=1302149
+In show stats id=52, nodes=1300003
+In show stats id=53, nodes=1368896
+In show stats id=54, nodes=1375238
+In show stats id=55, nodes=1373492
+In show stats id=56, nodes=1370063
+In show stats id=57, nodes=1284866
+In show stats id=58, nodes=1347189
+In show stats id=59, nodes=1348183
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.140 sec, performance = 89605328 nodes/sec (1493422 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 61 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1627331
+In show stats id=1, nodes=3020816
+In show stats id=2, nodes=3016334
+In show stats id=3, nodes=2996047
+In show stats id=4, nodes=3039549
+In show stats id=5, nodes=1561217
+In show stats id=6, nodes=1551578
+In show stats id=7, nodes=1546488
+In show stats id=8, nodes=2924035
+In show stats id=9, nodes=1509131
+In show stats id=10, nodes=1501655
+In show stats id=11, nodes=1530092
+In show stats id=12, nodes=1522638
+In show stats id=13, nodes=1511207
+In show stats id=14, nodes=1480516
+In show stats id=15, nodes=1522080
+In show stats id=16, nodes=1473109
+In show stats id=17, nodes=1488655
+In show stats id=18, nodes=1461547
+In show stats id=19, nodes=1448643
+In show stats id=20, nodes=1473775
+In show stats id=21, nodes=1440562
+In show stats id=22, nodes=1490504
+In show stats id=23, nodes=1453654
+In show stats id=24, nodes=1444985
+In show stats id=25, nodes=1469603
+In show stats id=26, nodes=1480302
+In show stats id=27, nodes=1432053
+In show stats id=28, nodes=1510231
+In show stats id=29, nodes=1425723
+In show stats id=30, nodes=1472453
+In show stats id=31, nodes=1438116
+In show stats id=32, nodes=1509661
+In show stats id=33, nodes=1464073
+In show stats id=34, nodes=1457293
+In show stats id=35, nodes=1447757
+In show stats id=36, nodes=1384633
+In show stats id=37, nodes=1357381
+In show stats id=38, nodes=1438246
+In show stats id=39, nodes=1435102
+In show stats id=40, nodes=1451610
+In show stats id=41, nodes=2639907
+In show stats id=42, nodes=2593194
+In show stats id=43, nodes=1352155
+In show stats id=44, nodes=2606642
+In show stats id=45, nodes=1325926
+In show stats id=46, nodes=1343399
+In show stats id=47, nodes=1314099
+In show stats id=48, nodes=1328068
+In show stats id=49, nodes=1374936
+In show stats id=50, nodes=1301352
+In show stats id=51, nodes=2508900
+In show stats id=52, nodes=2498892
+In show stats id=53, nodes=1307763
+In show stats id=54, nodes=1280568
+In show stats id=55, nodes=1392228
+In show stats id=56, nodes=1386609
+In show stats id=57, nodes=1335902
+In show stats id=58, nodes=1331721
+In show stats id=59, nodes=1322953
+In show stats id=60, nodes=2425483
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.133 sec, performance = 90178342 nodes/sec (1478333 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 62 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1596160
+In show stats id=1, nodes=1570376
+In show stats id=2, nodes=3061831
+In show stats id=3, nodes=2670692
+In show stats id=4, nodes=1546803
+In show stats id=5, nodes=1633164
+In show stats id=6, nodes=1556316
+In show stats id=7, nodes=2968223
+In show stats id=8, nodes=1570142
+In show stats id=9, nodes=1519733
+In show stats id=10, nodes=1514004
+In show stats id=11, nodes=1534835
+In show stats id=12, nodes=1581478
+In show stats id=13, nodes=1511720
+In show stats id=14, nodes=1486667
+In show stats id=15, nodes=1498264
+In show stats id=16, nodes=1591570
+In show stats id=17, nodes=1552462
+In show stats id=18, nodes=1469501
+In show stats id=19, nodes=1508734
+In show stats id=20, nodes=1497261
+In show stats id=21, nodes=2884842
+In show stats id=22, nodes=1527460
+In show stats id=23, nodes=1520139
+In show stats id=24, nodes=1455771
+In show stats id=25, nodes=1486430
+In show stats id=26, nodes=1545636
+In show stats id=27, nodes=1436793
+In show stats id=28, nodes=2746530
+In show stats id=29, nodes=1407223
+In show stats id=30, nodes=2732228
+In show stats id=31, nodes=2721966
+In show stats id=32, nodes=2716818
+In show stats id=33, nodes=1402133
+In show stats id=34, nodes=2739937
+In show stats id=35, nodes=1416479
+In show stats id=36, nodes=1410252
+In show stats id=37, nodes=1389372
+In show stats id=38, nodes=1360506
+In show stats id=39, nodes=1395154
+In show stats id=40, nodes=1392295
+In show stats id=41, nodes=1347551
+In show stats id=42, nodes=1358546
+In show stats id=43, nodes=1407272
+In show stats id=44, nodes=1421309
+In show stats id=45, nodes=1424586
+In show stats id=46, nodes=1326136
+In show stats id=47, nodes=1389584
+In show stats id=48, nodes=1329286
+In show stats id=49, nodes=1339064
+In show stats id=50, nodes=1306184
+In show stats id=51, nodes=1398539
+In show stats id=52, nodes=1369869
+In show stats id=53, nodes=1289093
+In show stats id=54, nodes=2231162
+In show stats id=55, nodes=1374686
+In show stats id=56, nodes=1344543
+In show stats id=57, nodes=1270890
+In show stats id=58, nodes=1272060
+In show stats id=59, nodes=1304532
+In show stats id=60, nodes=1276562
+In show stats id=61, nodes=1271728
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.133 sec, performance = 90204933 nodes/sec (1454918 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 63 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1598585
+In show stats id=1, nodes=1615233
+In show stats id=2, nodes=1558936
+In show stats id=3, nodes=1574452
+In show stats id=4, nodes=1573183
+In show stats id=5, nodes=1558510
+In show stats id=6, nodes=1562686
+In show stats id=7, nodes=1625230
+In show stats id=8, nodes=1552504
+In show stats id=9, nodes=1541106
+In show stats id=10, nodes=1609092
+In show stats id=11, nodes=1577176
+In show stats id=12, nodes=1571049
+In show stats id=13, nodes=1501602
+In show stats id=14, nodes=1500934
+In show stats id=15, nodes=1495807
+In show stats id=16, nodes=1489597
+In show stats id=17, nodes=1495742
+In show stats id=18, nodes=1515281
+In show stats id=19, nodes=2858027
+In show stats id=20, nodes=2803826
+In show stats id=21, nodes=2798826
+In show stats id=22, nodes=1460589
+In show stats id=23, nodes=2784852
+In show stats id=24, nodes=2774671
+In show stats id=25, nodes=2795233
+In show stats id=26, nodes=2781766
+In show stats id=27, nodes=1425256
+In show stats id=28, nodes=1366349
+In show stats id=29, nodes=1413815
+In show stats id=30, nodes=1420262
+In show stats id=31, nodes=1539069
+In show stats id=32, nodes=1406545
+In show stats id=33, nodes=1404693
+In show stats id=34, nodes=1394609
+In show stats id=35, nodes=1399226
+In show stats id=36, nodes=1379313
+In show stats id=37, nodes=1363994
+In show stats id=38, nodes=1437643
+In show stats id=39, nodes=1430939
+In show stats id=40, nodes=1428362
+In show stats id=41, nodes=1438276
+In show stats id=42, nodes=1353121
+In show stats id=43, nodes=1402095
+In show stats id=44, nodes=1333219
+In show stats id=45, nodes=1341285
+In show stats id=46, nodes=1397026
+In show stats id=47, nodes=1407280
+In show stats id=48, nodes=1426293
+In show stats id=49, nodes=1321955
+In show stats id=50, nodes=1321442
+In show stats id=51, nodes=1428831
+In show stats id=52, nodes=1380321
+In show stats id=53, nodes=1306425
+In show stats id=54, nodes=2471535
+In show stats id=55, nodes=2463898
+In show stats id=56, nodes=1323925
+In show stats id=57, nodes=1202989
+In show stats id=58, nodes=1342437
+In show stats id=59, nodes=1269246
+In show stats id=60, nodes=1328881
+In show stats id=61, nodes=1270002
+In show stats id=62, nodes=1266030
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.170 sec, performance = 87342101 nodes/sec (1386383 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 64 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1591091
+In show stats id=1, nodes=1649710
+In show stats id=2, nodes=1647382
+In show stats id=3, nodes=1573051
+In show stats id=4, nodes=1547486
+In show stats id=5, nodes=1550180
+In show stats id=6, nodes=1562873
+In show stats id=7, nodes=1539602
+In show stats id=8, nodes=1557092
+In show stats id=9, nodes=1549215
+In show stats id=10, nodes=1539915
+In show stats id=11, nodes=1584868
+In show stats id=12, nodes=1594838
+In show stats id=13, nodes=1566507
+In show stats id=14, nodes=2884335
+In show stats id=15, nodes=1515878
+In show stats id=16, nodes=1482395
+In show stats id=17, nodes=1487448
+In show stats id=18, nodes=1490304
+In show stats id=19, nodes=1500332
+In show stats id=20, nodes=1480266
+In show stats id=21, nodes=1477254
+In show stats id=22, nodes=1481426
+In show stats id=23, nodes=1449228
+In show stats id=24, nodes=1493956
+In show stats id=25, nodes=2783021
+In show stats id=26, nodes=2757174
+In show stats id=27, nodes=1496363
+In show stats id=28, nodes=1494393
+In show stats id=29, nodes=1490061
+In show stats id=30, nodes=1474741
+In show stats id=31, nodes=1468137
+In show stats id=32, nodes=1473368
+In show stats id=33, nodes=1402968
+In show stats id=34, nodes=1392446
+In show stats id=35, nodes=1392631
+In show stats id=36, nodes=1394373
+In show stats id=37, nodes=1395363
+In show stats id=38, nodes=2630121
+In show stats id=39, nodes=2629983
+In show stats id=40, nodes=2615202
+In show stats id=41, nodes=1373048
+In show stats id=42, nodes=2586606
+In show stats id=43, nodes=2581239
+In show stats id=44, nodes=1338519
+In show stats id=45, nodes=1413408
+In show stats id=46, nodes=1339055
+In show stats id=47, nodes=1397006
+In show stats id=48, nodes=1346788
+In show stats id=49, nodes=1315113
+In show stats id=50, nodes=1315540
+In show stats id=51, nodes=1379487
+In show stats id=52, nodes=1361426
+In show stats id=53, nodes=1359762
+In show stats id=54, nodes=1305967
+In show stats id=55, nodes=1295004
+In show stats id=56, nodes=1345647
+In show stats id=57, nodes=1296455
+In show stats id=58, nodes=1293735
+In show stats id=59, nodes=1339336
+In show stats id=60, nodes=1263002
+In show stats id=61, nodes=1273984
+In show stats id=62, nodes=1317714
+In show stats id=63, nodes=1256264
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.145 sec, performance = 89205513 nodes/sec (1393836 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 65 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1595688
+In show stats id=1, nodes=1629499
+In show stats id=2, nodes=1626426
+In show stats id=3, nodes=1618638
+In show stats id=4, nodes=1569033
+In show stats id=5, nodes=1572986
+In show stats id=6, nodes=1420302
+In show stats id=7, nodes=1631540
+In show stats id=8, nodes=1617133
+In show stats id=9, nodes=1569400
+In show stats id=10, nodes=1548155
+In show stats id=11, nodes=1580865
+In show stats id=12, nodes=1576151
+In show stats id=13, nodes=1535475
+In show stats id=14, nodes=1565589
+In show stats id=15, nodes=1598257
+In show stats id=16, nodes=1522194
+In show stats id=17, nodes=1510680
+In show stats id=18, nodes=1569749
+In show stats id=19, nodes=1474618
+In show stats id=20, nodes=1587525
+In show stats id=21, nodes=1483450
+In show stats id=22, nodes=1462223
+In show stats id=23, nodes=1465032
+In show stats id=24, nodes=1456332
+In show stats id=25, nodes=1453154
+In show stats id=26, nodes=1434156
+In show stats id=27, nodes=1425593
+In show stats id=28, nodes=1429704
+In show stats id=29, nodes=1476679
+In show stats id=30, nodes=1476156
+In show stats id=31, nodes=1473674
+In show stats id=32, nodes=1469550
+In show stats id=33, nodes=1451130
+In show stats id=34, nodes=1410284
+In show stats id=35, nodes=1454582
+In show stats id=36, nodes=1441801
+In show stats id=37, nodes=1434893
+In show stats id=38, nodes=1400614
+In show stats id=39, nodes=1377567
+In show stats id=40, nodes=1388160
+In show stats id=41, nodes=1417146
+In show stats id=42, nodes=1421950
+In show stats id=43, nodes=1369112
+In show stats id=44, nodes=2578838
+In show stats id=45, nodes=1433039
+In show stats id=46, nodes=2539079
+In show stats id=47, nodes=2560307
+In show stats id=48, nodes=2542729
+In show stats id=49, nodes=2529911
+In show stats id=50, nodes=1373191
+In show stats id=51, nodes=2498043
+In show stats id=52, nodes=1330399
+In show stats id=53, nodes=1349486
+In show stats id=54, nodes=1347619
+In show stats id=55, nodes=1344806
+In show stats id=56, nodes=1371180
+In show stats id=57, nodes=1306758
+In show stats id=58, nodes=1343808
+In show stats id=59, nodes=1268383
+In show stats id=60, nodes=2363907
+In show stats id=61, nodes=1304436
+In show stats id=62, nodes=1252018
+In show stats id=63, nodes=1247739
+In show stats id=64, nodes=1302561
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.170 sec, performance = 87367491 nodes/sec (1344115 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 66 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1604329
+In show stats id=1, nodes=3031654
+In show stats id=2, nodes=1581051
+In show stats id=3, nodes=1577929
+In show stats id=4, nodes=1571082
+In show stats id=5, nodes=1618894
+In show stats id=6, nodes=1610346
+In show stats id=7, nodes=1596537
+In show stats id=8, nodes=1561819
+In show stats id=9, nodes=1526060
+In show stats id=10, nodes=1555430
+In show stats id=11, nodes=1524261
+In show stats id=12, nodes=1513991
+In show stats id=13, nodes=1522474
+In show stats id=14, nodes=1533621
+In show stats id=15, nodes=1514576
+In show stats id=16, nodes=1524286
+In show stats id=17, nodes=1508576
+In show stats id=18, nodes=1475046
+In show stats id=19, nodes=1486007
+In show stats id=20, nodes=2832028
+In show stats id=21, nodes=1481554
+In show stats id=22, nodes=2802813
+In show stats id=23, nodes=1498797
+In show stats id=24, nodes=1514517
+In show stats id=25, nodes=1451268
+In show stats id=26, nodes=1455400
+In show stats id=27, nodes=1496081
+In show stats id=28, nodes=1474243
+In show stats id=29, nodes=1485144
+In show stats id=30, nodes=1505645
+In show stats id=31, nodes=1473549
+In show stats id=32, nodes=1461719
+In show stats id=33, nodes=1446786
+In show stats id=34, nodes=1439463
+In show stats id=35, nodes=1387217
+In show stats id=36, nodes=1386926
+In show stats id=37, nodes=1385071
+In show stats id=38, nodes=1368490
+In show stats id=39, nodes=1370628
+In show stats id=40, nodes=2580565
+In show stats id=41, nodes=1369337
+In show stats id=42, nodes=1370676
+In show stats id=43, nodes=1362861
+In show stats id=44, nodes=1392274
+In show stats id=45, nodes=1400901
+In show stats id=46, nodes=2535781
+In show stats id=47, nodes=2504525
+In show stats id=48, nodes=1341187
+In show stats id=49, nodes=1370085
+In show stats id=50, nodes=1362133
+In show stats id=51, nodes=1316673
+In show stats id=52, nodes=1299183
+In show stats id=53, nodes=1352582
+In show stats id=54, nodes=1350931
+In show stats id=55, nodes=1337863
+In show stats id=56, nodes=1319942
+In show stats id=57, nodes=1275305
+In show stats id=58, nodes=1266314
+In show stats id=59, nodes=1292196
+In show stats id=60, nodes=1314470
+In show stats id=61, nodes=1257750
+In show stats id=62, nodes=1249613
+In show stats id=63, nodes=1250261
+In show stats id=64, nodes=1265378
+In show stats id=65, nodes=1286988
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.138 sec, performance = 89816567 nodes/sec (1360857 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 67 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1604963
+In show stats id=1, nodes=1621227
+In show stats id=2, nodes=1584445
+In show stats id=3, nodes=1615914
+In show stats id=4, nodes=1575854
+In show stats id=5, nodes=1589620
+In show stats id=6, nodes=1578199
+In show stats id=7, nodes=1561911
+In show stats id=8, nodes=1536419
+In show stats id=9, nodes=1528759
+In show stats id=10, nodes=1522004
+In show stats id=11, nodes=1516662
+In show stats id=12, nodes=1515198
+In show stats id=13, nodes=1597010
+In show stats id=14, nodes=1547907
+In show stats id=15, nodes=1536866
+In show stats id=16, nodes=1578159
+In show stats id=17, nodes=1545688
+In show stats id=18, nodes=1489119
+In show stats id=19, nodes=1491949
+In show stats id=20, nodes=1518642
+In show stats id=21, nodes=1483878
+In show stats id=22, nodes=1470869
+In show stats id=23, nodes=2758291
+In show stats id=24, nodes=1451078
+In show stats id=25, nodes=1477882
+In show stats id=26, nodes=1429382
+In show stats id=27, nodes=1480872
+In show stats id=28, nodes=1437702
+In show stats id=29, nodes=1462726
+In show stats id=30, nodes=2743642
+In show stats id=31, nodes=2723076
+In show stats id=32, nodes=1482660
+In show stats id=33, nodes=1414318
+In show stats id=34, nodes=1438348
+In show stats id=35, nodes=1384761
+In show stats id=36, nodes=1421888
+In show stats id=37, nodes=1361843
+In show stats id=38, nodes=1410615
+In show stats id=39, nodes=1377985
+In show stats id=40, nodes=1402341
+In show stats id=41, nodes=1433918
+In show stats id=42, nodes=2568292
+In show stats id=43, nodes=1398608
+In show stats id=44, nodes=1426773
+In show stats id=45, nodes=1385449
+In show stats id=46, nodes=1385649
+In show stats id=47, nodes=1391154
+In show stats id=48, nodes=1357647
+In show stats id=49, nodes=2508460
+In show stats id=50, nodes=1364635
+In show stats id=51, nodes=1306128
+In show stats id=52, nodes=1301021
+In show stats id=53, nodes=1365310
+In show stats id=54, nodes=1292914
+In show stats id=55, nodes=1290996
+In show stats id=56, nodes=1296038
+In show stats id=57, nodes=1289760
+In show stats id=58, nodes=1276856
+In show stats id=59, nodes=1314232
+In show stats id=60, nodes=1306937
+In show stats id=61, nodes=1280589
+In show stats id=62, nodes=1282019
+In show stats id=63, nodes=1285544
+In show stats id=64, nodes=1258431
+In show stats id=65, nodes=1264805
+In show stats id=66, nodes=1278245
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.153 sec, performance = 88607792 nodes/sec (1322504 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 68 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1590400
+In show stats id=1, nodes=1580402
+In show stats id=2, nodes=1600627
+In show stats id=3, nodes=1582954
+In show stats id=4, nodes=1576252
+In show stats id=5, nodes=1565411
+In show stats id=6, nodes=1605794
+In show stats id=7, nodes=1529392
+In show stats id=8, nodes=1525436
+In show stats id=9, nodes=1550344
+In show stats id=10, nodes=1532234
+In show stats id=11, nodes=1573412
+In show stats id=12, nodes=1569750
+In show stats id=13, nodes=1506032
+In show stats id=14, nodes=1512069
+In show stats id=15, nodes=1544906
+In show stats id=16, nodes=1533629
+In show stats id=17, nodes=1535962
+In show stats id=18, nodes=1535917
+In show stats id=19, nodes=1562829
+In show stats id=20, nodes=1569029
+In show stats id=21, nodes=1466783
+In show stats id=22, nodes=1490031
+In show stats id=23, nodes=1452732
+In show stats id=24, nodes=1470910
+In show stats id=25, nodes=1490125
+In show stats id=26, nodes=1476893
+In show stats id=27, nodes=1423882
+In show stats id=28, nodes=1409507
+In show stats id=29, nodes=1258467
+In show stats id=30, nodes=1487057
+In show stats id=31, nodes=1516811
+In show stats id=32, nodes=1456150
+In show stats id=33, nodes=1483153
+In show stats id=34, nodes=1444972
+In show stats id=35, nodes=1436988
+In show stats id=36, nodes=1428277
+In show stats id=37, nodes=1456652
+In show stats id=38, nodes=2621369
+In show stats id=39, nodes=1419696
+In show stats id=40, nodes=2607836
+In show stats id=41, nodes=1417813
+In show stats id=42, nodes=2602845
+In show stats id=43, nodes=1333266
+In show stats id=44, nodes=1387904
+In show stats id=45, nodes=1357464
+In show stats id=46, nodes=1374460
+In show stats id=47, nodes=1326345
+In show stats id=48, nodes=1339135
+In show stats id=49, nodes=1323514
+In show stats id=50, nodes=2509102
+In show stats id=51, nodes=1358188
+In show stats id=52, nodes=1376274
+In show stats id=53, nodes=1394864
+In show stats id=54, nodes=1333689
+In show stats id=55, nodes=1386983
+In show stats id=56, nodes=1277005
+In show stats id=57, nodes=1268739
+In show stats id=58, nodes=1267666
+In show stats id=59, nodes=1314911
+In show stats id=60, nodes=1306504
+In show stats id=61, nodes=1256415
+In show stats id=62, nodes=1350517
+In show stats id=63, nodes=1256325
+In show stats id=64, nodes=1271449
+In show stats id=65, nodes=1259692
+In show stats id=66, nodes=1274275
+In show stats id=67, nodes=1274666
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.155 sec, performance = 88461733 nodes/sec (1300908 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 69 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1658755
+In show stats id=1, nodes=1584571
+In show stats id=2, nodes=1628654
+In show stats id=3, nodes=1560769
+In show stats id=4, nodes=1603555
+In show stats id=5, nodes=1552744
+In show stats id=6, nodes=1544384
+In show stats id=7, nodes=1545413
+In show stats id=8, nodes=1551607
+In show stats id=9, nodes=2879351
+In show stats id=10, nodes=1555009
+In show stats id=11, nodes=1530599
+In show stats id=12, nodes=2846449
+In show stats id=13, nodes=2837407
+In show stats id=14, nodes=1525639
+In show stats id=15, nodes=1512334
+In show stats id=16, nodes=1514408
+In show stats id=17, nodes=1476293
+In show stats id=18, nodes=1462696
+In show stats id=19, nodes=1574981
+In show stats id=20, nodes=1477704
+In show stats id=21, nodes=1477075
+In show stats id=22, nodes=1451196
+In show stats id=23, nodes=1407517
+In show stats id=24, nodes=1468120
+In show stats id=25, nodes=1469881
+In show stats id=26, nodes=1428333
+In show stats id=27, nodes=1481102
+In show stats id=28, nodes=1482151
+In show stats id=29, nodes=1427249
+In show stats id=30, nodes=1425044
+In show stats id=31, nodes=1482428
+In show stats id=32, nodes=1303570
+In show stats id=33, nodes=1474953
+In show stats id=34, nodes=1434190
+In show stats id=35, nodes=1469532
+In show stats id=36, nodes=1378121
+In show stats id=37, nodes=1452452
+In show stats id=38, nodes=1412069
+In show stats id=39, nodes=1443284
+In show stats id=40, nodes=1349450
+In show stats id=41, nodes=1403550
+In show stats id=42, nodes=1366693
+In show stats id=43, nodes=1387677
+In show stats id=44, nodes=1418668
+In show stats id=45, nodes=1300930
+In show stats id=46, nodes=1374543
+In show stats id=47, nodes=1375288
+In show stats id=48, nodes=1378736
+In show stats id=49, nodes=1346508
+In show stats id=50, nodes=1331000
+In show stats id=51, nodes=1322717
+In show stats id=52, nodes=1317905
+In show stats id=53, nodes=1342845
+In show stats id=54, nodes=1315935
+In show stats id=55, nodes=1342917
+In show stats id=56, nodes=1325272
+In show stats id=57, nodes=1271928
+In show stats id=58, nodes=1283991
+In show stats id=59, nodes=1367668
+In show stats id=60, nodes=1251999
+In show stats id=61, nodes=1304289
+In show stats id=62, nodes=1298996
+In show stats id=63, nodes=1294922
+In show stats id=64, nodes=1270805
+In show stats id=65, nodes=1275915
+In show stats id=66, nodes=1259461
+In show stats id=67, nodes=1242262
+In show stats id=68, nodes=1266623
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.171 sec, performance = 87242394 nodes/sec (1264383 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 70 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1611000
+In show stats id=1, nodes=1607961
+In show stats id=2, nodes=1622930
+In show stats id=3, nodes=1623088
+In show stats id=4, nodes=1623029
+In show stats id=5, nodes=1613272
+In show stats id=6, nodes=1574273
+In show stats id=7, nodes=1542114
+In show stats id=8, nodes=1542282
+In show stats id=9, nodes=1543721
+In show stats id=10, nodes=1536445
+In show stats id=11, nodes=1572135
+In show stats id=12, nodes=1546606
+In show stats id=13, nodes=1541821
+In show stats id=14, nodes=1560721
+In show stats id=15, nodes=1555362
+In show stats id=16, nodes=1520540
+In show stats id=17, nodes=1475233
+In show stats id=18, nodes=1465023
+In show stats id=19, nodes=1472169
+In show stats id=20, nodes=1454724
+In show stats id=21, nodes=1488148
+In show stats id=22, nodes=1479812
+In show stats id=23, nodes=1492770
+In show stats id=24, nodes=1487712
+In show stats id=25, nodes=1484235
+In show stats id=26, nodes=1474286
+In show stats id=27, nodes=1479144
+In show stats id=28, nodes=2728814
+In show stats id=29, nodes=1467264
+In show stats id=30, nodes=1442207
+In show stats id=31, nodes=1461571
+In show stats id=32, nodes=1467679
+In show stats id=33, nodes=1420148
+In show stats id=34, nodes=1398948
+In show stats id=35, nodes=1405792
+In show stats id=36, nodes=1395313
+In show stats id=37, nodes=1403167
+In show stats id=38, nodes=1385000
+In show stats id=39, nodes=1390949
+In show stats id=40, nodes=1414596
+In show stats id=41, nodes=1410353
+In show stats id=42, nodes=1402341
+In show stats id=43, nodes=1377150
+In show stats id=44, nodes=1346017
+In show stats id=45, nodes=1341931
+In show stats id=46, nodes=1358811
+In show stats id=47, nodes=1334122
+In show stats id=48, nodes=1333548
+In show stats id=49, nodes=1361209
+In show stats id=50, nodes=1361952
+In show stats id=51, nodes=1359685
+In show stats id=52, nodes=1341928
+In show stats id=53, nodes=1354173
+In show stats id=54, nodes=1304859
+In show stats id=55, nodes=1315599
+In show stats id=56, nodes=1323131
+In show stats id=57, nodes=1317711
+In show stats id=58, nodes=1324919
+In show stats id=59, nodes=1308521
+In show stats id=60, nodes=1280670
+In show stats id=61, nodes=1300855
+In show stats id=62, nodes=1337432
+In show stats id=63, nodes=1291353
+In show stats id=64, nodes=1254987
+In show stats id=65, nodes=1281167
+In show stats id=66, nodes=1278843
+In show stats id=67, nodes=1233747
+In show stats id=68, nodes=2343938
+In show stats id=69, nodes=1228126
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.149 sec, performance = 88910877 nodes/sec (1270155 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 71 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1603948
+In show stats id=1, nodes=1593064
+In show stats id=2, nodes=1593663
+In show stats id=3, nodes=1606803
+In show stats id=4, nodes=1598629
+In show stats id=5, nodes=1599345
+In show stats id=6, nodes=1592829
+In show stats id=7, nodes=1655129
+In show stats id=8, nodes=1576655
+In show stats id=9, nodes=1564494
+In show stats id=10, nodes=1605338
+In show stats id=11, nodes=1569374
+In show stats id=12, nodes=1519268
+In show stats id=13, nodes=1499369
+In show stats id=14, nodes=1502182
+In show stats id=15, nodes=1512577
+In show stats id=16, nodes=1523466
+In show stats id=17, nodes=1559133
+In show stats id=18, nodes=1524674
+In show stats id=19, nodes=1496246
+In show stats id=20, nodes=1487287
+In show stats id=21, nodes=1466296
+In show stats id=22, nodes=1457830
+In show stats id=23, nodes=1444053
+In show stats id=24, nodes=1550115
+In show stats id=25, nodes=1487471
+In show stats id=26, nodes=1479312
+In show stats id=27, nodes=1488324
+In show stats id=28, nodes=1462055
+In show stats id=29, nodes=1449921
+In show stats id=30, nodes=1440278
+In show stats id=31, nodes=2658251
+In show stats id=32, nodes=1468273
+In show stats id=33, nodes=1430010
+In show stats id=34, nodes=1407254
+In show stats id=35, nodes=1405278
+In show stats id=36, nodes=1398260
+In show stats id=37, nodes=1413430
+In show stats id=38, nodes=1401555
+In show stats id=39, nodes=1393946
+In show stats id=40, nodes=1360901
+In show stats id=41, nodes=1367620
+In show stats id=42, nodes=1363086
+In show stats id=43, nodes=1378338
+In show stats id=44, nodes=1442403
+In show stats id=45, nodes=1350870
+In show stats id=46, nodes=1347846
+In show stats id=47, nodes=1344999
+In show stats id=48, nodes=1370839
+In show stats id=49, nodes=1395019
+In show stats id=50, nodes=1337912
+In show stats id=51, nodes=1331384
+In show stats id=52, nodes=1324265
+In show stats id=53, nodes=1324349
+In show stats id=54, nodes=1323268
+In show stats id=55, nodes=1296742
+In show stats id=56, nodes=1296884
+In show stats id=57, nodes=1318676
+In show stats id=58, nodes=1266181
+In show stats id=59, nodes=1314130
+In show stats id=60, nodes=1253547
+In show stats id=61, nodes=1270063
+In show stats id=62, nodes=1299189
+In show stats id=63, nodes=1244914
+In show stats id=64, nodes=1243184
+In show stats id=65, nodes=1259593
+In show stats id=66, nodes=1226056
+In show stats id=67, nodes=1277455
+In show stats id=68, nodes=1261901
+In show stats id=69, nodes=1263023
+In show stats id=70, nodes=1241060
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.173 sec, performance = 87109934 nodes/sec (1226900 nodes/sec per PE)
+
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 72 threads
+   Load balance by work stealing, chunk size = 15 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+In show stats id=0, nodes=1593244
+In show stats id=1, nodes=1667505
+In show stats id=2, nodes=1648741
+In show stats id=3, nodes=1634363
+In show stats id=4, nodes=1563718
+In show stats id=5, nodes=1595020
+In show stats id=6, nodes=1565398
+In show stats id=7, nodes=1561022
+In show stats id=8, nodes=1564052
+In show stats id=9, nodes=1562128
+In show stats id=10, nodes=1598495
+In show stats id=11, nodes=1527580
+In show stats id=12, nodes=1510277
+In show stats id=13, nodes=1585226
+In show stats id=14, nodes=1594336
+In show stats id=15, nodes=1524351
+In show stats id=16, nodes=1578953
+In show stats id=17, nodes=1477503
+In show stats id=18, nodes=1469114
+In show stats id=19, nodes=1476095
+In show stats id=20, nodes=1490995
+In show stats id=21, nodes=1462932
+In show stats id=22, nodes=1452781
+In show stats id=23, nodes=1516461
+In show stats id=24, nodes=1460927
+In show stats id=25, nodes=1488427
+In show stats id=26, nodes=1473386
+In show stats id=27, nodes=1528818
+In show stats id=28, nodes=1408416
+In show stats id=29, nodes=1446466
+In show stats id=30, nodes=1412560
+In show stats id=31, nodes=1483870
+In show stats id=32, nodes=1428087
+In show stats id=33, nodes=1420284
+In show stats id=34, nodes=1391400
+In show stats id=35, nodes=1378817
+In show stats id=36, nodes=1405739
+In show stats id=37, nodes=1374022
+In show stats id=38, nodes=1375543
+In show stats id=39, nodes=1438346
+In show stats id=40, nodes=1374247
+In show stats id=41, nodes=1345087
+In show stats id=42, nodes=1385462
+In show stats id=43, nodes=1400750
+In show stats id=44, nodes=1438950
+In show stats id=45, nodes=1361693
+In show stats id=46, nodes=1353909
+In show stats id=47, nodes=1354587
+In show stats id=48, nodes=1436656
+In show stats id=49, nodes=1447089
+In show stats id=50, nodes=1332321
+In show stats id=51, nodes=1297533
+In show stats id=52, nodes=1350788
+In show stats id=53, nodes=1312675
+In show stats id=54, nodes=1317456
+In show stats id=55, nodes=1173060
+In show stats id=56, nodes=1306323
+In show stats id=57, nodes=1302113
+In show stats id=58, nodes=1284749
+In show stats id=59, nodes=1304105
+In show stats id=60, nodes=1287953
+In show stats id=61, nodes=1278788
+In show stats id=62, nodes=1297554
+In show stats id=63, nodes=1328875
+In show stats id=64, nodes=1279538
+In show stats id=65, nodes=1228028
+In show stats id=66, nodes=1249602
+In show stats id=67, nodes=1240639
+In show stats id=68, nodes=1239661
+In show stats id=69, nodes=1256884
+In show stats id=70, nodes=1257770
+In show stats id=71, nodes=1220839
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 1.174 sec, performance = 87010313 nodes/sec (1208477 nodes/sec per PE)
+

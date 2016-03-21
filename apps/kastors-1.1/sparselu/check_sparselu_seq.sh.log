@@ -1,0 +1,8 @@
+Program : ./sparselu_seq
+Size : 64
+Submatrix size : 64
+Iterations : 1
+Threads : 1
+Time(sec):: avg : 5.105669 :: std : 0.000000 :: min : 5.105669 :: max : 5.105669 :: median : 5.105669
+Check : success
+

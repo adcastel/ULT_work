@@ -1,0 +1,14 @@
+called: gcc
+	/home/adcastel/anl/apps/karatsuba_glt_-v1.0
+	gcc
+	-O3
+	-I/home/adcastel/GLT/src/argobots
+	-I/home/adcastel/argobots/include
+	-L/home/adcastel/argobots/lib
+	-labt
+	-DCORE
+	-o
+	karatsuba
+	driver.cpp
+	karatsuba.cpp
+

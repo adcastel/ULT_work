@@ -1,0 +1,10 @@
+gcc -O3 -I/home/adcastel/GLT/src/argobots -I/home/adcastel/argobots/include -L/home/adcastel/argobots/lib -labt -DCORE  -o karatsuba driver.cpp karatsuba.cpp
+driver.cpp:16:27: fatal error: cilk/cilk_api.h: No existe el archivo o el directorio
+ #include <cilk/cilk_api.h>
+                           ^
+compilation terminated.
+karatsuba.cpp:20:23: fatal error: cilk/cilk.h: No existe el archivo o el directorio
+ #include <cilk/cilk.h>
+                       ^
+compilation terminated.
+make: *** [karatsuba] Error 1

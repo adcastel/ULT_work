@@ -1,0 +1,66 @@
+# Specify which targets should be built when a "make all"
+# is performed.  The default is only uts-seq.
+
+TARGETS_ALL = uts-seq uts-stat time_rng uts-pthread
+
+# -------------------------------------
+# C Compiler 
+# -------------------------------------
+CC = gcc
+CC_OPTS = -O3
+LD_OPTS = -lm
+
+# -------------------------------------
+# MPI Compiler 
+# -------------------------------------
+MPICC = false
+MPICC_OPTS = 
+MPILD_OPTS = 
+
+
+# -------------------------------------
+# UPC Compiler 
+# -------------------------------------
+UPCC = false
+UPCC_OPTS = 
+UPCLD_OPTS = 
+
+
+# -------------------------------------
+# OPENMP Compiler 
+# -------------------------------------
+OMPCC = gcc
+OMPCC_OPTS = -O3 -fopenmp
+OMPLD_OPTS = -lm
+
+
+# -------------------------------------
+# SHMEM Compiler 
+# -------------------------------------
+SHMCC = false
+SHMCC_OPTS = 
+SHMLD_OPTS = 
+
+# -------------------------------------
+# GPSHMEM Compiler 
+# -------------------------------------
+GPSHMCC = false
+GPSHMCC_OPTS = 
+GPSHMLD_OPTS = 
+
+
+# -------------------------------------
+# Optional Build Flags:
+# -------------------------------------
+### Include Chunk tracking debug messages
+#FLAGS += -DCTRK
+### Turn on Paraver traces
+#FLAGS += -DTRACE
+
+# -------------------------------------
+# Select random number generator
+# -------------------------------------
+
+#RNG=Devine
+#RNG=ALFG
+RNG=BRG
