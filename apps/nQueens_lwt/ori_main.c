@@ -37,6 +37,15 @@ abt_team_t * team;
 #define GET_THREAD_NUM   myth_get_worker_num()
 
 int num_workers;
+
+#else /* QTHREADS*/
+#include<qthread/qthread.h>
+#include <qthread/qtimer.h>
+
+#define GET_NUM_THREADS  qthread_num_shepherds ()
+#define GET_THREAD_NUM   qthread_shep()
+
+
 #endif
 
 /* Checking information */
@@ -173,6 +182,10 @@ void nqueens(/*int n, int j, char *a, int *solutions, int depth*/void * argument
 
 #elif defined(MASSIVETHREADS)
 	myth_thread_t * ult_id = (myth_thread_t *)malloc(sizeof(myth_thread_t)*n);
+#else
+	aligned_t * ult_id = (aligned_t *)malloc(sizeof(aligned_t)*n);
+
+
 #endif
 
      	/* try each possible position for queen <j> */
@@ -210,6 +223,8 @@ void nqueens(/*int n, int j, char *a, int *solutions, int depth*/void * argument
 #elif defined(MASSIVETHREADS)
 			        ult_id[i] = myth_create((void *)pre_nqueens,(void *)&out_args[i]);
 
+#else
+				qthread_fork_to((void *)pre_nqueens,(void *)&out_args[i],&ult_id[i],dest);
 #endif
 			
 
@@ -220,6 +235,10 @@ ABT_thread_yield();
 
 #elif defined (MASSIVETHREADS)
 myth_yield(0);
+
+
+#else
+qthread_yield();
 #endif
 		//printf("%d despues del yield\n",me);
 
@@ -237,6 +256,9 @@ for(i = 0;i<n;i++)
 
 #elif defined(MASSIVETHREADS)
 	myth_join(ult_id[i],NULL);
+
+#else
+	qthread_readFF(NULL,&ult_id[i]);
 #endif
 	}
 		//printf("%d despues del join\n",me);
@@ -303,6 +325,9 @@ int main(int argc, char * argv [])
     num_workers = atoi(getenv("MYTH_WORKER_NUM"));
 
     struct timeval t_start,t_end;
+#else
+	qthread_initialize();
+	qtimer_t timer = qtimer_create();
 #endif
 //glt_init(argc,argv);
 
@@ -319,6 +344,10 @@ int main(int argc, char * argv [])
 	
 	#elif defined(MASSIVETHREADS)
 	gettimeofday(&t_start, NULL);
+
+	#else
+	qtimer_start(timer);
+
 	#endif
 
 	
@@ -328,6 +357,8 @@ int main(int argc, char * argv [])
 	ABT_thread *ult_id = (ABT_thread *)malloc(sizeof(ABT_thread));
 #elif defined(MASSIVETHREADS)
 	myth_thread_t *ult_id = (myth_thread_t *)malloc(sizeof(myth_thread_t));
+#else
+	aligned_t * ult_id = (aligned_t *)malloc(sizeof(aligned_t));
 #endif	
 	//#pragma omp parallel
 	//{
@@ -350,16 +381,27 @@ int main(int argc, char * argv [])
 	ult_id[0]=myth_create((void *)nqueens,(void *)&init_arg);
 	myth_yield(0);
 	myth_join(ult_id[0],NULL);
+#else
+	qthread_fork_to((void *)nqueens,(void *)&init_arg,&ult_id[0],0);
+	qthread_yield();
+	qthread_readFF(NULL, &ult_id[0]);
+
 #endif
 
 #ifdef ARGOBOTS	
 	double t_end=ABT_get_wtime();
 	printf("total_count=%d completed in %fs!\n",total_count,t_end-t_start);
+	ABT_finalize();
 #elif defined(MASSIVETHREADS)
 	gettimeofday(&t_end, NULL);
 	double time = ((t_end.tv_sec * 1000000 + t_end.tv_usec)
 		  - (t_start.tv_sec * 1000000 + t_start.tv_usec))/1000000.0;
 	printf("total_count=%d completed in %fs!\n",total_count,time);
+	myth_fini();
+#else
+	qtimer_stop(timer);
+	printf("total_count=%d completed in %fs!\n",total_count,qtimer_secs(timer));
+	qthread_finalize();
 #endif
 }
 
