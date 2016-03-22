@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm arg_main qth_main myth_main glt_m_f glt_q_f glt_a_f glt_a glt_m glt_q
 
 gcc ori_main.c -o arg_main -I/home/adcastel/argobots/include -L/home/adcastel/argobots/lib -labt -DARGOBOTS
 

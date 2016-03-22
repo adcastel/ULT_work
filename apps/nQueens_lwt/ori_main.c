@@ -335,8 +335,7 @@ int main(int argc, char * argv [])
 	//{
 	//	#pragma omp master
         //	{
-			printf("Computing N-Queens algorithm (n=%d) ", size);
-			printf(" using %d threads ",GET_NUM_THREADS);
+			//printf(" %d threads ",GET_NUM_THREADS);
 	//	}
 	//}
 	#ifdef ARGOBOTS
@@ -390,17 +389,17 @@ int main(int argc, char * argv [])
 
 #ifdef ARGOBOTS	
 	double t_end=ABT_get_wtime();
-	printf("total_count=%d completed in %fs!\n",total_count,t_end-t_start);
+	printf("%f\n",t_end-t_start);
 	ABT_finalize();
 #elif defined(MASSIVETHREADS)
 	gettimeofday(&t_end, NULL);
 	double time = ((t_end.tv_sec * 1000000 + t_end.tv_usec)
 		  - (t_start.tv_sec * 1000000 + t_start.tv_usec))/1000000.0;
-	printf("total_count=%d completed in %fs!\n",total_count,time);
+	printf("%f\n",time);
 	myth_fini();
 #else
 	qtimer_stop(timer);
-	printf("total_count=%d completed in %fs!\n",total_count,qtimer_secs(timer));
+	printf("%f\n",qtimer_secs(timer));
 	qthread_finalize();
 #endif
 }

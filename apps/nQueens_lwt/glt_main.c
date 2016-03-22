@@ -218,8 +218,8 @@ int main(int argc, char * argv [])
 	//{
 	//	#pragma omp master
         //	{
-			printf("Computing N-Queens algorithm (n=%d) ", size);
-			printf(" using %d threads ",glt_get_num_threads());
+			//printf("Computing N-Queens algorithm (n=%d) ", size);
+			//printf(" using %d threads ",glt_get_num_threads());
 	//	}
 	//}
 	double t_start = glt_get_wtime();
@@ -264,7 +264,7 @@ int main(int argc, char * argv [])
 //#endif
 	
 	double t_end=glt_get_wtime();
-	printf("total_count=%d completed in %fs!\n",total_count,t_end-t_start);
+	printf("%f\n",t_end-t_start);
 }
 
 
