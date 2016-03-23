@@ -1,0 +1,11 @@
+Join (0.000008)
+Fork (0.000033) Join (0.195105)
+Fork (0.000121) Join (0.197656)
+Program : ./sparselu_taskdep
+Size : 64
+Submatrix size : 64
+Iterations : 1
+Threads : 36
+Time(sec):: avg : 0.197845 :: std : 0.000000 :: min : 0.197845 :: max : 0.197845 :: median : 0.197845
+Check : success
+

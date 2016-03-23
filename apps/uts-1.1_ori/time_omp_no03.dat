@@ -1,0 +1,1152 @@
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 1 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 54.038 sec, performance = 1890928 nodes/sec (1890928 nodes/sec per PE)
+
+Join (54.037646)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 2 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 27.660 sec, performance = 3694130 nodes/sec (1847065 nodes/sec per PE)
+
+Join (27.660504)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 3 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 19.303 sec, performance = 5293482 nodes/sec (1764494 nodes/sec per PE)
+
+Join (19.303305)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 4 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 14.863 sec, performance = 6874956 nodes/sec (1718739 nodes/sec per PE)
+
+Join (14.863063)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 5 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 12.284 sec, performance = 8318271 nodes/sec (1663654 nodes/sec per PE)
+
+Join (12.284447)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 6 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 10.449 sec, performance = 9779345 nodes/sec (1629891 nodes/sec per PE)
+
+Join (10.449400)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 7 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 9.256 sec, performance = 11039775 nodes/sec (1577111 nodes/sec per PE)
+
+Join (9.256168)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 8 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 8.380 sec, performance = 12192799 nodes/sec (1524100 nodes/sec per PE)
+
+Join (8.380965)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 9 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 7.717 sec, performance = 13241814 nodes/sec (1471313 nodes/sec per PE)
+
+Join (7.717859)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 10 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 6.954 sec, performance = 14694591 nodes/sec (1469459 nodes/sec per PE)
+
+Join (6.954303)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 11 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 6.328 sec, performance = 16148716 nodes/sec (1468065 nodes/sec per PE)
+
+Join (6.328338)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 12 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 5.814 sec, performance = 17574712 nodes/sec (1464559 nodes/sec per PE)
+
+Join (5.815369)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 13 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 5.366 sec, performance = 19044033 nodes/sec (1464926 nodes/sec per PE)
+
+Join (5.367553)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 14 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 5.038 sec, performance = 20281875 nodes/sec (1448705 nodes/sec per PE)
+
+Join (5.039895)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 15 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 4.674 sec, performance = 21860975 nodes/sec (1457398 nodes/sec per PE)
+
+Join (4.675229)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 16 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 4.383 sec, performance = 23312860 nodes/sec (1457054 nodes/sec per PE)
+
+Join (4.384992)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 17 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 4.157 sec, performance = 24582970 nodes/sec (1446057 nodes/sec per PE)
+
+Join (4.158229)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 18 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 4.058 sec, performance = 25179035 nodes/sec (1398835 nodes/sec per PE)
+
+Join (4.060893)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 19 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 3.784 sec, performance = 27001736 nodes/sec (1421144 nodes/sec per PE)
+
+Join (3.786072)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 20 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 3.550 sec, performance = 28785803 nodes/sec (1439290 nodes/sec per PE)
+
+Join (3.552290)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 21 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 3.391 sec, performance = 30133877 nodes/sec (1434947 nodes/sec per PE)
+
+Join (3.392320)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 22 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 3.226 sec, performance = 31674440 nodes/sec (1439747 nodes/sec per PE)
+
+Join (3.229299)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 23 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 3.102 sec, performance = 32936203 nodes/sec (1432009 nodes/sec per PE)
+
+Join (3.104734)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 24 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 3.016 sec, performance = 33875614 nodes/sec (1411484 nodes/sec per PE)
+
+Join (3.020181)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 25 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.904 sec, performance = 35192006 nodes/sec (1407680 nodes/sec per PE)
+
+Join (2.905628)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 26 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.836 sec, performance = 36030331 nodes/sec (1385782 nodes/sec per PE)
+
+Join (2.838351)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 27 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.734 sec, performance = 37377353 nodes/sec (1384346 nodes/sec per PE)
+
+Join (2.737900)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 28 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.672 sec, performance = 38245103 nodes/sec (1365897 nodes/sec per PE)
+
+Join (2.674792)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 29 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.555 sec, performance = 39988729 nodes/sec (1378922 nodes/sec per PE)
+
+Join (2.560397)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 30 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.497 sec, performance = 40917445 nodes/sec (1363915 nodes/sec per PE)
+
+Join (2.502533)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 31 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.412 sec, performance = 42360121 nodes/sec (1366456 nodes/sec per PE)
+
+Join (2.417131)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 32 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.348 sec, performance = 43514176 nodes/sec (1359818 nodes/sec per PE)
+
+Join (2.353727)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 33 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.333 sec, performance = 43792368 nodes/sec (1327041 nodes/sec per PE)
+
+Join (2.338755)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 34 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.216 sec, performance = 46109970 nodes/sec (1356176 nodes/sec per PE)
+
+Join (2.221704)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 35 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.167 sec, performance = 47146672 nodes/sec (1347048 nodes/sec per PE)
+
+Join (2.172457)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 36 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.152 sec, performance = 47488030 nodes/sec (1319112 nodes/sec per PE)
+
+Join (2.158436)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 37 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.142 sec, performance = 47695927 nodes/sec (1289079 nodes/sec per PE)
+
+Join (2.148265)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 38 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.167 sec, performance = 47154313 nodes/sec (1240903 nodes/sec per PE)
+
+Join (2.174465)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 39 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.136 sec, performance = 47830962 nodes/sec (1226435 nodes/sec per PE)
+
+Join (2.141710)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 40 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.163 sec, performance = 47233195 nodes/sec (1180830 nodes/sec per PE)
+
+Join (2.172178)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 41 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.124 sec, performance = 48103301 nodes/sec (1173251 nodes/sec per PE)
+
+Join (2.128960)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 42 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.115 sec, performance = 48313826 nodes/sec (1150329 nodes/sec per PE)
+
+Join (2.121706)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 43 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.111 sec, performance = 48404046 nodes/sec (1125675 nodes/sec per PE)
+
+Join (2.118373)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 44 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.113 sec, performance = 48369236 nodes/sec (1099301 nodes/sec per PE)
+
+Join (2.121992)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 45 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.157 sec, performance = 47378945 nodes/sec (1052865 nodes/sec per PE)
+
+Join (2.165275)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 46 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.113 sec, performance = 48348250 nodes/sec (1051049 nodes/sec per PE)
+
+Join (2.120887)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 47 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.115 sec, performance = 48313799 nodes/sec (1027953 nodes/sec per PE)
+
+Join (2.124451)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 48 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.148 sec, performance = 47574281 nodes/sec (991131 nodes/sec per PE)
+
+Join (2.157374)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 49 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.130 sec, performance = 47979323 nodes/sec (979170 nodes/sec per PE)
+
+Join (2.139805)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 50 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.111 sec, performance = 48405697 nodes/sec (968114 nodes/sec per PE)
+
+Join (2.118378)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 51 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.107 sec, performance = 48494120 nodes/sec (950865 nodes/sec per PE)
+
+Join (2.113954)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 52 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.094 sec, performance = 48794581 nodes/sec (938357 nodes/sec per PE)
+
+Join (2.103795)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 53 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.118 sec, performance = 48240905 nodes/sec (910206 nodes/sec per PE)
+
+Join (2.126303)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 54 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.094 sec, performance = 48796259 nodes/sec (903634 nodes/sec per PE)
+
+Join (2.102342)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 55 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.089 sec, performance = 48905981 nodes/sec (889200 nodes/sec per PE)
+
+Join (2.098992)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 56 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.079 sec, performance = 49148868 nodes/sec (877658 nodes/sec per PE)
+
+Join (2.087320)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 57 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.094 sec, performance = 48806751 nodes/sec (856259 nodes/sec per PE)
+
+Join (2.102978)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 58 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.129 sec, performance = 47996496 nodes/sec (827526 nodes/sec per PE)
+
+Join (2.137647)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 59 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.070 sec, performance = 49373403 nodes/sec (836837 nodes/sec per PE)
+
+Join (2.079088)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 60 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.077 sec, performance = 49193633 nodes/sec (819894 nodes/sec per PE)
+
+Join (2.088623)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 61 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.056 sec, performance = 49702641 nodes/sec (814797 nodes/sec per PE)
+
+Join (2.064935)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 62 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.052 sec, performance = 49792718 nodes/sec (803108 nodes/sec per PE)
+
+Join (2.060349)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 63 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.059 sec, performance = 49638012 nodes/sec (787905 nodes/sec per PE)
+
+Join (2.068522)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 64 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.030 sec, performance = 50334989 nodes/sec (786484 nodes/sec per PE)
+
+Join (2.040948)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 65 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.047 sec, performance = 49914360 nodes/sec (767913 nodes/sec per PE)
+
+Join (2.058094)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 66 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.043 sec, performance = 50009390 nodes/sec (757718 nodes/sec per PE)
+
+Join (2.055633)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 67 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.039 sec, performance = 50105638 nodes/sec (747845 nodes/sec per PE)
+
+Join (2.050257)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 68 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.033 sec, performance = 50264219 nodes/sec (739180 nodes/sec per PE)
+
+Join (2.041025)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 69 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.031 sec, performance = 50321969 nodes/sec (729304 nodes/sec per PE)
+
+Join (2.041435)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 70 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.036 sec, performance = 50191785 nodes/sec (717026 nodes/sec per PE)
+
+Join (2.045501)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 71 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.016 sec, performance = 50676711 nodes/sec (713756 nodes/sec per PE)
+
+Join (2.029189)
+UTS - Unbalanced Tree Search 2.1 (C/OpenMP)
+Tree type:  1 (Geometric)
+Tree shape parameters:
+  root branching factor b_0 = 4.0, root seed = 29
+  GEO parameters: gen_mx = 13, shape function = 3 (Fixed branching factor)
+Random number generator: SHA-1 (state size = 20B)
+Compute granularity: 1
+Execution strategy:  Parallel search using 72 threads
+   Load balance by work stealing, chunk size = 20 nodes
+  CBarrier Interval: 1
+   Polling Interval: 1
+
+Tree size = 102181082, tree depth = 13, num leaves = 81746377 (80.00%)
+Wallclock time = 2.023 sec, performance = 50509203 nodes/sec (701517 nodes/sec per PE)
+
+Join (2.034226)

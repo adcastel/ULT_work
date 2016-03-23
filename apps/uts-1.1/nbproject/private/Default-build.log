@@ -1,0 +1,19 @@
+gcc -O3 -lm -DBRG_RNG  -o uts-seq uts_shm.c rng/brg_sha1.c uts.c
+/tmp/cc4mVyA1.o: En la función `uts_numChildren_geo':
+uts.c:(.text+0x20e): referencia a `log' sin definir
+uts.c:(.text+0x228): referencia a `log' sin definir
+uts.c:(.text+0x23b): referencia a `floor' sin definir
+uts.c:(.text+0x28a): referencia a `log' sin definir
+uts.c:(.text+0x29c): referencia a `log' sin definir
+uts.c:(.text+0x2be): referencia a `pow' sin definir
+uts.c:(.text+0x334): referencia a `sin' sin definir
+uts.c:(.text+0x347): referencia a `pow' sin definir
+/tmp/cc4mVyA1.o: En la función `uts_numChildren':
+uts.c:(.text+0x4c7): referencia a `ceil' sin definir
+uts.c:(.text+0x524): referencia a `floor' sin definir
+/tmp/cc4mVyA1.o: En la función `uts_paramsToStr':
+uts.c:(.text+0x807): referencia a `ceil' sin definir
+uts.c:(.text+0x878): referencia a `pow' sin definir
+uts.c:(.text+0x898): referencia a `pow' sin definir
+collect2: error: ld returned 1 exit status
+make: *** [uts-seq] Error 1

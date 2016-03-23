@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="config">
+      </df>
+      <df name="fast_GLT_times">
+      </df>
+      <df name="GLT_times">
+      </df>
+      <df name="original_times">
+      </df>
+      <df name="rng">
+        <in>alfg.c</in>
+        <in>alfg.h</in>
+        <in>brg_endian.h</in>
+        <in>brg_sha1.c</in>
+        <in>brg_sha1.h</in>
+        <in>brg_types.h</in>
+        <in>rng.h</in>
+      </df>
+      <in>config.in</in>
+      <in>ctrk.h</in>
+      <in>dequeue.c</in>
+      <in>dequeue.h</in>
+      <in>dlist.c</in>
+      <in>dlist.h</in>
+      <in>mpi_worksharing.c</in>
+      <in>mpi_workstealing.c</in>
+      <in>shared_dequeue.c</in>
+      <in>shared_dequeue.h</in>
+      <in>shared_dlist.c</in>
+      <in>shared_dlist.h</in>
+      <in>stats.c</in>
+      <in>time_poll.c</in>
+      <in>time_rng.c</in>
+      <in>upc_worksharing.c</in>
+      <in>uts.c</in>
+      <in>uts.h</in>
+      <in>uts_dfs.c</in>
+      <in>uts_dm.c</in>
+      <in>uts_dm.h</in>
+      <in>uts_shm.c</in>
+      <in>uts_upc_enhanced.c</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

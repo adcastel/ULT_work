@@ -1,0 +1,16 @@
+Join (0.000010)
+Fork (0.000010) Join (0.000973)
+Fork (0.000008) Join (0.001102)
+Fork (0.000009) Join (0.001928)
+Fork (0.000056) Join (0.001044)
+Fork (0.000007) Join (0.001042)
+Fork (0.000009) Join (0.001657)
+Program : ./strassen_taskdep
+Size : 256
+Iterations : 1
+Cutoff Size : 64
+Cutoff depth : 4
+Threads : 36
+Time(sec):: avg : 0.001667 :: std : 0.000000 :: min : 0.001667 :: max : 0.001667 :: median : 0.001667
+Check : success
+
