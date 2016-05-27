@@ -1,0 +1,256 @@
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif
+
+#define _GNU_SOURCE             /* See feature_test_macros(7) */
+#include <sched.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <unistd.h>
+
+#ifdef FASTGLT
+#include <fast_glt.h>
+#else
+#include <glt.h>
+#endif
+
+#include <math.h>
+#include <sys/time.h>
+#ifndef VERBOSE
+#define TIMES 5
+#else
+#define TIMES 1
+#endif
+#define NUM_ELEMS 10000
+
+
+/* structure to pass arguments to expand tasks */
+typedef struct {
+    float * ptr;
+    float value;
+    int niterations;
+    int nthreads;
+    int it_start;
+    int it_end;
+} outerloop_args_t;
+
+typedef struct {
+    float * ptr;
+    float value;
+    int outer_pos;
+    int inner_end_pos;
+    int inner_start_pos;
+    int niterations;
+} innerloop_args_t;
+
+
+void vector_scal(void *arguments) {
+    innerloop_args_t *arg;
+    arg = (innerloop_args_t *) arguments;
+    int outer_pos = arg->outer_pos;
+    int inner_start_pos = arg->inner_start_pos;
+    int inner_end_pos = arg->inner_end_pos;
+    float value = arg->value;
+    float * ptr = arg->ptr;
+    int niterations = arg->niterations;
+    int i;
+
+#ifdef VERBOSE
+
+    printf("#Thread: %d (CPU: %d) pos_ini: %d, pos_fin: %d\n", glt_get_thread_num(),sched_getcpu(), inner_start_pos, inner_end_pos);
+
+#endif
+    for(i=inner_start_pos;i<inner_end_pos;i++){
+        ptr[outer_pos*niterations+i] *= value;
+    }
+
+    return 0;
+}
+
+void task_creator(void *arguments){
+
+    int status;
+    int i;
+    int nthreads;
+    int it_start, it_end, niterations;
+    outerloop_args_t *in_arg;
+    in_arg = (outerloop_args_t *) arguments;
+    it_start=in_arg->it_start;
+    it_end=in_arg->it_end;
+    nthreads = in_arg->nthreads;
+    niterations = in_arg->niterations;
+    float value = in_arg->value;
+    float * ptr = in_arg->ptr;
+
+#ifdef VERBOSE
+    printf("#Thread: %d (CPU: %d) en task_creator y creare %d tareas para el rango de iteraciones de %d a %d del loop externo\n", glt_get_thread_num(), sched_getcpu(), nthreads, it_start, it_end);
+#endif
+ 
+    innerloop_args_t * out_args = (innerloop_args_t *) malloc(sizeof (innerloop_args_t) * nthreads);
+#ifdef TASK
+    GLT_tasklet * tasklets;
+    tasklets = glt_tasklet_malloc(nthreads);
+#else
+    GLT_ult * ults;
+    ults = glt_ult_malloc(nthreads);
+#endif    
+int ct; //current_task
+    int start, end;
+    int bloc = niterations / nthreads;
+    int rest = niterations % nthreads;
+    int j;
+
+    for(i=it_start;i<it_end;i++){
+
+        start=end=0;
+
+        for (ct = 0; ct < nthreads; ct++) {
+
+            start=end;
+            end=start+bloc;
+            if(ct<rest){end++;}
+            out_args[ct].outer_pos=i;
+            out_args[ct].inner_start_pos=start;
+            out_args[ct].inner_end_pos=end;
+            out_args[ct].value=value;
+            out_args[ct].ptr=ptr;
+            out_args[ct].niterations=niterations;
+	
+#ifdef TASK            
+            glt_tasklet_create_to(vector_scal, (void *) &out_args[ct],&tasklets[ct],glt_get_thread_num());
+#else
+            glt_ult_create_to(vector_scal, (void *) &out_args[ct],&ults[ct],glt_get_thread_num());
+#endif
+        }
+
+        glt_yield();
+
+        for (j = 0; j < nthreads; j++) {
+#ifdef TASK            
+glt_tasklet_join(&tasklets[j]);
+#else           
+ glt_ult_join(&ults[j]);
+#endif     
+   }
+    }
+    
+    return 0;
+}
+
+
+
+
+int main(int argc, char *argv[]) {
+    int status;
+    int niterations;
+    int j;
+    int start, end;
+    char *str, * endptr;
+    double times[TIMES];
+    double times_join[TIMES];
+    int num_shepherds, num_workers;
+    outerloop_args_t * args;
+    struct timeval t_start, t_start2, t_end;
+    float *a;
+    if (argc > 1) {
+        str = argv[1];
+    }
+    niterations = argc > 1 ? strtoll(str, &endptr, 10) : NUM_ELEMS;
+    //int granularity = argc > 2 ? atoi(argv[2]) : 1;
+    //int total=ntasks*granularity;
+    int total=niterations*niterations;
+
+    a = malloc(sizeof (float)*total);
+    for (int i = 0; i < total; i++) {
+        a[i] = i * 1.0f;
+    }
+
+
+
+glt_init(argc,argv);
+
+GLT_ult * ults;
+
+num_workers = glt_get_num_threads();
+ults = glt_ult_malloc(num_workers);
+
+     args = (outerloop_args_t *) malloc(sizeof (outerloop_args_t)
+            * num_workers);
+
+    for (int t = 0; t < TIMES; t++) {
+        for (int i = 0; i < total; i++) {
+            a[i] = i * 1.0f;
+        }
+        gettimeofday(&t_start, NULL);
+	
+	 /* Work here */
+        start=end=0;
+        int bloc = niterations / num_workers;
+        int rest = niterations % num_workers;
+
+        for (j = 0; j < num_workers; j++) {
+                start=end;
+                end=start+bloc;
+                if(j<rest){end++;}
+	        args[j].ptr=a;
+                args[j].value=0.9f;
+                args[j].it_start=start;
+                args[j].it_end=end;
+                args[j].niterations=niterations;
+                args[j].nthreads=num_workers;
+             
+                glt_ult_create_to(task_creator, (void *) &args[j],&ults[j],j%num_workers);
+ 
+	}
+        glt_yield();
+        gettimeofday(&t_start2, NULL);
+        for (int j = 0; j < num_workers; j++) {
+            glt_ult_join(&ults[j]);
+        }
+        
+        gettimeofday(&t_end, NULL);
+
+        double time = (t_end.tv_sec * 1000000 + t_end.tv_usec) -
+                (t_start.tv_sec * 1000000 + t_start.tv_usec);
+        times[t] = (time / 1000000.0);
+	double time_join = (t_end.tv_sec * 1000000 + t_end.tv_usec) -
+            (t_start2.tv_sec * 1000000 + t_start2.tv_usec);
+        times_join[t] = (time_join / 1000000.0);
+
+    }
+    double min, max, avg, aux, sigma, dev;
+    double avgj=times_join[0];
+    min = times[0];
+    max = times[0];
+    aux = times[0];
+    for (int t = 1; t < TIMES; t++) {
+        if (times[t] < min) min = times[t];
+        if (times[t] > max) max = times[t];
+        aux += times[t];
+        avgj+=times_join[t];
+    }
+    avg = aux / TIMES;
+    for (int t = 0; t < TIMES; t++) {
+        sigma = sigma + ((times[t] - avg)*(times[t] - avg));
+    }
+#ifndef VERBOSE
+    dev = sqrt(sigma / (TIMES - 1));
+#else
+    dev = sqrt(sigma);
+#endif
+    printf("%d %d %f [%f - %f] %f Join(%f)\n",
+            num_workers, niterations, avg, min, max, dev,avgj/TIMES);
+    
+    for (int i = 0; i < total; i++) {
+        if (a[i] != i * 0.9f) {
+            printf("%f\n", a[i]);
+            return 0;
+        }
+    }
+
+    return EXIT_SUCCESS;
+}
+
+
+
