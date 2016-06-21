@@ -3,7 +3,7 @@
 
 cd GLT_times
 
-rm* _total.dat
+rm *_total.dat
 
 for i in 1 2 4 8 16 24 32 36 72
 do
@@ -22,7 +22,7 @@ done
 cd ../original_times
 
 
-rm* _total.dat
+rm *_total.dat
 for i in 1 2 4 8 16 24 32 36 72
 do
 	cat uts_qth_break_$i.dat | awk '{ sum += $6; create += $8; yield +=$10; join +=$12; count++} END { print sum/count" "create/count" "yield/count" "join/count}' >> uts_qth_break_total.dat

@@ -124,7 +124,7 @@ int main(int argc, char *argv[]) {
         times_crea[t] = (time_crea / 1000000.0);
 
     }
-    double min, max, avg, aux, sigma, dev;
+    double min, max, avg, aux, sigma=0.0, dev;
     double avgj=times_join[0];
     double avgcrea=times_crea[0];
     min = times[0];

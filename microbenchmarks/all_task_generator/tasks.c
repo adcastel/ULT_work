@@ -8,7 +8,12 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <unistd.h>
+
+#ifndef FASTGLT
 #include <glt.h>
+#else
+#include <fast_glt.h>
+#endif
 #include <math.h>
 #include <sys/time.h>
 #ifndef VERBOSE
@@ -124,6 +129,8 @@ int main(int argc, char *argv[]) {
     task_creator_args_t * args;
     struct timeval t_start, t_start2, t_end;
     float *a;
+
+    glt_init(argc,argv);
     if (argc > 1) {
         str = argv[1];
     }
@@ -168,7 +175,7 @@ int main(int argc, char *argv[]) {
 	}
         glt_yield();
         gettimeofday(&t_start2, NULL);
-        for (int j = 0; j < num_workers; j++) {
+        for (int j = 0; j < num_threads; j++) {
             glt_ult_join(&ults[j]);
         }
         
@@ -211,6 +218,7 @@ int main(int argc, char *argv[]) {
             return 0;
         }
     }
+    glt_finalize();
 
     return EXIT_SUCCESS;
 }

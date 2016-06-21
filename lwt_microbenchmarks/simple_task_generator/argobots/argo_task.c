@@ -221,7 +221,8 @@ int main(int argc, char *argv[]) {
         gettimeofday(&t_start2, NULL);
         for (i = 0; i < ntasks; i++) {
 #ifdef ULT
-            ABT_thread_free(&threads[i]);
+            //ABT_thread_free(&threads[i]);
+            ABT_thread_join(threads[i]);
 
 #else
             ABT_task_free(&tasks[i]);
@@ -244,7 +245,7 @@ int main(int argc, char *argv[]) {
     for (i = 1; i < num_xstreams; i++) {
         ABT_xstream_free(&xstreams[i]);
     }
-    double min, max, avg, aux, sigma, dev;
+    double min, max, avg, aux, sigma=0.0, dev;
     double avgj=times_join[0];
     min = times[0];
     max = times[0];

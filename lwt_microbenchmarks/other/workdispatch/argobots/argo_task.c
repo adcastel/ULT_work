@@ -224,6 +224,7 @@ int main(int argc, char *argv[]) {
         for (i = 0; i < ntasks; i++) {
 #ifdef ULT
             ABT_thread_free(&threads[i]);
+            //ABT_thread_join(threads[i]);
 
 #else
             ABT_task_free(&tasks[i]);

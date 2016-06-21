@@ -2,7 +2,7 @@ INI=argo_task
 OBJECTS= argo_task_ult argo_task_ult_pool argo_task_ult_single_pool argo_task_task argo_task_task_pool argo_task_task_single_pool 
 CC=gcc
 CCFLAGS=-Wall
-AINCLUDE=-I/home/adcastel/argobots/include -L/home/adcastel/argobots/lib -labt -lm
+AINCLUDE=-I/home/adcastel/argobots_opt/include -L/home/adcastel/argobots_opt/lib -labt -lm
 V=verbose
 all:
 #	$(CC) $(CCFLAGS) $(INI).c -o $(INI)_ult $(AINCLUDE) -DULT 

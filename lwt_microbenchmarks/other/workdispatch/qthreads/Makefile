@@ -1,7 +1,7 @@
 INI=task
 OBJECTS= qthreads qthreads_fork_to
 CC=gcc
-CCFLAGS=-Wall
+CCFLAGS=-Wall -O3
 AINCLUDE=-I/home/adcastel/qthreads/include -L/home/adcastel/qthreads/lib -lqthread -lm
 V=verbose
 all:

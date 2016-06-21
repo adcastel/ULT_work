@@ -2,7 +2,7 @@ INI=parallel_for
 OBJECTS= argo_task_$(INI) argo_task_pool_$(INI) argo_task_single_pool_$(INI) argo_task_ws_$(INI) argo_ult_$(INI) argo_ult_pool_$(INI) argo_ult_single_pool_$(INI) argo_ult_ws_$(INI) 
 CC=gcc
 CCFLAGS=-Wall
-AINCLUDE=-I/home/adcastel/argobots/include -L/home/adcastel/argobots/lib -labt -lm
+AINCLUDE=-I/home/adcastel/argobots_opt/include -L/home/adcastel/argobots_opt/lib -labt -lm
 V=verbose
 all:
 #	$(CC) $(CCFLAGS) argo_$(INI).c -o argo_task_$(INI) $(AINCLUDE)  

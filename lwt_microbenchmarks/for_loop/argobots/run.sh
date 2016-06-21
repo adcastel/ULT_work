@@ -4,7 +4,7 @@ rm *.dat
 MIN=1
 MAX=72
 
-export LD_LIBRARY_PATH=/home/adcastel/argobots/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/home/adcastel/argobots_opt/lib:$LD_LIBRARY_PATH
 
 
 
